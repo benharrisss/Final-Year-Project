@@ -1,0 +1,383 @@
+Baseline results from 8 models, ran back-to-back on UoL HPC GPU nodes:
+- deepseek-llm-7b-chat
+- gemma-2-9b-it
+- llama-3.1-8b-instruct
+- llama-3.2-3b-instruct
+- mistral-7b-instruct-v0.1
+- phi3-mini-4k-instruct
+- qwen2.5-3b-instruct
+- qwen2.5-7b-instruct
+
+(Ordered by accuracy, highest to lowest):
+
+=========================================
+
+File: results_gemma-2-9b-it_2200-BL.csv
+Rows: 2200
+Missing predictions: 25 (0.0114)
+Coverage: 0.9886
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2175
+TP=1067  FP=176  TN=905  FN=27
+accuracy:  0.9067
+precision: 0.8584
+recall:    0.9753
+f1:        0.9131
+
+Parsing stats:
+json_parse_failed: 26 (0.0118)
+recovered_count (parse failed but prediction exists): 1
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1081  0.837188                        NaN                          0.162812
+     advance_fee  100  1.000000                   1.000000                               NaN
+  document_share  100  1.000000                   1.000000                               NaN
+    dating_sites  100  0.980000                   0.980000                               NaN
+ stock_pump_dump  100  0.890000                   0.890000                               NaN
+hr_impersonation  100  0.960000                   0.960000                               NaN
+ invoice_payment  100  0.950000                   0.950000                               NaN
+         lottery  100  1.000000                   1.000000                               NaN
+    tech_support  100  0.960000                   0.960000                               NaN
+       pharm_sex  100  1.000000                   1.000000                               NaN
+  account_verify   99  0.989899                   0.989899                               NaN
+           loans   95  1.000000                   1.000000                               NaN
+
+Timing summary: 
+Model load time (s): 170.69
+Total Test time (s): 3446.69
+Total generation time (s): 3270.41
+Mean generation time per email (s): 1.4865
+Mean output tokens/sec: 27.88
+
+=========================================
+
+File: results_Llama-3.1-8B-Instruct_2200-BL.csv
+Rows: 2200
+Missing predictions: 18 (0.0082)
+Coverage: 0.9918
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2182
+TP=1041  FP=168  TN=916  FN=57
+accuracy:  0.8969
+precision: 0.8610
+recall:    0.9481
+f1:        0.9025
+
+Parsing stats:
+json_parse_failed: 19 (0.0086)
+recovered_count (parse failed but prediction exists): 1
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1084  0.845018                        NaN                          0.154982
+  account_verify  100  0.950000                       0.95                               NaN
+    dating_sites  100  0.980000                       0.98                               NaN
+     advance_fee  100  1.000000                       1.00                               NaN
+  document_share  100  0.900000                       0.90                               NaN
+hr_impersonation  100  0.950000                       0.95                               NaN
+ invoice_payment  100  0.800000                       0.80                               NaN
+         lottery  100  1.000000                       1.00                               NaN
+ stock_pump_dump  100  0.880000                       0.88                               NaN
+       pharm_sex  100  1.000000                       1.00                               NaN
+    tech_support  100  0.970000                       0.97                               NaN
+           loans   98  1.000000                       1.00                               NaN
+
+Timing summary: 
+Model load time (s): 142.43
+Total Test time (s): 3559.99
+Total generation time (s): 3411.28
+Mean generation time per email (s): 1.5506
+Mean output tokens/sec: 38.09
+
+=========================================
+
+File: results_Qwen2.5-7B-Instruct_2200-BL.csv
+Rows: 2200
+Missing predictions: 379 (0.1723)
+Coverage: 0.8277
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 1821
+TP=964  FP=188  TN=618  FN=51
+accuracy:  0.8688
+precision: 0.8368
+recall:    0.9498
+f1:        0.8897
+
+Parsing stats:
+json_parse_failed: 2200 (1.0000)
+recovered_count (parse failed but prediction exists): 1821
+
+Per phish_type stats:
+      phish_type   n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 806  0.766749                        NaN                          0.233251
+    dating_sites 100  0.970000                   0.970000                               NaN
+         lottery 100  1.000000                   1.000000                               NaN
+       pharm_sex 100  1.000000                   1.000000                               NaN
+ stock_pump_dump  95  0.610526                   0.610526                               NaN
+    tech_support  94  0.968085                   0.968085                               NaN
+           loans  93  1.000000                   1.000000                               NaN
+hr_impersonation  93  0.946237                   0.946237                               NaN
+     advance_fee  91  0.989011                   0.989011                               NaN
+  document_share  88  1.000000                   1.000000                               NaN
+  account_verify  81  1.000000                   1.000000                               NaN
+ invoice_payment  80  0.975000                   0.975000                               NaN
+
+Timing summary: 
+Model load time (s): 139.70
+Total Test time (s): 10751.56
+Total generation time (s): 10605.18
+Mean generation time per email (s): 4.8205
+Mean output tokens/sec: 42.26
+
+=========================================
+
+File: results_qwen2.5-3b-instruct_2200-BL.csv
+Rows: 2200
+Missing predictions: 22 (0.0100)
+Coverage: 0.9900
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2178
+TP=1047  FP=333  TN=749  FN=49
+accuracy:  0.8246
+precision: 0.7587
+recall:    0.9553
+f1:        0.8457
+
+Parsing stats:
+json_parse_failed: 25 (0.0114)
+recovered_count (parse failed but prediction exists): 3
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1082  0.692237                        NaN                          0.307763
+     advance_fee  100  1.000000                   1.000000                               NaN
+  document_share  100  0.990000                   0.990000                               NaN
+    dating_sites  100  0.830000                   0.830000                               NaN
+ stock_pump_dump  100  0.810000                   0.810000                               NaN
+hr_impersonation  100  1.000000                   1.000000                               NaN
+ invoice_payment  100  0.950000                   0.950000                               NaN
+         lottery  100  1.000000                   1.000000                               NaN
+    tech_support  100  0.950000                   0.950000                               NaN
+       pharm_sex  100  1.000000                   1.000000                               NaN
+  account_verify   99  0.989899                   0.989899                               NaN
+           loans   97  0.989691                   0.989691                               NaN
+
+Timing summary: 
+Model load time (s): 45.67
+Total Test time (s): 2325.14
+Total generation time (s): 2272.42
+Mean generation time per email (s): 1.0329
+Mean output tokens/sec: 60.96
+
+=========================================
+
+File: results_phi3-mini_2200-BL.csv
+Rows: 2200
+Missing predictions: 39 (0.0177)
+Coverage: 0.9823
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2161
+TP=1021  FP=355  TN=715  FN=70
+accuracy:  0.8033
+precision: 0.7420
+recall:    0.9358
+f1:        0.8277
+
+Parsing stats:
+json_parse_failed: 48 (0.0218)
+recovered_count (parse failed but prediction exists): 9
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1070  0.668224                        NaN                          0.331776
+     advance_fee  100  1.000000                   1.000000                               NaN
+  document_share  100  0.940000                   0.940000                               NaN
+    dating_sites  100  0.980000                   0.980000                               NaN
+ stock_pump_dump  100  0.670000                   0.670000                               NaN
+hr_impersonation  100  0.980000                   0.980000                               NaN
+       pharm_sex  100  1.000000                   1.000000                               NaN
+         lottery  100  1.000000                   1.000000                               NaN
+    tech_support  100  0.950000                   0.950000                               NaN
+ invoice_payment   99  0.818182                   0.818182                               NaN
+  account_verify   98  0.969388                   0.969388                               NaN
+           loans   94  0.989362                   0.989362                               NaN
+
+Timing summary: 
+Model load time (s): 85.31
+Total Test time (s): 3482.00
+Total generation time (s): 3390.66
+Mean generation time per email (s): 1.5412
+Mean output tokens/sec: 65.15
+
+=========================================
+
+File: results_llama-3.2-3b-instruct_2200-BL.csv
+Rows: 2200
+Missing predictions: 19 (0.0086)
+Coverage: 0.9914
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2181
+TP=845  FP=209  TN=874  FN=253
+accuracy:  0.7882
+precision: 0.8017
+recall:    0.7696
+f1:        0.7853
+
+Parsing stats:
+json_parse_failed: 26 (0.0118)
+recovered_count (parse failed but prediction exists): 7
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1083  0.807018                        NaN                          0.192982
+  account_verify  100  0.800000                   0.800000                               NaN
+    dating_sites  100  0.970000                   0.970000                               NaN
+     advance_fee  100  1.000000                   1.000000                               NaN
+  document_share  100  0.650000                   0.650000                               NaN
+hr_impersonation  100  0.650000                   0.650000                               NaN
+ invoice_payment  100  0.520000                   0.520000                               NaN
+         lottery  100  0.990000                   0.990000                               NaN
+ stock_pump_dump  100  0.150000                   0.150000                               NaN
+       pharm_sex  100  1.000000                   1.000000                               NaN
+    tech_support  100  0.850000                   0.850000                               NaN
+           loans   98  0.887755                   0.887755                               NaN
+
+Timing summary: 
+Model load time (s): 66.91
+Total Test time (s): 1552.01
+Total generation time (s): 1478.75
+Mean generation time per email (s): 0.6722
+Mean output tokens/sec: 72.36
+
+=========================================
+
+File: results_Phi-mini-MoE-instruct_2200-BL.csv
+Rows: 2200
+Missing predictions: 41 (0.0186)
+Coverage: 0.9814
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2159
+TP=1077  FP=782  TN=290  FN=10
+accuracy:  0.6332
+precision: 0.5793
+recall:    0.9908
+f1:        0.7312
+
+Parsing stats:
+json_parse_failed: 54 (0.0245)
+recovered_count (parse failed but prediction exists): 13
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1072  0.270522                        NaN                          0.729478
+     advance_fee  100  1.000000                   1.000000                               NaN
+  document_share  100  0.990000                   0.990000                               NaN
+    dating_sites  100  1.000000                   1.000000                               NaN
+    dating_sites  100  1.000000                   1.000000                               NaN
+       pharm_sex  100  1.000000                   1.000000                               NaN
+hr_impersonation  100  1.000000                   1.000000                               NaN
+         lottery  100  1.000000                   1.000000                               NaN
+ stock_pump_dump   99  0.949495                   0.949495                               NaN
+    tech_support   99  1.000000                   1.000000                               NaN
+  account_verify   98  0.989796                   0.989796                               NaN
+ invoice_payment   98  0.989796                   0.989796                               NaN
+           loans   93  0.978495                   0.978495                               NaN
+
+Timing summary: 
+Model load time (s): 41.58
+Total Test time (s): 13371.57
+Total generation time (s): 13323.91
+Mean generation time per email (s): 6.0563
+Mean output tokens/sec: 33.59
+
+=========================================
+
+File: results_Mistral-7B-Instruct-v0.1_2200-BL.csv
+Rows: 2200
+Missing predictions: 33 (0.0150)
+Coverage: 0.9850
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2167
+TP=1085  FP=854  TN=221  FN=7
+accuracy:  0.6027
+precision: 0.5596
+recall:    0.9936
+f1:        0.7159
+
+Parsing stats:
+json_parse_failed: 38 (0.0173)
+recovered_count (parse failed but prediction exists): 5
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1075  0.205581                        NaN                          0.794419
+     advance_fee  100  1.000000                   1.000000                               NaN
+  document_share  100  1.000000                   1.000000                               NaN
+    dating_sites  100  1.000000                   1.000000                               NaN
+ stock_pump_dump  100  0.970000                   0.970000                               NaN
+hr_impersonation  100  1.000000                   1.000000                               NaN
+       pharm_sex  100  1.000000                   1.000000                               NaN
+         lottery  100  1.000000                   1.000000                               NaN
+    tech_support  100  1.000000                   1.000000                               NaN
+ invoice_payment   99  0.979798                   0.979798                               NaN
+  account_verify   98  1.000000                   1.000000                               NaN
+           loans   95  0.978947                   0.978947                               NaN
+
+Timing summary: 
+Model load time (s): 139.78
+Total Test time (s): 3958.27
+Total generation time (s): 3812.48
+Mean generation time per email (s): 1.7329
+Mean output tokens/sec: 39.30
+
+=========================================
+
+File: results_deepseek-llm-7b-chat_2200-BL.csv
+Rows: 2200
+Missing predictions: 31 (0.0141)
+Coverage: 0.9859
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2169
+TP=1077  FP=994  TN=84  FN=14
+accuracy:  0.5353
+precision: 0.5200
+recall:    0.9872
+f1:        0.6812
+
+Parsing stats:
+json_parse_failed: 130 (0.0591)
+recovered_count (parse failed but prediction exists): 99
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1078  0.077922                        NaN                          0.922078
+     advance_fee  100  1.000000                   1.000000                               NaN
+  document_share  100  0.990000                   0.990000                               NaN
+    dating_sites  100  1.000000                   1.000000                               NaN
+ stock_pump_dump  100  0.980000                   0.980000                               NaN
+hr_impersonation  100  1.000000                   1.000000                               NaN
+       pharm_sex  100  1.000000                   1.000000                               NaN
+         lottery  100  1.000000                   1.000000                               NaN
+    tech_support  100  0.990000                   0.990000                               NaN
+ invoice_payment   99  0.939394                   0.939394                               NaN
+  account_verify   98  0.969388                   0.969388                               NaN
+           loans   94  0.989362                   0.989362                               NaN
+
+Timing summary: 
+Model load time (s): 121.90
+Total Test time (s): 3316.93
+Total generation time (s): 3186.36
+Mean generation time per email (s): 1.4483
+Mean output tokens/sec: 41.83
+
+=========================================
