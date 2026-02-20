@@ -1,0 +1,38 @@
+email_id,subject,true_label,predicted_label,reasoning,error,raw_response
+0,Re: lifegem,0,PHISHING,"The email contains a joke about using human waste to create a diamond, which is an attempt to be humorous and not a genuine message from a company offering a legitimate service.",,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email contains a joke about using human waste to create a diamond, which is an attempt to be humorous and not a genuine message from a company offering a legitimate service.""
+}"
+1,Re: [opensuse] Nvidia + Xen,0,LEGITIMATE,"The email is a genuine inquiry from a user seeking assistance with a technical issue related to Nvidia drivers and Xen kernel compatibility, and is part of a discussion thread in an open-source community forum.",,"{
+  ""classification"": ""LEGITIMATE"",
+  ""reasoning"": ""The email is a genuine inquiry from a user seeking assistance with a technical issue related to Nvidia drivers and Xen kernel compatibility, and is part of a discussion thread in an open-source community forum.""
+}"
+2,Re: [sugar] Getting sugar running on a Mac,0,LEGITIMATE,"The email appears to be a response to a previous message on a mailing list, indicating a legitimate discussion about using Sugar on a Mac.",,"{
+  ""classification"": ""LEGITIMATE"",
+  ""reasoning"": ""The email appears to be a response to a previous message on a mailing list, indicating a legitimate discussion about using Sugar on a Mac.""
+}"
+3,ATM De-activation,1,PHISHING,"The email contains a suspicious link and threatens account deactivation if the recipient doesn't comply, which is a common tactic used by phishing scammers to trick victims into revealing sensitive information.",,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email contains a suspicious link and threatens account deactivation if the recipient doesn't comply, which is a common tactic used by phishing scammers to trick victims into revealing sensitive information.""
+}"
+4,AVAST SECURITY ALERT,1,PHISHING,"The email contains a suspicious link that may be used to download malware, and the language used is alarmist and threatening, which is a common tactic used in phishing emails.",,"{""classification"": ""PHISHING"", ""reasoning"": ""The email contains a suspicious link that may be used to download malware, and the language used is alarmist and threatening, which is a common tactic used in phishing emails.""}"
+5,GTV project status weekly update,0,LEGITIMATE,"The email appears to be a genuine project status update from a team lead, Zhiyong Wei, with a clear and detailed report of accomplishments, plans, and issues. The tone and content are professional and consistent with a legitimate business communication.",,"{
+  ""classification"": ""LEGITIMATE"",
+  ""reasoning"": ""The email appears to be a genuine project status update from a team lead, Zhiyong Wei, with a clear and detailed report of accomplishments, plans, and issues. The tone and content are professional and consistent with a legitimate business communication.""
+}"
+6,Re:,1,PHISHING,The email contains a suspicious link that may be a phishing attempt.,,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email contains a suspicious link that may be a phishing attempt.""
+}"
+7,FROM ADE WILLIAMS,1,PHISHING,"The email contains a common phishing scam tactic where the sender claims to be a lawyer representing a deceased person's estate and asks the recipient to act as the next of kin to receive a large sum of money. The email also contains grammatical errors and a suspicious tone, which are common characteristics of phishing emails.",,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email contains a common phishing scam tactic where the sender claims to be a lawyer representing a deceased person's estate and asks the recipient to act as the next of kin to receive a large sum of money. The email also contains grammatical errors and a suspicious tone, which are common characteristics of phishing emails.""
+}"
+8,Re: [dkim-milter-discuss] postfix + dkim-filter + email lists - milter  troubles (can't read SMFIC_HEADER,0,LEGITIMATE,"The email appears to be a response to a discussion thread about postfix and dkim-filter configuration issues, and is written in a formal and technical tone, suggesting it is a legitimate email from a knowledgeable individual.",,"{
+  ""classification"": ""LEGITIMATE"",
+  ""reasoning"": ""The email appears to be a response to a discussion thread about postfix and dkim-filter configuration issues, and is written in a formal and technical tone, suggesting it is a legitimate email from a knowledgeable individual.""
+}"
+9,re : half day strategy meeting,0,LEGITIMATE,"The email appears to be a legitimate meeting invitation from a colleague, with a clear subject and details about the meeting.",,"{
+  ""classification"": ""LEGITIMATE"",
+  ""reasoning"": ""The email appears to be a legitimate meeting invitation from a colleague, with a clear subject and details about the meeting.""
+}"

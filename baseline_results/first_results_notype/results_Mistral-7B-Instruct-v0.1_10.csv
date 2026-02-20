@@ -1,0 +1,41 @@
+email_id,subject,true_label,predicted_label,reasoning,error,raw_response
+0,Re: lifegem,0,PHISHING,The email is promoting a scam product called 'LifeGem' and soliciting money for it. The language used is suspicious and the email contains a link to a potentially unsafe website.,,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email is promoting a scam product called 'LifeGem' and soliciting money for it. The language used is suspicious and the email contains a link to a potentially unsafe website.""
+}"
+1,Re: [opensuse] Nvidia + Xen,0,PHISHING,"The email contains a request for assistance with a technical issue related to Nvidia drivers and Xen kernel. The email also provides instructions on how to uninstall and reinstall the drivers. However, the email does not contain any suspicious links or attachments, and the sender's email address is not provided. Therefore, the email is classified as PHISHING.",,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email contains a request for assistance with a technical issue related to Nvidia drivers and Xen kernel. The email also provides instructions on how to uninstall and reinstall the drivers. However, the email does not contain any suspicious links or attachments, and the sender's email address is not provided. Therefore, the email is classified as PHISHING.""
+}"
+2,Re: [sugar] Getting sugar running on a Mac,0,PHISHING,"The email is asking for information about using Sugar on a Mac, which is a legitimate topic. However, the email also includes a link to the Sugar mailing list, which could potentially be used for phishing purposes. Therefore, the email should be classified as phishing.",,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email is asking for information about using Sugar on a Mac, which is a legitimate topic. However, the email also includes a link to the Sugar mailing list, which could potentially be used for phishing purposes. Therefore, the email should be classified as phishing.""
+}"
+3,ATM De-activation,1,PHISHING,"The email is attempting to trick the recipient into clicking a suspicious link to 'rectify' their account, which could lead to account deactivation and other security risks. The use of urgent language and threats of account suspension or blocking also indicate that this is a phishing attempt.",,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email is attempting to trick the recipient into clicking a suspicious link to 'rectify' their account, which could lead to account deactivation and other security risks. The use of urgent language and threats of account suspension or blocking also indicate that this is a phishing attempt.""
+}"
+4,AVAST SECURITY ALERT,1,PHISHING,The email contains a warning about a deadly virus infecting the recipient's mailbox and advises them to run an email scan immediately. The link provided in the email is suspicious and may lead to a phishing website.,,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email contains a warning about a deadly virus infecting the recipient's mailbox and advises them to run an email scan immediately. The link provided in the email is suspicious and may lead to a phishing website.""
+}"
+5,GTV project status weekly update,0,LEGITIMATE,"The email is from a known sender and contains relevant information about the status of a project. It includes updates on accomplishments, plans for the week, and notes about issues. The email also includes a request for feedback from the recipient.",,"{
+  ""classification"": ""LEGITIMATE"",
+  ""reasoning"": ""The email is from a known sender and contains relevant information about the status of a project. It includes updates on accomplishments, plans for the week, and notes about issues. The email also includes a request for feedback from the recipient.""
+}"
+6,Re:,1,PHISHING,The email contains a suspicious link that is not related to the content of the email.,,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email contains a suspicious link that is not related to the content of the email.""
+}"
+7,FROM ADE WILLIAMS,1,PHISHING,The email is from an unknown sender and asks the recipient to assist in repatriating a large sum of money. It also asks the recipient to provide personal information and signatures on legal documents without any explanation of the purpose or legitimacy of the request.,,"{
+""classification"": ""PHISHING"",
+""reasoning"": ""The email is from an unknown sender and asks the recipient to assist in repatriating a large sum of money. It also asks the recipient to provide personal information and signatures on legal documents without any explanation of the purpose or legitimacy of the request.""
+}"
+8,Re: [dkim-milter-discuss] postfix + dkim-filter + email lists - milter  troubles (can't read SMFIC_HEADER,0,PHISHING,The email contains a suspicious message from an unknown sender with a suspicious subject line and body. The sender's email address is not verified and the content of the email is not related to the recipient's previous email thread. The email also contains technical information that may be used to trick the recipient into believing that the email is legitimate.,,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email contains a suspicious message from an unknown sender with a suspicious subject line and body. The sender's email address is not verified and the content of the email is not related to the recipient's previous email thread. The email also contains technical information that may be used to trick the recipient into believing that the email is legitimate.""
+}"
+9,re : half day strategy meeting,0,PHISHING,"The email contains suspicious language such as 'please note' and 'thanks in advance for marking your calendars', and the sender's email address is not clearly stated.",,"{
+  ""classification"": ""PHISHING"",
+  ""reasoning"": ""The email contains suspicious language such as 'please note' and 'thanks in advance for marking your calendars', and the sender's email address is not clearly stated.""
+}"
