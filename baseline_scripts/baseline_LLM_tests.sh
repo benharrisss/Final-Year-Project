@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=baseline-10
+#SBATCH --job-name=baseline
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=4
