@@ -1,0 +1,137 @@
+Summarised results from 3 models, ran back-to-back on UoL HPC GPU nodes:
+- deepseek-llm-7b-chat
+- gemma-2-9b-it
+- phi-mini-moe-instruct
+
+(Ordered by accuracy, highest to lowest):
+
+=========================================
+
+File: results_gemma-2-9b-it_2200-SUM.csv
+Rows: 2200
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2200
+TP=1036  FP=107  TN=993  FN=64
+accuracy:  0.9223
+precision: 0.9064
+recall:    0.9418
+f1:        0.9238
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 33 (0.0150)
+Empty summaries: 0
+JSON Parse failures in classification: 0 (0.0000)
+Recovered from classification errors: 0
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1100  0.902727                        NaN                          0.097273
+  account_verify  100  0.980000                       0.98                               NaN
+    dating_sites  100  0.910000                       0.91                               NaN
+     advance_fee  100  1.000000                       1.00                               NaN
+  document_share  100  0.940000                       0.94                               NaN
+hr_impersonation  100  0.940000                       0.94                               NaN
+ invoice_payment  100  0.830000                       0.83                               NaN
+           loans  100  0.970000                       0.97                               NaN
+         lottery  100  1.000000                       1.00                               NaN
+       pharm_sex  100  0.990000                       0.99                               NaN
+ stock_pump_dump  100  0.860000                       0.86                               NaN
+    tech_support  100  0.940000                       0.94                               NaN
+
+Timing summary:
+Model load time (s): 125.45
+Total program time (s): 8628.37
+Summary stage time (s): 5991.65 | tokens/s: 28.55
+Classify stage time (s): 2502.17 | tokens/s: 29.73
+Mean generation time per email (s): 1.14
+
+=========================================
+
+File: results_Phi-mini-MoE-instruct_2200-SUM.csv
+Rows: 2200
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2200
+TP=1029  FP=573  TN=527  FN=71
+accuracy:  0.7073
+precision: 0.6423
+recall:    0.9355
+f1:        0.7617
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 74 (0.0336)
+Empty summaries: 0
+JSON Parse failures in classification: 0 (0.0000)
+Recovered from classification errors: 0
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1100  0.479091                        NaN                          0.520909
+  account_verify  100  1.000000                       1.00                               NaN
+    dating_sites  100  0.910000                       0.91                               NaN
+     advance_fee  100  1.000000                       1.00                               NaN
+  document_share  100  0.820000                       0.82                               NaN
+hr_impersonation  100  0.920000                       0.92                               NaN
+ invoice_payment  100  0.870000                       0.87                               NaN
+           loans  100  0.980000                       0.98                               NaN
+         lottery  100  1.000000                       1.00                               NaN
+       pharm_sex  100  0.910000                       0.91                               NaN
+ stock_pump_dump  100  0.910000                       0.91                               NaN
+    tech_support  100  0.970000                       0.97                               NaN
+
+Timing summary:
+Model load time (s): 201.05
+Total program time (s): 29932.20
+Summary stage time (s): 16389.14 | tokens/s: 33.21
+Classify stage time (s): 13333.14 | tokens/s: 33.25
+Mean generation time per email (s): 6.06
+
+=========================================
+
+File: results_deepseek-llm-7b-chat_2200-SUM.csv
+Rows: 2200
+Missing predictions: 3 (0.0014)
+Coverage: 0.9986
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2197
+TP=1088  FP=1065  TN=35  FN=9
+accuracy:  0.5112
+precision: 0.5053
+recall:    0.9918
+f1:        0.6695
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 155 (0.0705)
+Empty summaries: 0
+JSON Parse failures in classification: 97 (0.0441)
+Recovered from classification errors: 94
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1100  0.031818                        NaN                          0.968182
+  account_verify  100  0.990000                       0.99                               NaN
+    dating_sites  100  0.980000                       0.98                               NaN
+     advance_fee  100  1.000000                       1.00                               NaN
+  document_share  100  0.990000                       0.99                               NaN
+hr_impersonation  100  0.990000                       0.99                               NaN
+ invoice_payment  100  0.980000                       0.98                               NaN
+         lottery  100  1.000000                       1.00                               NaN
+ stock_pump_dump  100  0.980000                       0.98                               NaN
+       pharm_sex  100  1.000000                       1.00                               NaN
+    tech_support  100  1.000000                       1.00                               NaN
+           loans   97  1.000000                       1.00                               NaN
+
+Timing summary:
+Model load time (s): 124.81
+Total program time (s): 6030.69
+Summary stage time (s): 3062.44 | tokens/s: 41.55
+Classify stage time (s): 2831.44 | tokens/s: 45.46
+Mean generation time per email (s): 1.29
+
+=========================================

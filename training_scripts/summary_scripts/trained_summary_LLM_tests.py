@@ -1,0 +1,318 @@
+import pandas as pd
+import json
+import re
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
+import argparse
+import time
+
+DEFAULT_MODEL_PATH = "./models/deepseek-llm-7b-chat"
+DEFAULT_INPUT_CSV = "final_phish+legit_2200.csv"
+DEFAULT_OUTPUT_CSV = "results_summary_then_classify.csv"
+
+MAX_INPUT_TOKENS = 3076
+SUMMARY_MAX_NEW_TOKENS = 256
+CLASSIFY_MAX_NEW_TOKENS = 256
+
+tokenizer = None
+model = None
+
+
+def truncate_body(text, n_tokens):
+    if tokenizer is None:
+        return text
+    if n_tokens <= 0:
+        return ""
+    ids = tokenizer(text,
+        add_special_tokens=False,
+        truncation=True,
+        max_length=n_tokens,
+        return_attention_mask=False,)["input_ids"]
+    return tokenizer.decode(ids, skip_special_tokens=True)
+
+
+def format_for_model(prompt):
+    if getattr(tokenizer, "chat_template", None):
+        messages = [{"role": "user", "content": prompt}]
+        return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    return prompt
+
+
+def sanitise_output(text):
+    if not text:
+        return text
+    return text.replace("```json", "").replace("```", "").strip()
+
+
+def extract_json(text):
+    # Parse the last valid JSON object in text
+    candidates = re.findall(r"\{[\s\S]*?\}", text)
+    for cand in reversed(candidates):
+        try:
+            obj = json.loads(cand)
+            if isinstance(obj, dict):
+                return obj
+        except json.JSONDecodeError:
+            continue
+    return None
+
+
+def normalise_weird_text(t):
+    # e.g. Turns "PHISH!ING" into simply "phishing"
+    return re.sub(r"[^a-z]", "", (t or "").lower())
+
+
+def recover_classification(text):
+    t = text.lower()
+    idx = t.find("classification")
+    if idx == -1:
+        return None
+
+    local_region = text[idx : idx + 50]
+    norm = normalise_weird_text(local_region)
+
+    if "phishing" in norm:
+        return "PHISHING"
+    if "legitimate" in norm:
+        return "LEGITIMATE"
+    return None
+
+
+def fallback_classification(text):
+    t = (text or "").lower()
+    if "phishing" in t:
+        return "PHISHING"
+    if "legitimate" in t:
+        return "LEGITIMATE"
+    return None
+
+
+@torch.inference_mode()
+def generate_text(prompt, max_new_tokens):
+    formatted = format_for_model(prompt)
+    inputs = tokenizer(
+        formatted,
+        return_tensors="pt",
+        truncation=True,
+        max_length=MAX_INPUT_TOKENS,
+        add_special_tokens=True,
+    )
+    inputs = {k: v.to(model.device) for k, v in inputs.items()}
+
+    if torch.cuda.is_available():
+        torch.cuda.synchronize()
+    t0 = time.perf_counter()
+
+    out = model.generate(
+        **inputs,
+        max_new_tokens=max_new_tokens,
+        do_sample=False,
+        pad_token_id=tokenizer.eos_token_id,
+        eos_token_id=tokenizer.eos_token_id,
+    )
+
+    if torch.cuda.is_available():
+        torch.cuda.synchronize()
+    generation_seconds = time.perf_counter() - t0
+
+    gen_ids = out[0][inputs["input_ids"].shape[1] :]
+    output_tokens = int(gen_ids.numel())
+    completion = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
+
+    return completion, output_tokens, generation_seconds
+
+
+def build_summary_prompt(subject, body):
+    body = truncate_body(body, MAX_INPUT_TOKENS)
+    return f"""
+Output rules:
+- Output ONLY a single valid JSON object
+- DO NOT output markdown, code fences, or extra text
+
+Return ONLY a valid JSON object with exactly these keys:
+- summary: string
+
+Summarise the email content concisely. Preserve:
+- the sender identity and why they are contacting the recipient
+- what is being requested or asked of the recipient
+- any urgency/threats/deadlines
+- any links, attachments, phone numbers, potential sender claims
+- what sensitive information is being requested (if any)
+
+Email subject: {subject}
+
+Email body:
+{body}
+""".strip()
+
+
+def build_classify_prompt(subject, summary):
+    return f"""
+Output rules:
+- Output ONLY a single valid JSON object
+- DO NOT output markdown, code fences, or extra text
+
+Return ONLY a valid JSON object with exactly these keys:
+- classification: "PHISHING" or "LEGITIMATE"
+- reasoning: a short explanation
+
+Classify the following email as either PHISHING or LEGITIMATE.
+Do this using the sumarised email content and subject.
+
+Email subject: {subject}
+
+Email summary:
+{summary}
+""".strip()
+
+
+def summarise_email(subject, body, max_new_tokens):
+    prompt = build_summary_prompt(subject, body)
+    completion, output_tokens, generation_seconds = generate_text(prompt, max_new_tokens=max_new_tokens)
+
+    completion_for_parsing = completion
+    last_brace = completion_for_parsing.rfind("}")
+    if last_brace != -1:
+        completion_for_parsing = completion_for_parsing[: last_brace + 1].strip()
+
+    parsed = extract_json(completion_for_parsing) or extract_json(sanitise_output(completion))
+    if parsed and isinstance(parsed.get("summary"), str) and parsed["summary"].strip():
+        return parsed["summary"].strip(), None, completion, output_tokens, generation_seconds
+
+    if completion.strip():
+        return completion.strip(), "SUMMARY_JSON_PARSE_FAILED", completion, output_tokens, generation_seconds
+
+    return None, "SUMMARY_FAILED_EMPTY", completion, output_tokens, generation_seconds
+
+
+def classify_from_summary(subject, summary, max_new_tokens):
+    prompt = build_classify_prompt(subject, summary)
+    completion, output_tokens, generation_seconds = generate_text(prompt, max_new_tokens=max_new_tokens)
+
+    completion_for_parsing = completion
+    last_brace = completion_for_parsing.rfind("}")
+    if last_brace != -1:
+        completion_for_parsing = completion_for_parsing[: last_brace + 1].strip()
+
+    parsed = extract_json(completion_for_parsing)
+    if parsed:
+        label = str(parsed.get("classification", "")).strip().upper()
+        if label in ("PHISHING", "LEGITIMATE"):
+            return label, parsed.get("reasoning"), None, completion, output_tokens, generation_seconds
+
+    parsed2 = extract_json(sanitise_output(completion))
+    if parsed2:
+        label = str(parsed2.get("classification", "")).strip().upper()
+        if label in ("PHISHING", "LEGITIMATE"):
+            return label, parsed2.get("reasoning"), "JSON_PARSE_FAILED_BUT_SANITISED", completion, output_tokens, generation_seconds
+
+    recovered_label = recover_classification(completion_for_parsing)
+    if recovered_label in ("PHISHING", "LEGITIMATE"):
+        return recovered_label, None, "JSON_PARSE_FAILED_BUT_RECOVERED", completion, output_tokens, generation_seconds
+
+    fallback_label = fallback_classification(completion)
+    return fallback_label, None, "JSON_PARSE_FAILED", completion, output_tokens, generation_seconds
+
+
+def main():
+    global tokenizer, model
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model-path", type=str, default=DEFAULT_MODEL_PATH)
+    parser.add_argument("--input-csv", type=str, default=DEFAULT_INPUT_CSV)
+    parser.add_argument("--output-csv", type=str, default=DEFAULT_OUTPUT_CSV)
+    parser.add_argument("--trust-remote-code", action="store_true")
+    args = parser.parse_args()
+
+    total_t0 = time.perf_counter()
+
+    print("Loading model...")
+    load_t0 = time.perf_counter()
+
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.model_path,
+        local_files_only=True,
+        trust_remote_code=args.trust_remote_code,
+    )
+
+    model = AutoModelForCausalLM.from_pretrained(
+        args.model_path,
+        device_map="auto",
+        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        attn_implementation="eager",
+        local_files_only=True,
+        trust_remote_code=args.trust_remote_code,
+    )
+
+    load_seconds = time.perf_counter() - load_t0
+
+    df = pd.read_csv(args.input_csv)
+    results = []
+
+    print(f"Processing {len(df)} emails...\n")
+
+    total_summary_tokens = 0
+    total_summary_seconds = 0.0
+    total_classify_tokens = 0
+    total_classify_seconds = 0.0
+
+    for i, row in df.iterrows():
+        subject = str(row["subject"])
+        body = str(row["body"])
+        true_label = row["label"]
+        phish_type = str(row["phish_type"])
+
+        summary, sum_error, sum_raw, sum_tokens, sum_seconds = summarise_email(
+            subject, body, max_new_tokens=SUMMARY_MAX_NEW_TOKENS
+        )
+        total_summary_tokens += sum_tokens
+        total_summary_seconds += sum_seconds
+
+        if summary:
+            predicted_label, reasoning, cls_error, cls_raw, cls_tokens, cls_seconds = classify_from_summary(
+                subject, summary, max_new_tokens=CLASSIFY_MAX_NEW_TOKENS
+            )
+        else:
+            predicted_label, reasoning, cls_error, cls_raw, cls_tokens, cls_seconds = (
+                None, None, "NO_SUMMARY_AND_NO_CLASSIFICATION", "", 0, 0.0
+            )
+
+        total_classify_tokens += cls_tokens
+        total_classify_seconds += cls_seconds
+
+        results.append(
+            {
+                "email_id": i,
+                "subject": subject,
+                "true_label": true_label,
+                "predicted_label": predicted_label,
+                "phish_type": phish_type,
+                "summary": summary,
+                "summary_error": sum_error,
+                "reasoning": reasoning,
+                "classify_error": cls_error,
+                "summary_raw_response": sum_raw,
+                "classify_raw_response": cls_raw,
+            }
+        )
+
+        print(f"[{i+1}/{len(df)}] Done: Predicted={predicted_label}")
+
+    pd.DataFrame(results).to_csv(args.output_csv, index=False)
+    print("Results saved to:", args.output_csv)
+
+    total_seconds = time.perf_counter() - total_t0
+    summary_tok_per_sec = total_summary_tokens / total_summary_seconds
+    classify_tok_per_sec = total_classify_tokens / total_classify_seconds
+    mean_generation_seconds_per_email = total_classify_seconds / len(df)
+
+    print("\nTiming summary:")
+    print(f"Model load time (s): {load_seconds:.2f}")
+    print(f"Total program time (s): {total_seconds:.2f}")
+    print(f"Summary stage time (s): {total_summary_seconds:.2f} | tokens/s: {summary_tok_per_sec:.2f}")
+    print(f"Classify stage time (s): {total_classify_seconds:.2f} | tokens/s: {classify_tok_per_sec:.2f}")
+    print(f"Mean generation time per email (s): {mean_generation_seconds_per_email:.2f}")
+
+
+if __name__ == "__main__":
+    main()

@@ -5,6 +5,7 @@ Baseline results from 8 models, ran back-to-back on UoL HPC GPU nodes:
 - llama-3.2-3b-instruct
 - mistral-7b-instruct-v0.1
 - phi3-mini-4k-instruct
+- phi-mini-moe-instruct
 - qwen2.5-3b-instruct
 - qwen2.5-7b-instruct
 

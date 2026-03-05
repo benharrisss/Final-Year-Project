@@ -190,8 +190,6 @@ def main():
 
     load_seconds = time.perf_counter() - load_t0
 
-    print("device map:", getattr(model, "hf_device_map", None))
-
     df = pd.read_csv(args.input_csv)
     results = []
 
