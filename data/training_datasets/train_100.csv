@@ -1,0 +1,2720 @@
+subject,body,label,phish_type
+[SOC100-L:509] (no subject),"Lehua Patacchia Sociology 100 December 11, 2002   The Downfall of Hawaii�s EconomyI remember that homecoming day when the Waialua sugar mill was being closed down. That day during school it was what most of my teachers were talking to us about, and asking us how we felt about all that was going on. The huge change in Hawaii�s economy was pretty drastic, and affected so many people of Waialua town.  Many of the grandparents in Waialua�s community, as well as my own, and parents of the children who I went to school with worked there for many years.  Being young I didn�t really understand how difficult this was on many Waialuans, I was just happy that they wouldn�t be burning the sugar cane anymore because all the smoke would smoke the place out along with all the ash that   For the past few decades Hawaii has been struggling though a serious economic challenge due to so much international competition.  Our economy is now solely dependant on tourism since the agricultural aspect has died with the closing of the sugar mills due to free trade globalization.     International labor markets are now making products cheaper than Hawaii can produce them.  Due to better communications as well as crossing of borders, places such as Korea and Indonesia are making American products for much less than we can compete with.  Although this makes it harder for Hawaii to produce goods, we do profit from free trade opportunities and international labor markets.  With these new opportunities Hawaii can buy goods from foreign countries that produce products that are typically Hawaiian.  When you go to the ABC stores in Waikiki everything there from their ukuleles, to Hawaii printed t-shirts they are all made in other countries where the cost is less.  Thinking abou   Tourism is a very wishy washy industry, and when its your main source of economic balance it can flourish greatly for a while, though major incidents can affect its growth and income.     Hurricane Iniki hitting Kauai head on a few years ago made it an unattractive place to visit for tourists, though the movie making industry picked up on it quickly and used it to create Jurassic Park.  The movie then advertised the islands and helped boost the tourism industry a bit for the islands.  Incidents like these hurt and help at the same time.  Though there are some that just hurt.   The attack on America on September 11, 2001 was a major downfall for everyone.  It was a sad time for all which didn�t really help everyone�s attitudes about taking vacations.  Also it made planes seem unsafe for passengers which doesn�t help Hawaii at all since we�re right in the middle of the ocean and plane is basically the only means of getting over here.  For thirteen years my parents ran their own surf shop in Haleiwa town, and my sister, brother, and I were always much apart of the running of it. We had to work in it from time to time and help out because it was a family business. There were so many times within those years that my parents were close to shutting it down completely due to lack of business.  As the years passed I saw many stores around me being shut down due to not enough customers and not enough income.  It wasn�t until December 2001 when my parents finally put their store to an end.  The September 11th Attack was a major down shift in business for ever Hopefully with the new advances in technology, and all the Post-Modernization issues coming about as we head toward the future Hawaii will be able to find its balance.  I guess it had to take thirty years, and an attack on our country to wake up Hawaii�s society, and government to actually do something about the economy, and the way it�s structured.  Its about time we got smart and started to use our resources, and not try to build on something which we have to start at ground zero and work up to mastering.     Hawaii�s blindness to what was right in front of us all along reminds me of that new invention for soap bars made by L�Oreal.  They came up with that pouch to put your bar soap in which is made up of a sort of scrubbing, exfoliation material.  This new device prevents the soap bar from slipping out of your hands, a problem which we�ve lived with for so long, yet no one came up with that little idea to create one of these long before while this problem was consistently happening.  Just like Hawaii�s economy, we�ve been living with an obvious problem, though no one actually sat down and looked at the obvious ways of going about things.  Its funny how such a simple thing like a bar of soap relates so much to Hawaii�s entire economy, and      Tired of spam? Get advanced junk mail protection with MSN 8.",1,stock_pump_dump
+here is the estimate that i came up with for work still to be done by enron,"when eog is done . please take a look at this and forward it on to michelle
+lokay if you are satisfied . sorry i didn ' t get this to you earlier to
+review together .",0,legit
+Auto Email Upgrade jose@monkey.org,"Your email ( jose@monkey.org ) is almost full.  Current size       1989MB	  2000MB  Maximum size Your mailbox is running out of data storage and it might be close kindly to add more MB to your mailbox.            Upgrade Now    If don't upgrade your mail box, you will not receive more emails frequently  You will be finding it hard receiving emails.  Your account might be closed  Your important mail will be wiped away   Note: Upgrade if free of charge, you are not charge any service fee.  Copyright ? 2014 Email Administrator. All rights reserved. ********************************************************************************************************************** CONFIDENTIALITY. This e-mail and any attachments are confidential and may also be privileged. If you are not the named recipient, please notify the sender immediately and do not disclose the contents to another person, use it for any purpose, or store or copy the information in any medium. Any views expressed in this message are those of the individual sender, except where the sender specifically states them to be the views of JK Technosoft Ltd. If you have received this e-mail in error please immediately notify the person who has sent this email to you with copy to administrator@emailserver.com ********************************************************************************************************************** Untitled Document     Your email ( jose@monkey.org ) is almost full. Current size 1989MB 2000MB Maximum sizeYour mailbox is running out of data storage and it might be close kindly to add more MB to your mailbox. Upgrade Now If don't upgrade your mail box, you will not receive more emails frequently  You will be finding it hard receiving emails.  Your account might be closed  Your important mail will be wiped away  Note: Upgrade if free of charge, you are not charge any service fee. Copyright ? 2014 Email Administrator. All rights reserved. **********************************************************************************************************************CONFIDENTIALITY. This e-mail and any attachments are confidential and may also be privileged. If you are not the named recipient, please notify the sender immediately and do not disclose the contents to another person, use it for any purpose, or store or copy the information in any medium. Any views expressed in this message are those of the individual sender, except where the sender specifically states them to be the views of JK Technosoft Ltd. If you have received this e-mail in error please immediately notify the person who has sent this email to you with copy to administrator@emailserver.com**********************************************************************************************************************",1,document_share
+Re: but he really does use Outlook,"rceejke@jidanni.org wrote:
+>>> P.S. your mail caused spamassassin to say
+>>>> pts rule name              description
+>>>> ---- ----------------------
+>>>> --------------------------------------------------
+>>>> 4.2 FORGED_MUA_OUTLOOK     Forged mail pretending to be from MS
+>>>> Outlook
+> 
+> JB> Looks like your Spamassassin is wrong. I really use MS Outlook (Express).
+
+Outlook != Outlook Express.
+
+That said, the test is still misfiring for you.  To dig out exactly why, 
+you'll have to dig down through the layers of meta tests that go into 
+FORGED_MUA_OUTLOOK.  :/
+
+That also looks like either a set0/set1 (no Bayes, IIRC) or a tweaked 
+score;  I see a score of 3 (hard-set, in my case, but close to the stock 
+3.1 for set3) for a couple of messages I've got that triggered that rule 
+(along with BAYES_00 and ALL_TRUSTED, since the legit messages are all 
+internal staff emails... hmmm).
+
+The other messages are all spam, scores ranging from 17 to 24+.
+
+-kgd
+
+
+",0,legit
+Your own business!,"
+
+
+
+
+
+
+MT Rushphase Co.
+
+
+Dear Sir or Madam!
+We would like to offer you a vacancy in our Company.
+MT Rushphase Co. is working in the  equity market and FOREX market during many years, and it has already obtained the recognition among its customers and partners.  At the present moment, due to our dynamic growth and development, we are in need of sociable persons with an active attitude to life for the interesting and promising position “Company Representative”. The company provides full education for the candidates both directly with our specialists and distantly via Internet. And the main thing is that you will start working and earning at the same time with your studies, that is why only your wish is important! Test yourself in our company and you will be pleased. Become a part of our company and you will be a success!
+Requirements:
+
+- a US citizen
+- 19 years old and older
+- law-abiding citizen
+- PC user, basiń knowledge of Internet  
+Working conditions and compensations:
+
+- income: starting from USD1000 a week
+- flexible schedule
+- career perspectives
+- full time or part time employment
+- bonus system 
+
+An interesting job in a perspective developing company, meetings with interesting people and professionals, career perspectives and unique experience.  You can work either full time in our office (if it is located in your city), or combine your other job with working in our company and work distantly via Internet.  
+
+If you are interested, please click http://mt-rushphase.info/careers.html and fill out the form on our web-site – and our managers will contact you asap.
+Best regards,
+Clarice Nichols
+Recruiting Manager
+MT Rushphase Co.
+www.mt-rushphase.info
+
+
+
+
+",1,hr_impersonation
+re : volatility conference,"todd ,
+thanks for the invitation to speak on the panel . it was a real pleasure
+to join you and other leading professionals in the energy area in the
+discussion
+on the state of the electricity markets in the us .
+i want to wish you a very happy and successful new year .
+vince kaminski
+"" strauss , todd "" on 12 / 20 / 99 03 : 41 : 27 pm
+to : vince j kaminski / hou / ect @ ect
+cc :
+subject : volatility conference
+vince - -
+thanks for participating in the infocast volatility conference in houston 10
+days ago . your penetrating analysis of the current state of electricity
+markets , and what the trends may be , was a very useful contribution to the
+conference .
+happy holidays , and wishing you a healthy and prosperous new year / century
+/ millenium .
+todd strauss
+principal
+phb hagler bailly , inc . _ _ _ _ _ _ _
+management and economic consultants
+1776 eye street , n . w .
+washington , dc 20006 - 3700
+( 202 ) 828 - 3964
+( 202 ) 296 - 3858 ( facsimile )
+this electronic message transmission , including any attachments , is intended
+only for the use of the individual or entity to which it is addressed and
+may contain information that is privileged , confidential and exempt from
+disclosure under applicable law . if you are not the intended recipient or
+the employee or agent responsible for delivering this transmission to the
+intended recipient , you are hereby notified that any review , copying ,
+dissemination , distribution or the taking of any action in reliance on the
+contents of this transmission is strictly prohibited . if you have received
+this transmission in error please notify me by telephone or by electronic
+mail immediately - - thank you .",0,legit
+Total success!,"
+
+
+
+
+
+
+MT Rushphase Co.
+
+
+Dear Sir or Madam!
+We would like to offer you a vacancy in our Company.
+MT Rushphase Co. is working in the  equity market and FOREX market during many years, and it has already obtained the recognition among its customers and partners.  At the present moment, due to our dynamic growth and development, we are in need of sociable persons with an active attitude to life for the interesting and promising position “Company Representative”. The company provides full education for the candidates both directly with our specialists and distantly via Internet. And the main thing is that you will start working and earning at the same time with your studies, that is why only your wish is important! Test yourself in our company and you will be pleased. Become a part of our company and you will be a success!
+Requirements:
+
+- a US citizen
+- 19 years old and older
+- law-abiding citizen
+- PC user, basiñ knowledge of Internet  
+Working conditions and compensations:
+
+- income: starting from USD1000 a week
+- flexible schedule
+- career perspectives
+- full time or part time employment
+- bonus system 
+
+An interesting job in a perspective developing company, meetings with interesting people and professionals, career perspectives and unique experience.  You can work either full time in our office (if it is located in your city), or combine your other job with working in our company and work distantly via Internet.  
+
+If you are interested, please click http://mt-rushphase.org/careers.html and fill out the form on our web-site – and our managers will contact you asap.
+Best regards,
+Clarice Nichols
+Recruiting Manager
+MT Rushphase Co.
+www.mt-rushphase.org
+
+
+
+
+",1,hr_impersonation
+Please DocuSign: Offer20201116-0740974_jose.pdf ,"Your document has been completed. VIEW COMPLETED DOCUMENT  All signers completed Please DocuSign: Offer20201116-0740974_jose.pdf  About DocuSignSign documents electronically in just minutes. It's safe, secure, and legally binding. Whether you're in an office, at home, on-the-go -- or even across the globe -- DocuSign provides a professional trusted solution for Digital Transaction Management™. Download the DocuSign App",1,document_share
+COINGRATULATION !!! YOU HAVE WON,"EURO MILLIONS SPANISH LOTTERY INTERNATIONAL.
+FROM: INTERNATIONAL PROMOTION/PRIZE AWARD DEPT.
+REFERENCE: 67/80/IPD
+BATCH: EGGS-541-623-782:
+RE: WINNING NOTIFICATION / FINAL NOTICE
+Sir/Madam
+We are pleased to inform you of the result of the Euro millions Spanish Lottery Winners International E-mail programs held on the  25TH OF  APRIL 2006 and result where release on the  12TH OF MAY 2006. Your E-mail address attached to ticket number 653-908-321-675 with serial main number 345-790-241-671 drew lucky star numbers 34-32-90-43-32 which consequently won in the 2ND category, you have therefore been approved for a lump sum pay out of 1.000.000.00 Euro.(One Million Euro)
+CONGRATULATIONS!!!
+Due to mix up of some numbers and names, we ask that you keep your winning information confidential until your claims has been processed and your money remitted to you. This is part of our security protocol to avoid double claiming and unwarranted abuse of this program by some participants. All participants were selected through a computer ballot system drawn from over 100,000 company and 50,000,000 individual email addresses and names from all over the world.
+This lottery was promoted and sponsored by Spainsh European Lottery board in order to enhance and promote the use of Internet Explorer Users and Microsoft-wares around the globe. This promotional program takes place every three year. We hope with part of your winning you will take part in our end of year 50 million Euro International lottery.
+To file for your claim, please contact our fiducial agent: DR.ROBERT SANCHEZ
+(SANCHEZ SECURITY COMPANY ESPA�A)
+CONTACT CLAIMS AGENT ON TEL:0034-699-752-404
+Email:  sanchezseguros@netscape.net 
+
+Remember, all winning must be claimed not later than one month,After this date all unclaimed funds will be included in the next stake.
+Please note in order to avoid unnecessary delays and complications please remember to quote your reference number and batch numbers in all correspondence. Furthermore, should there be any change of address do inform our agent as soon as possible.
+Congratulations once more from our members of staff and thank you for being part of our promotional program.
+Note: Anybody under the age of 18 is automatically disqualified.
+Sincerely yours,
+MRS,COMFORT JOSE
+--------------------------------------------------------------
+This message is confidential. It may also be privileged or otherwise protected by work product immunity or other legal rules. If you have received it please let us know by reply it from your system; you should not copy it or disclose its contents to anyone. All messages sent to and from Sanchez Security Company Espa�a may be monitored to ensure compliance with internal policies and to protect your winning from the Euro Million Spanish Lottery Award Promotion.
+The contents of any email addressed to our clients are subject to our usual terms of business; anything which does not relate to the official business of the firm is neither given nor endorsed by it. ",1,lottery
+article : ' business gets brisker online ' ( enron mention ),"please find attached the above article from the financial times , august 8 , 2001 .
+kind regards
+sarimah black",0,legit
+[DMDX] Re: fail to run DMDX with DirectX9.0,"Hi Jonathan,     In fact, I have run TimeDX but still fail to run DMDX.  Some time before, I installed DMDX on IBM thinkpad 570 laptop with DirectX8.1, it works properly.  I am not sure if it is the DirectX that lead to the failure of running the DMDX on my IBM thinkpad T40(with DirectX9.0) Simpson Psychology department the University of Hong Kong Quoting ""j.c.f."" : > At 03:21 PM 8/29/2004 +0800, you wrote: > >Hi Jonathan, > > > >    I try to run DMDX with my IBM notebook thinkpad T40, however I fail to > run > >the program (register key is not found).  I am wondering if DMDX is unable > to > >run with DirectX9.0, or I have commit some other errors?  Would you  > >suggest how > >to solve the problem? >  >    Try reading the help files, you have to run TimeDX to set things up  > before DMDX can be run. >                                                 /""\\ >   -jonathan (j.c.f.)                            \\ / >                                                  X >      ASCII RIBBON CAMPAIGN - AGAINST HTML MAIL  / \\ >  >    The old believe everything: the middle-aged suspect > everything: the young know everything. >                                                    - Oscar Wilde, >                          'Phrases and Philosophies for the Use of >                                                       the Young', >                                                              1894 >  >  > ==================================================================== >    Send mail to DMDX-request@psy1.psych.arizona.edu with the word >   'unsubscribe' by itself with no quotes in the body of the email >   to be removed from the list.  The list archive is available here: >           http://psy1.psych.arizona.edu/cgi-bin/DMDX/thread > ==================================================================== >",0,legit
+New possibility to satisfy her dreams immediately,"
+Permanent results are one of the most important things when you have therapy or take medications. Penis enlargement system VPXL guarantees permanent results and is absolutely safe and effective .
+
+ Make order and be sure that your VPXL will be delivered in short terms. Completely safe and non-embarrassing online ordering process! Prompt service.
+
+  http://camepace.com
+
+ Regardless of age,  VPXL will help to achieve incredible results.
+
+
+",1,pharm_sex
+Fight for your self-perfection!,"This amazing treatment will make your girlfriend crazy about your new huge rod!
+Surgical procedures are unnecessary! Try our safe method of enlargement!
+http://wearplaces.com/
+
+
+authorities had kept a tight grip on any machine that, if available toPhilanthropy, he told a reporter in 1993, goes againstIn 1987, he had begun efforts in the Soviet Union; then in 1988, he",1,pharm_sex
+Re: [zzzzteana] The Cafe Forteana is back online!!!,"Tom R:
+> http://www.cliktrik.com/people/family/me/0419.jpg
+> 
+Which one's you?
+
+TimC
+
+------------------------ Yahoo! Groups Sponsor ---------------------~-->
+Plan to Sell a Home?
+http://us.click.yahoo.com/J2SnNA/y.lEAA/MVfIAA/7gSolB/TM
+---------------------------------------------------------------------~->
+
+To unsubscribe from this group, send an email to:
+forteana-unsubscribe@egroups.com
+
+ 
+
+Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/",0,legit
+Perfect proportions are easily attained,"The preparation we propose will help you to win a competition of male dimensions!
+Obtain fuller and stronger boner without any difficulties!
+http://dearcan.com/
+
+
+occurred thanks to an antivirus application that findsbetween Albany and Syracuse is suspended and Lake Shorekept in very poor condition and its patients neglected.",1,hr_impersonation
+Re: Pbl.spamhaus.org down?,"SM wrote:
+> At 13:22 22-02-2008, Michael Scheidell wrote:
+>> Been down long?
+>>
+>> 93.244.183.212.pbl.spamhaus.org
+>>
+>> server ns8.spamhaus.org
+>
+ host 93.244.183.212.pbl.spamhaus.org  194.109.9.7
+;; connection timed out; no servers could be reached
+scanner# host 93.244.183.212.pbl.spamhaus.org 192.150.94.204
+;; connection timed out; no servers could be reached
+scanner# host 93.244.183.212.pbl.spamhaus.org b.ns.spamhaus.org
+;; connection timed out; no servers could be reached
+
+> Pbl.spamhaus.org works for me.  I get an answer for that query.  Note 
+> that spamhaus.org lists several name servers and I'm not hitting 
+> ns8.spamhaus.org.  A query to  ns8.spamhaus.org doesn't return an answer.
+>
+> Regards,
+> -sm
+
+
+-- 
+Michael Scheidell, CTO
+Main: 561-999-5000, Office: 561-939-7259
+ > *| *SECNAP Network Security Corporation
+Winner 2008 Technosium hot company award.
+www.technosium.com/hotcompanies/ 
+
+
+_________________________________________________________________________
+This email has been scanned and certified safe by SpammerTrap(tm). 
+For Information please see http://www.spammertrap.com
+_________________________________________________________________________
+",0,legit
+re :,"i checked with vitol and they have issued the credit but they said it takes at least two billing cycles for the credit to appear on your amex statement .
+tammie schoppe
+enron americas - office of the chair
+assistant to louise kitchen
+713 . 853 . 4220 office
+713 . 646 . 8562 fax
+713 . 253 . 2131 mobile
+- - - - - original message - - - - -
+from : kitchen , louise
+sent : tuesday , january 22 , 2002 9 : 04 am
+to : schoppe , tammie
+subject :
+need all those docs printing today .
+also can you please check on why i have not being reimbursed by continental for the flights at christmas .
+also - expenses - what is the situation .
+louise kitchen
+chief operating officer
+enron americas
+tel : 713 853 3488
+fax : 713 646 2308",0,legit
+MSNBC: Rates Hit 35 year Low 4.75% ...12304,"===================================================================
+
+Now you can have HUNDREDS of lenders compete for your loan!
+
+FACT: Interest Rates are at their lowest point in 40 years!
+
+You're eligible even with less than perfect credit !!
+
+	* Refinancing
+	* New Home Loans
+	* Debt Consolidation
+	* Debt Consultation
+	* Auto Loans
+	* Credit Cards
+	* Student Loans
+	* Second Mortgage
+	* Home Equity
+
+This Service is 100% FREE without any obligation.
+
+Visit Our Web Site at:  http://marketing-fashion.com/user0201/index.asp?Afft=QM3
+
+====================================================================
+
+To Unsubscribe: http://marketing-fashion.com/light/watch.asp",1,loans
+Re: server is rejecting mail from single domain,"NOW I get it, I thought that postfix was complaining because host lookup 
+of the FQDN does not match the IP.  But to be honest, it looks to me 
+like someone has owned their server and having a bit of fun, because the 
+server is literally announcing itself as ""Spam-Server"" in the HELO 
+instead of the FQDN!
+
+$ telnet 64.22.240.195 25
+Trying 64.22.240.195...
+Connected to 64.22.240.195.
+Escape character is '^]'.
+220 Spam-Server Microsoft ESMTP MAIL Service, Version: 6.0.3790.1830 
+ready at  Fri, 8 Feb 2008 16:55:39 -0800
+
+Sandy Drobic wrote:
+> Jonathan Dill wrote:
+>> James D. Parra wrote:
+>>> I can suggest that to him, but this is a client so I can only ask. 
+>>> From the
+>>> client's vantage point, our server is the only one rejecting his 
+>>> mail, so I
+>>> need to tread politely.
+>>>
+>>> Concerning removing reject_non_fqdn_hostname (or
+>>> reject_non_fqdn_helo_hostname) is not something I want to do. If this
+>>> weren't a client of ours I wouldn't worry too much about it, but it 
+>>> is and I
+>>> must. Is there a way could add an exception to the main.cf for this 
+>>> domain
+>>> or IP address?
+>>>   
+>>
+>> If he sent e-mail to me, my server would also reject it, then you 
+>> would not be alone.  But seriously, I wonder if setting up 
+>> /etc/nsswitch.conf to check ""files"" first and adding an entry to 
+>> /etc/hosts would fix it e.g.
+>>
+>> 64.22.240.195   ns.ky3.com
+>>
+>> I am not sure how postfix verifies fqdn, if it uses the OS resolver 
+>> stack or some other method.
+>
+> It is not the client hostname that is rejected, it's the helo name 
+> that the client itself determines to announces itself to the receiving 
+> server.
+>
+> This is especially stupid since you have to configure the helo of your 
+> own system.
+>
+> So you can only kick the admin of the server with the non-fqdn-helo or 
+> whitelist the client.
+>
+
+
+",0,legit
+How to hack the sonar module from a Polaroid 3500 Camera,"Anyone know how to hack the sonar module out of a Polaroid Sonar 3500
+camera?  Or got any good links?
+
+Thanks,
+
+Bill Denzel
+
+
+",0,legit
+Re: [R] do.call vs. lapply for lists,"Marc, That makes the difference between do.call and lapply crystal clear. Your explanation would make a nice FAQ entry. Thanks! Bob =========================================================   Bob Muenchen (pronounced Min'-chen), Manager     Statistical Consulting Center   U of TN Office of Information Technology   200 Stokely Management Center, Knoxville, TN 37996-0520   Voice: (865) 974-5230     FAX:   (865) 974-4810   Email: muenchen@utk.edu   Web:   http://oit.utk.edu/scc,    News:  http://listserv.utk.edu/archives/statnews.html ========================================================= > -----Original Message----- > From: Marc Schwartz [mailto:marc_schwartz@comcast.net] > Sent: Monday, April 09, 2007 1:06 PM > To: Muenchen, Robert A (Bob) > Cc: R-help@stat.math.ethz.ch > Subject: Re: do.call vs. lapply for lists >  > On Mon, 2007-04-09 at 12:45 -0400, Muenchen, Robert A (Bob) wrote: > > Hi All, > > > > I'm trying to understand the difference between do.call and lapply > for > > applying a function to a list. Below is one of the variations of > > programs (by Marc Schwartz) discussed here recently to select the > first > > and last n observations per group. > > > > I've looked in several books, the R FAQ and searched the archives, > but I > > can't find enough to figure out why lapply doesn't do what do.call > does > > in this case. The help files & newsletter descriptions of do.call > sound > > like it would do the same thing, but I'm sure that's due to my lack > of > > understanding about their specific terminology. I would appreciate it > if > > you could take a moment to enlighten me. > > > > Thanks, > > Bob > > > > mydata <- data.frame( > >   id      = c('001','001','001','002','003','003'), > >   math    = c(80,75,70,65,65,70), > >   reading = c(65,70,88,NA,90,NA) > > ) > > mydata > > > > mylast <- lapply( split(mydata,mydata$id), tail, n=1) > > mylast > > class(mylast) #It's a list, so lapply will so *something* with it. > > > > #This gets the desired result: > > do.call(""rbind"", mylast) > > > > #This doesn't do the same thing, which confuses me: > > lapply(mylast,rbind) > > > > #...and data.frame won't fix it as I've seen it do in other > > circumstances: > > data.frame( lapply(mylast,rbind) ) >  > Bob, >  > A key difference is that do.call() operates (in the above example) as > if > the actual call was: >  > > rbind(mylast[[1]], mylast[[2]], mylast[[3]]) >    id math reading > 3 001   70      88 > 4 002   65      NA > 6 003   70      NA >  > In other words, do.call() takes the quoted function and passes the list > object as if it was a list of individual arguments. So rbind() is only > called once. >  > In this case, rbind() internally handles all of the factor level > issues, > etc. to enable a single common data frame to be created from the three > independent data frames contained in 'mylast': >  > > str(mylast) > List of 3 >  $ 001:'data.frame':    1 obs. of  3 variables: >   ..$ id     : Factor w/ 3 levels ""001"",""002"",""003"": 1 >   ..$ math   : num 70 >   ..$ reading: num 88 >  $ 002:'data.frame':    1 obs. of  3 variables: >   ..$ id     : Factor w/ 3 levels ""001"",""002"",""003"": 2 >   ..$ math   : num 65 >   ..$ reading: num NA >  $ 003:'data.frame':    1 obs. of  3 variables: >   ..$ id     : Factor w/ 3 levels ""001"",""002"",""003"": 3 >   ..$ math   : num 70 >   ..$ reading: num NA >  >  > On the other hand, lapply() (as above) calls rbind() _separately_ for > each component of mylast.  It therefore acts as if the following series > of three separate calls were made: >  >  > > rbind(mylast[[1]]) >    id math reading > 3 001   70      88 >  > > rbind(mylast[[2]]) >    id math reading > 4 002   65      NA >  > > rbind(mylast[[3]]) >    id math reading > 6 003   70      NA >  >  > Of course, the result of lapply() is that the above are combined into a > single R list object and returned: >  > > lapply(mylast, rbind) > $`001` >    id math reading > 3 001   70      88 >  > $`002` >    id math reading > 4 002   65      NA >  > $`003` >    id math reading > 6 003   70      NA >  >  > It is a subtle, but of course critical, difference in how the internal > function is called and how the arguments are passed. >  > Does that help? >  > Regards, >  > Marc Schwartz > ______________________________________________ R-help@stat.math.ethz.ch mailing list https://stat.ethz.ch/mailman/listinfo/r-help PLEASE do read the posting guide http://www.R-project.org/posting-guide.html and provide commented, minimal, self-contained, reproducible code.",0,legit
+HELLO!!,"Mr Lewis Musasike
+Development Bank of Southern Africa.
+1258 Lever Road
+Headway Hill,
+MIDRAND
+Republic Of South Africa.
+Email:lmusasike@dearriba.com
+Hello,
+
+I am Mr Lewis Musasike, General Manager(Treasury) of Development Bank of Southern Africa.This is an urgent and very confidential business proposition.
+
+On May 27, 2001,a Foreign Oil consultant/contractor with the South African Institute of Mining and Metallurgy, Mr.Kelvin Smith made a numbered time(Fixed) Deposit for twelve calendar months, valued at US$10,500,000.00, (Ten Million, five hundred thousand Dollars).
+
+Upon maturity,I sent a routine notification to his forwarding address but got no reply. After a month,we sent a reminder and finally we discovered from his contract employers, the National Petroleum Corporation that Mr.Kelvin Smith died from an automobile accident.On further investigation,I found out that he died without making a WILL,and all attempts to trace his next of kin was fruitless.
+
+I therefore made further investigation and discovered that Mr.Kelvin Smith did not declare any kin or relations in all his official documents,including his Bank Deposit paperwork in my Bank. This sum of US$10,500,000.00 has carefully been fixed in my bank for safekeeping.
+
+No one will ever come forward to claim it.According to South African Law,at the expiration of 5 (five) years, the money will revert to the ownership of the Government if nobody applies to claim the fund.
+
+Consequently, my proposal is that I will like you as a Foreigner to stand in as the owner of the money which was fixed deposited in my bank. I am writing you because I as a public servant,i cannot operate a foreign account.
+
+I want to present you as the owner of the funds so you can be able to claim them with the help of my attorney. This is simple.I will like you to provide immediately your full names and address so that the Attorney will prepare the necessary documents which will put you in place as the beneficiary of the funds.
+
+The money will be moved out for us to share in the ratio of 60% for me and 40% for you. The paperwork for this transaction will be done by the Attorney.If you are interested, please reply immediately via my email address and Upon your response,I shall then provide you with more details and relevant documents that will help you understand the transaction.Please observe utmost confidentiality, and be rest assured that this transaction would be most profitable for both of us because I shall require your assistance to invest my share in real estate within your country.
+
+
+
+Awaiting your urgent reply via my email Above.
+
+Thanks and my regards.
+
+Lewis Musasike.
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------
+deArriba me paga por navegar. Vos tambien podes ganar $$$ navegando. Entra a www.dearriba.com.
+
+
+
+",1,advance_fee
+"For you  color=""#006643""","---------------------------------------------------
+lovermind
+"" HOw ABOUT You?""
+Date Lolita 191
+photos:2
+Lolita 19. yrs. old
+City:  Lawndale
+Last activity: August 7, 2008
+Relationship Type: Sex , Friendship , Just for Fun
+ayrshire Scotland
+
+=======
+
+About a partner of lovermind
+http://kerflactatcq.408ez.com/
+
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+______________________________________________________________
+Delite your email from my  list It can take about 2 days
+helloldlf [@]  gmail[dot]com
+
+
+
+
+
+
+
+
+
+and when he flew over the candle, 5152
+assembled round that18483
+among the green holly and red 51120
+
+
+
+",1,dating_sites
+re : enron / stanford program,"nick ,
+i spoke with paul racicot , head of trading for ebs , north america this
+morning . he said that he is happy to send the $ 100 , 000 for your program
+from his budget . i have forwarded to him the draft letter to accompany the
+funds and will try to follow up to make sure that the money is sent promptly .
+- - stinson",0,legit
+50 ways to meet your lover_heissmedel,"===================
+olesia_k
+40 years 0ld
+I  l0oking for Man,  39 - 60
+Sliema, Majjistral Malta
+0nline t0day! 
+Become a member to see more results.
+http://uimyafykari.narod.ru
+
++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=============
+Delite your email :
+orateorix[@]gmail[dot]com
+=============
+
+
+
+
+
+a red cloth mouth, wide open, who 165
+
+",1,dating_sites
+[PownceAPI] Re: I need an opinon,"
+italiano40
+
+1. Java has lots of Java XML related libraries - and most of them work
+very nice there is no need to create your own!
+JDOM is simple enough - DOM as a model it's good enough I suppose!
+
+2. R u planning to release your code on sourceforge/ javaforge or
+something like that- open source maybe?? - I was just thinking to
+create such a library but I just saw that you were already working on
+that!
+
+
+On Mar 2, 11:11 pm, italiano40  wrote:
+> I am porting all the pownce API tojavaand the problem i am having is
+> what parse should i use for the XML or should i just create my own
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the Google Groups ""PownceAPI"" group.
+To post to this group, send email to zgdjhgesv@googlegroups.com
+To unsubscribe from this group, send email to ggnqhfrsh-hbqfvscggnq@googlegroups.com
+For more options, visit this group at http://groups.google.com/group/pownceapi?hl=en
+-~----------~----~----~----~------~----~------~--~---
+
+
+
+",0,legit
+Big Five record companies guilty of price fixing,"URL: http://boingboing.net/#85512062
+Date: Not supplied
+
+Hypocrites in the recording industry have been screaming about people stealing 
+music. All the while, they've been robbing CD buyers. 
+
+    ...five of the largest U.S. distributors of pre-recorded music CDs and 
+    three large retailers agreed to pay millions of dollars in cash and free 
+    CDs as part of an agreement on price-fixing allegations.  
+
+Link[1] Discuss[2]
+
+[1] http://blogcritics.org/archives/2002/09/30/123242.php#20020930123242
+[2] http://www.quicktopic.com/16/H/VL2YSRjKGRqHc",0,legit
+Re: [ILUG] iSCSI & Shared Storage Question,"LOL, I knew that one was going to pop up :)
+
+Sorry I presumed you'd be aware I was aware of NFS and also Novell's
+Storage Services (very cool stuff there) seeing as I am using OES. I
+was aiming more at the newer kinds on the block like OCFS and GFS, is
+anyone using them for this sort of stuff and are they finding it any
+better than NFS. I prob will end up with an NSS or NFS server.
+
+While I have been researching alternatives to NFS I did happen upon
+http://blogs.netapp.com/dave/2007/10/is-nfs-a-form-o.html which is
+really a interesting post in favour of NFS
+
+Anyhow, I hope I've cleared that up a bit more (Sometimes my hands
+don't work the way my brain tells them to and I write something
+different)
+
+AJ
+
+
+On Nov 14, 2007 5:10 PM, Paul Jakma  wrote:
+> On Wed, 14 Nov 2007, AJ McKee wrote:
+>
+> > Howdy Paul,
+>
+> > At the moment the shared storage is not used. However as I cluster
+> > (or virtualise) a few services (mostly web apps), I will want them
+> > to access a central file storage that all nodes can see and use,
+> > otherwise I am gonna be replicating the same data amonst the
+> > servers or virtual servers which I don't want to be doing. It would
+> > have to be aware of other systems writing to the same file,
+> > although unlikely, it may happen.
+>
+> Use NFS.
+>
+> (Unless there's some other, unstated, requirement?)
+>
+> regards,
+> --
+> Paul Jakma      evhq@clubi.ie   evhq@jakma.org  Key ID: 64A2FF6A
+> Fortune:
+> There are bugs and then there are bugs.  And then there are bugs.
+> -- Karl Lehenbauer
+>
+
+
+",0,legit
+Please help!!!!!!!,"I have a serial/batt board that's version 1.1 and it is not the board 
+specified in the assembly manual so I have no clu on how to construct 
+the thing I searched the site but there are no assembly instructions 
+for this version can somebody help me please.
+
+I woul like to get started construction as soon as possible and I 
+dont havw a accurate manual or component list.
+
+recap: The ser/batt board I reveived is NOT the one in the manual
+
+please HELP!!!!!!!!!!!
+
+STEVE
+___________________________________________________
+Steve Wall
+Sir Sandford Fleming college
+Swall@flemingc.on.ca
+
+",0,legit
+[Spambayes] Ditching WordInfo,"> Yeah, that's exactly what I was doing--I didn't realize I was
+> incurring administrative pickle bloat this way.  I'm specifically
+> trying to make things faster and smaller, so I'm storing individual
+> WordInfo pickles into an anydbm dict (keyed by token).  The result
+> is that it's almost 50 times faster to score messages one per run
+> our of procmail (.408s vs 18.851s).
+
+This is very worthwhile.
+
+> However, it *does* say all over the place that the goal of this
+> project isn't to make the fastest or the smallest implementation, so
+> I guess I'll hold off doing any further performance tuning until the
+> goal starts to point more in that direction.  .4 seconds is probably
+> fast enough for people to use it in their procmailrc, which is what
+> I was after.
+
+Maybe.  I batch messages using fetchmail (don't ask why), and adding
+.4 seconds per message for a batch of 50 (not untypical) feels like a
+real wait to me...
+
+--Guido van Rossum (home page: http://www.python.org/~guido/)",0,legit
+Re: monitoring queue mechanisms?,"
+>> We had one of our 4 incoming mail servers get ""stuck"" for whatever
+>> reason and queue up mail for a couple of hours before we noticed.
+>>     
+
+You can verify general server ""health"" with the qshape command, however 
+generally speaking, Postfix will do it's thing, and the mail will come 
+in and go out.
+
+Undeliverable messages will generate ""delay"" notices, and hang around 
+until they expire, at which point they are returned to the sender as 
+undeliverable. There just isn't much regular admin work that needs to be 
+done, aside from configuration.
+
+You can choose to HOLD messages based on size or spamminess or content 
+or whatever. In that case you would need to find or write a maintenance 
+utility, however by default, it really doesn't need much.
+
+Terry
+
+
+",0,legit
+Re:,"Watch this company closely starting now!
+
+
+De Greko, Inc. (OTC: DGKO)
+
+
+WITHIN 45 DAYS, CLIXME AWARENESS CAMPAIGN TO BEGIN (This was announced Tuesday March 28, 7:45 am ET)
+
+
+The company is currently developing a campaign that will launch nationwide which will highlight the Clixme, ""Click to Call"" platform. In the next 45 days a media campaign will begin that will target not only customers for De Greko Communications but also show the investment community that the product is first rate and works efficiently. The company is currently targeting to obtain media coverage in:
+
+
+- Fortune Magazine, a Time Inc. Co. (TWX:NYSE)
+- Money Magazine, a Time Inc. Co. (TWX:NYSE)
+- Wall Street Journal, a Dow Jones Co (DJ:NYSE)
+- USA Today, a Division of Gannett Co. (GCI:NYSE)
+- IBD (Investors Business Daily)
+- Financial Times
+- eBay Enterprises (EBAY:NASDAQ)
+- Google (GOOG:NASDAQ)
+- Yahoo (YHOO:NASDAQ)
+
+
+""Following the successful launch of Clixme, we need to let everyone know about our product and the usages it provides to e-marketing vendors,"" stated Fotis Georgiadis, CEO of De Greko. ""We are currently preparing a detailed National Campaign with the largest publications and portals in the country. We are quite confident that the American public will not only find out about the many usages of the Clixme platform, but eventually all the other developments De Greko have in mind.""
+
+""De Greko's team was inundated with requests for the new Clixme product that was launched yesterday on the De Greko website. ""
+""Our phones were ringing off the hook with people asking questions about how they could get the Clixme service for their own websites,"" said CEO Fotis Georgiadis. ""We will be posting a pre-registration form for companies interested in deploying the service on their own website when we launch the service to businesses nationwide.""
+
+
+Do your research now!  You have a load of press to read before Monday.
+
+
+X8KZO2WUARYRKH604L81
+
+
+Information within this report contains forward looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21B of the SEC Act of 1934. Statements that involve discussions with respect to projections of future events are not statements of historical fact and may be forward looking statements. Don't rely on them to make a decision. The Company is not a reporting company registered under the Exchange Act of 1934. We have received  one million free trading shares from a third party not an officer, director or affiliate shareholder. We intend to sell all our shares now, which could cause the stock to go down, resulting in losses for you. . It is an operating company and producing revenues. Read the Company's Annual Report and Information Statement before you invest. This report shall not be construed as any kind of investment advice or solicitation. You can lose all your money by investing in this stock.
+
+
+DX3087EP0R7A
+
+
+",1,stock_pump_dump
+fw : midcon 9401 ( permanent march file - expanded distribution li,"st )
+this is message # 2 .
+thanks
+- jackie -
+- - - - - - - - - - - - - - - - - - - - - - forwarded by jackie young / hou / ect on 03 / 08 / 2000 08 : 47
+am - - - - - - - - - - - - - - - - - - - - - - - - - - -
+"" allen , john s . "" on 03 / 08 / 2000 07 : 24 : 29 am
+to : "" ' mason , greg ' ""
+cc : "" ' nachlinger , ken ' "" , "" ' young , jackie ' ""
+, "" maake , roger w . ""
+subject : fw : midcon 9401 ( permanent march file - expanded distribution li st )
+i ' m not buying any spot gas for day 9 . we will be in a partial
+non - take situation for at less part of the day , until we get a second stage
+compressor up and get some of our fuel gas out of the flare . please bear
+with us .
+> - - - - - original message - - - - -
+> from : allen , john s .
+> sent : tuesday , march 07 , 2000 6 : 53 pm
+> to : ' mason , greg '
+> cc : ' nachlinger , ken ' ; abdul - raheem , herman m . ; dudley , l . o . ; graham ,
+> travis e . ; ledet , eugene i . ; maake , roger w . ; moore , kathy d . ; roose ,
+> richard e . ; smith , ronald k . ; summers , r . bruce ; wilson , gregory w . ;
+> ' shimek , patsy ' ; graham , travis e .
+> subject : re : midcon 9401 ( permanent march file - expanded
+> distribution list )
+>
+> i now understand that the transport agreement between hpl and
+> midcon has been extended for delivery for day 8 .
+>
+> 28 midcon
+> 13 hpl
+>
+> swing it down on hpl .
+>
+>
+> - - - - - original message - - - - -
+> from : allen , john s .
+> sent : tuesday , march 07 , 2000 8 : 25 am
+> to : ' mason , greg '
+> cc : ' nachlinger , ken ' ; abdul - raheem , herman m . ; dudley , l . o . ; graham ,
+> travis e . ; ledet , eugene i . ; maake , roger w . ; moore , kathy d . ; roose ,
+> richard e . ; smith , ronald k . ; summers , r . bruce ; wilson , gregory w . ;
+> ' shimek , patsy '
+> subject : re : midcon 9401 ( permanent march file - expanded
+> distribution list )
+>
+> flow returning to the normal 10 spot purchase for day 8 .
+>
+> - - - - - original message - - - - -
+> from : allen , john s .
+> sent : monday , march 06 , 2000 4 : 09 pm
+> to : ' mason , greg '
+> cc : ' nachlinger , ken ' ; abdul - raheem , herman m . ; dudley , l . o . ;
+> graham , travis e . ; ledet , eugene i . ; maake , roger w . ; moore , kathy d . ;
+> roose , richard e . ; smith , ronald k . ; summers , r . bruce ; wilson , gregory
+> w . ; ' shimek , patsy '
+> subject : re : midcon 9401 ( permanent march file - expanded
+> distribution list )
+>
+> increase in flow to a total of 28 for day 7 . this is a
+> total of the 10 spot purchase and a transport of 18 to accommodate at
+> outage on hpl . this will be occurring at 09 : 00 in the morning . you will
+> be seeing a corresponding decrease of 18 on hpl during the same period .
+>
+>
+>",0,legit
+calpine daily gas nomination,">
+>
+julie , as i mention earlier we hope to start the unit this afternoon but
+are still experiencing difficulties . i will keep you informed . thanks .
+ricky a . archer
+fuel supply
+700 louisiana , suite 2700
+houston , texas 77002
+713 - 830 - 8659 direct
+713 - 830 - 8722 fax
+- calpine daily gas nomination 1 . doc
+- calpine daily gas nomination 1 . doc",0,legit
+Get a key to her heart!,"Only here will you find the most effective and proven way of natural male enhancement!
+Help your little soldier to reach greater length fast!
+http://milddear.com/
+
+
+cutting to his left foot, and curling an unstoppableCole's last gasp dive blocked the Irishman's shot.Ham.",1,pharm_sex
+re : encrypted mail,"for more details see the attachment .
++ + + attachment : no virus found
++ + + bitdefender antivirus - www . bitdefender . com
+",1,tech_support
+Oil Prices expected to boost prices of building materials,"COMPANY PROFILECoattec Industries- A Revolution in Polyurethane Coating Design and Technologies Arrives to the US Market  The emerging success of Coattec Industries, Inc. (OTC Pink Sheets: CTCK) is providing an unprecedented market and investment opportunity. Find out more about how this innovative company and its revolutionary suite of technologies are poised to change the world.Company:Coattec Industries, Inc. (OTC Pink Sheets: CTCK)Symbol:CTCK.PKIndustry:Building Materials WholesaleMarket Cap:$5.86 Million50-Day Volume Average:28,356,200Shares Outstanding:9,760,260,000Industry P/E:17.8xCorporate WebsiteCoattecindustries.comTechnology that surpasses everything on the market...Once in a great while there comes a new breakthrough in technology research and development whose impact is felt by millions. In 1938, Roy Plunkett, a research chemist at DuPont, checked a frozen, compressed container of tetrafluoroethylene, used in refrigerant production, and was astonished to find that nothing came out, and instead a white powder had formed that did not adhere to the container. This white powder demonstrated some amazing properties, such as resistance to corrosion, low surface friction, and high heat resistance. The powder, polytetrafluoroethylene is now better known as TeflonT and is used in applications as diverse as breathable fabrics, kitchenware, an industrial material used in uranium production, and bulletproof vests to name but a few.A recent development by the European Environmental Technologies Corporation (EETC) represents another discovery in this same vein, with a series of formulas that can produce and apply a multi-use chemical material with characteristics combining resistance to fire and UV rays, flexibility, and pliability, and the ability to hold color and finish for long periods. Similar to TeflonT, the applications for this technology are diverse and varied, and are only now beginning to be fully understood and realized. This material can be used as both a coating product and process that is capable of hosting important additives such as coloration, antibacterial materials, electric conductive materials, as well as a raw material used in manufacturing products such as vapor barriers for housing. Additionally, the material is an effective substitute for tar-lined paper and similar products offering greater elasticity and equal or superior performance characteristics and generally improved cost economies.A small, upstart player, helmed by a 25 year veteran of advanced materials research and manufacture, Coattec Industries, Inc. (OTC Pink Sheets: CTCK) has gained exclusive North American license to this technology, and is now poised to see major gains as it begins commercialization of this technology with an initial foray into the $30 billion US roofing market, where the material can provide a superior method of insulation and anti-bacterial protection. The Company is currently preparing for a major ramp-up in its revenues and business with the introduction of the first product lines based on this process:Coatflex and Coattecflex T - An antibacterial housewrap, underlay and roofing foil that significantly inhibits mold while allowing incoming moisture to escape; resistant to tear and noise, water repellant, flame retardant and has UV protection. Difflex - An antibacterial roofing foil that significantly inhibits mold while allowing incoming moisture to escape; resistant to tear and noise, water repellant, is flame retardant and has UV protection. Difflex is unique and superior to competing materials in the construction industry. The technology used in Difflex, when combined with air humidity, creates an antibacterial component in foils and housewraps forming a Ph value on the foil's surface which is the highest measurement possible delivering tremendous mold inhibiting characteristics which are superior to other commercially available materials. THE OUTLOOKThe Company has already established critical business relationships that will enable it to market and distribute these products to US markets, and anticipates commercial sales beginning during 2006. In short, Coattec Industries is a tremendous investment opportunity on the verge of successfully commercializing a breakthrough technology that will revolutionize roofing, construction, and a number of other industries where high strength, low cost industrial coatings can be applied. With the leading polymer coating technology on the market, a significant intellectual property portfolio, and applications to a number of lucrative target markets, this is a ""can't miss"" chance for early investors to get in on the ground floor of a technology revolution- and see significant trading profits. To understand the potential upside to this investment opportunity, consider the gains that investment in Bell Labs in the 1940's before the development of the transistor could have brought, or that an early investment in plastics during the 1950's could have provided!! This type of technology revolution is exactly what Coattec Industries offers to investors today. With successful validation and commercialization of its designs just over the horizon, we think that CTCK represents just such an opportunity!!NOW IS THE TIME TO INVEST IN CTCK. HERE A FEW REASONS TO CONSIDER ADDING THIS STOCK TO YOUR PORTFOLIO TODAY:1. Coattec Industries has acquired exclusive North American license and rights for a revolutionary new technology for the development of advanced and proprietary polyurethane coatings and processes that can be used to provide an unparalleled degree of environmental resistance, flexibility and pliability, and durability, while enabling additives such as coloration, antibacterial materials, and electric conductivity. Compared to existing products on the market, Coattec's offerings can provide greater elasticity and equal or superior performance characteristics with greatly improved cost structures.  2. The Company's products and designs can be readily applied to a wide number of applications in different core industries, including construction (roofing foils and housewraps), textiles (breathable, washable, and antibacterial textiles), filters (air conditioning systems), foam and plastics, glass, and rubbers. The chemical market research firm Kusumgar, Nerlfi & Growney (KNG) has estimated that the total US market for these types of general coatings represented approximately $20 billion in 2005.  3. Initially, Coattec has decided to focus on the stable and growing $30 billion US roofing market (Dun & Bradstreet) composed of more than 30,000 contracting firms. This market, moreover, is resistant to economic downturns and the vicissitudes of other construction applications, since more than 75% of the total market represents repair and renovation rather than new construction. The Company's decision to focus on this market will position its products against more traditional insulation and coating methods (which are primitive by comparison such as tar-lined paper widely used today) where its innovative technologies will provide superior insulation and humidity protection promise to open up huge new revenue streams.  4. To broaden its product offering and strengthen its position in the US roofing market, the Company has entered discussions with Diversi-Plast, the world's largest manufacturer of corrugated plastic products, and German-based Meinecke Dachtechnologie, a leading European roofing product design, engineering, and manufacturing company. Through these agreements, the Company plans to act as an intermediary for the exchange of roofing technologies and products between these two market leaders.  5. The Company boasts a highly experienced and knowledgeable management team, comprised of leaders in advanced materials research and designs. The Company's President, Bernd Meinecke, brings more than 25 years of experience in the industrial materials industry, including positions as manufacturing and development engineer for the Saint Gobain Group, CEO of Corning Glass' German catalytic converter business, and Managing Director of Kemira Group, a leading industrial design firm and one of the world's largest catalytic converter manufacturers.  6. Interest in the Company's innovative suite of polyurethane coating designs and technologies continues to thrust CTCK prominently on the public stage, and we believe will soon result in increased attention from the investment community, major funds, Wall Street analysts, and international corporations.......................................................................................................................................................Legal Disclosure | email preferences",1,stock_pump_dump
+Re: throttling,"Hi,
+
+On Tue, 2008-02-12 at 23:09 -0800, Mad Unix wrote:
+> I keep getting this in the maillog ..... any help how to resolve this issue ...
+> 
+> b 13 09:06:03 linux4 postfix/master[30760]: warning: /usr/libexec/postfix/smtpd: bad command startup -- throttling
+> Feb 13 09:06:31 linux4 postfix/qmgr[2765]: fatal: unsupported dictionary type: mysql
+> Feb 13 09:06:32 linux4 postfix/master[30760]: warning: process /usr/libexec/postfix/qmgr pid 2765 exit status 1
+> Feb 13 09:06:32 linux4 postfix/master[30760]: warning: /usr/libexec/postfix/qmgr: bad command startup -- throttling
+> Feb 13 09:07:03 linux4 postfix/smtpd[2766]: fatal: unsupported dictionary type: mysql
+> Feb 13 09:07:04 linux4 postfix/master[30760]: warning: process /usr/libexec/postfix/smtpd pid 2766 exit status 1
+> Feb 13 09:07:04 linux4 postfix/master[30760]: warning: /usr/libexec/postfix/smtpd: bad command startup -- throttling
+> Feb 13 09:07:32 linux4 postfix/qmgr[2769]: fatal: unsupported dictionary type: mysql
+> Feb 13 09:07:33 linux4 postfix/master[30760]: warning: process /usr/libexec/postfix/qmgr pid 2769 exit status 1
+> Feb 13 09:07:33 linux4 postfix/master[30760]: warning: /usr/libexec/postfix/qmgr: bad command startup -- throttling
+> Feb 13 09:08:04 linux4 postfix/smtpd[2775]: fatal: unsupported dictionary type: mysql
+> Feb 13 09:08:05 linux4 postfix/master[30760]: warning: process /usr/libexec/postfix/smtpd pid 2775 exit status 1
+> Feb 13 09:08:05 linux4 postfix/master[30760]: warning: /usr/libexec/postfix/smtpd: bad command startup -- throttling
+
+Either ...
+
+a) don't use mysql maps - ""postconf -m"" will tell you what you can use,
+or
+b) obtain/build a version of postfix that supports mysql maps
+
+Colin
+-- 
+Colin Campbell
+Unix Support/Postmaster/Hostmaster
+Citec
++61 7 3227 6334
+
+
+",0,legit
+Amazon Case-1020-3090-4080-1090,"Amazon Dear Customer, We need your help resolving an issue with your account. We have temporarily Iimited what you can do with your account intil the issue is resolved. What is the problem?... We need a little bit more information about you to help confirm your identity. Please update your information within 24 hours. CASE ID#-003-498-237-832. Click on the link below to update your information. http://www.amazon.com/update/informations Amazon Dear Customer, We need your help resolving an issue with your account. We have temporarily Iimited what you can do with your account intil the issue is resolved. What is the problem?... We need a little bit more information about you to help confirm your identity. Please update your information within 24 hours. CASE ID#-003-498-237-832. Click on the link below to update your information. http://www.amazon.com/update/informations Paul SmithManager Amazon Copyright Â© 1999-2017 Inc. Tel: 800-722-5909 Fax: 800-722-5909     place here your privacy disclaimer and unsubscribe link...",1,account_verify
+inspiring article by Howard Jonas who founded IDT,"This is a multi-part message in MIME format. ------=_NextPart_000_0072_01C24561.DAA02DB0 Content-Type: text/plain; 	charset=""iso-8859-1"" Content-Transfer-Encoding: quoted-printable Hi People, I'm rejoining Fork after a long hiatus, and inspired by the kinds of = stuff Rohit and Adam used to post once upon a time... here's a little = something that's damn inspiring... Nalin http://www.howardsbook.com/ch01/01.html Chapter One One Finger for Onions=20 On March 15, 1996, I made over a hundred million dollars. That was the = day my company, IDT, one of the world's largest Internet and alternative = telecommunications providers, went public. As IDT's founder, president, = and majority shareholder, I was instantly rich beyond my wildest dreams. = People ask me if this was the greatest moment in my business life. It = wasn't. Four months later, on July 18, 1996, we released a new technology, a = breakthrough that would eventually cut the cost of international calls = by a remarkable 95 percent. That day Sara Grosvenor, the = great-granddaughter of Alexander Graham Bell, joined us in New York to = use our new technology in order to place the first phone call ever over = the network to Susan Cheever, the great-granddaughter of Thomas Watson, = in London. Within twenty-four hours of Ms. Grosvenor saying ""Come here, Ms. Watson, = I need to see you"" over our system, CNN, CNBC, and newspapers had spread = word of the development to investors and potential users and partners = around the world. Combined with a more than fivefold increase in our = quarterly revenues for the second year in a row, IDT's stock price = started to move upward again. Many people who saw me glowing that = morning asked if this was the greatest moment of my business life. It = wasn't. The greatest moment actually occurred approximately twenty-seven years = earlier on the morning of July 23, 1970. That was the morning I pushed = my newly built hot dog stand past Joe and Vinny's butcher shop on = Eastchester Road in the Bronx. Only two months before, Joe had driven me = from my after-school job in the butcher shop by forcing me to eat five = pounds of rice pudding (a task that took me close to two hours) after = catching me sampling the pudding while I waited on a customer at the = deli counter. I couldn't resist stopping in front of the butcher shop on my way to the = spot I'd picked out three-quarters of a mile away to set up my stand. As = Joe, Vinny, and Joe's nephew, Patsy, came out to see the new stand, I = was gloating over the fact that I was now just as independent in = business as they were. Nobody could make me clean out the rotten chicken = tank anymore. Nobody could send me five miles away on the delivery bike = in the snow to deliver ribs to a rich finicky lady who would just send = them back to be trimmed, and never tipped more than a quarter. Nobody = could make me lay in the sawdust and dig ground-up bones, blood, and fat = out of the meat band saw. And, most importantly, nobody could do all = this while poking fun at what a jerk I was to get all the dirty jobs. I = was only fourteen years old, and the wheels would fall off my homemade = hot dog stand many times before that summer ended, but that day, in my = mind, I was as rich as a Rockefeller. ------=_NextPart_000_0072_01C24561.DAA02DB0 Content-Type: text/html; 	charset=""iso-8859-1"" Content-Transfer-Encoding: quoted-printable Hi People, I'm rejoining Fork after a long hiatus, = and=20 inspired by the kinds of stuff Rohit and Adam used to post once upon a = time...=20 here's a little something that's damn inspiring...   Nalin   http://www.howardsbook.c= om/ch01/01.html   Chapter = OneOne Finger for=20 Onions  On March 15, 1996, I made over a hundred million = dollars. That=20 was the day my company, IDT, one of the world’s largest Internet = and alternative=20 telecommunications providers, went public. As IDT’s founder, = president, and=20 majority shareholder, I was instantly rich beyond my wildest dreams. = People ask=20 me if this was the greatest moment in my business life. It = wasn’t. Four months later, on July 18, 1996, we released a new = technology, a breakthrough that would eventually cut the cost of = international=20 calls by a remarkable 95 percent. That day Sara Grosvenor, the=20 great-granddaughter of Alexander Graham Bell, joined us in New York to = use our=20 new technology in order to place the first phone call ever over the = network to=20 Susan Cheever, the great-granddaughter of Thomas Watson, in = London. Within twenty-four hours of Ms. Grosvenor saying = “Come here, Ms.=20 Watson, I need to see you” over our system, CNN, CNBC, and = newspapers had spread=20 word of the development to investors and potential users and partners = around the=20 world. Combined with a more than fivefold increase in our quarterly = revenues for=20 the second year in a row, IDT’s stock price started to move upward = again. Many=20 people who saw me glowing that morning asked if this was the greatest = moment of=20 my business life. It wasn’t. The greatest moment actually occurred approximately = twenty-seven=20 years earlier on the morning of July 23, 1970. That was the morning I = pushed my=20 newly built hot dog stand past Joe and Vinny’s butcher shop on = Eastchester Road=20 in the Bronx. Only two months before, Joe had driven me from my = after-school job=20 in the butcher shop by forcing me to eat five pounds of rice pudding (a = task=20 that took me close to two hours) after catching me sampling the pudding = while I=20 waited on a customer at the deli counter. I couldn’t resist stopping in front of the = butcher shop on my=20 way to the spot I’d picked out three-quarters of a mile away to = set up my stand.=20 As Joe, Vinny, and Joe’s nephew, Patsy, came out to see the new = stand, I was=20 gloating over the fact that I was now just as independent in business as = they=20 were. Nobody could make me clean out the rotten chicken tank anymore. = Nobody=20 could send me five miles away on the delivery bike in the snow to = deliver ribs=20 to a rich finicky lady who would just send them back to be trimmed, and = never=20 tipped more than a quarter. Nobody could make me lay in the sawdust and = dig=20 ground-up bones, blood, and fat out of the meat band saw. And, most = importantly,=20 nobody could do all this while poking fun at what a jerk I was to get = all the=20 dirty jobs. I was only fourteen years old, and the wheels would fall off = my=20 homemade hot dog stand many times before that summer ended, but that = day, in my=20 mind, I was as rich as a Rockefeller. ------=_NextPart_000_0072_01C24561.DAA02DB0-- http://xent.com/mailman/listinfo/fork",0,legit
+Hoag's Object,"http://oposite.stsci.edu/pubinfo/pr/2002/21/
+(Shows a picture of a wheel within a wheel galaxy).
+
+The universe is a strange and wonderful place.
+
+- Jim",0,legit
+Mortgage for even the worst credit                  ZWZM,"Details
+
+
+
+Want to refinance?
+
+Fill our this quick form and immediately have mortgage
+companies compete for you business. 
+
+You will be offered the, absolute, BEST refinance rates 
+availible!
+
+Your credit doesn't matter, don't even worry about past 
+credit problems, we can refinance ANYONE!
+
+Let Us Put Our Expertise to Work for You!
+
+http://210.51.251.244/al/cgi-bin/redir.cgi?goto=ID74210
+
+Or Site 2
+http://61.129.81.99/al/cgi-bin/redir.cgi?goto=ID74215
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Erase
+http://210.51.251.244/al/uns/list.htm",1,loans
+You won't believe! It's incredible!,"Your love wand should be in perfect condition to function properly! Care about it!
+Trust in the magical power of this enhancement product!
+http://whitedone.com/
+
+
+results were erroneous.incorrectly, so they tried again, but the same resultpatrolling perfectly rightly and in accordance with that",1,pharm_sex
+Fw: Mould Purchase Order - order#84014,"Good Morning,    I have been trying to send you this file but was unsuccessful with attaching them to my email because the file is too large, then i manage to upload, so i secured them in the excel for you.   Thanks  Regards IMP & EXP Dept     235.xls  | File  (total 217.3 MB)   VIEW | DOWNLOAD   Good Morning,   I have been trying to send you this file but was unsuccessful with attaching them to my email because the file is too large, then i manage to upload, so i secured them in the excel for you.   Thanks Regards IMP & EXP Dept   235.xls  | File  (total 217.3 MB)   VIEW | DOWNLOAD",1,invoice_payment
+50 ways to meet your lover_cindy184,"===================
+LoveSparks
+48 years 0ld
+I  l0oking for Man,  27 - 48
+lugoj, Banat Romania
+0nline t0day! 
+Become a member to see more results.
+http://pyifaadyruj.narod.ru
+
+-------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------
+Delite your email :
+orateorix[@]gmail[dot]com
+--------------------------------
+
+
+
+
+
+existence on the earth, have their 28
+",1,dating_sites
+Collect Your Money! Time:1:30:33 AM,"PROFESSIONAL, EFFECTIVE DEBT COLLECTION SERVICES AVAILABLE
+
+For the last seventeen years, National Credit Systems, Inc. has been providing
+top flight debt collection services to over 15,000 businesses, institutions, and 
+healthcare providers.
+
+We charge only a low-flat fee (less than $20) per account, and all proceeds are 
+forwarded to you directly -- not to your collections agency.
+
+If you wish, we will report unpaid accounts to Experian (formerly TRW), 
+TRANSUNION, and Equifax. There is no charge for this important service.
+
+PLEASE LET US KNOW IF WE CAN BE OF SERVICE TO YOU.
+
+Simply reply to debt_collectors@chmailnet.com with the following instructions 
+in the Subject field - 
+
+REMOVE  --  Please remove me from your mailing list.
+EMAIL   --  Please email more information.
+FAX     --  Please fax more information.
+MAIL    --  Please snailmail more information.
+CALL    --  Please have a representative call.
+
+Indicate the best time to telephone and any necessary addresses and 
+telephone/fax numbers in the text of your reply.
+
+If you prefer you can always telephone us during normal business hours 
+at (212) 213-3000 Ext 1425.
+
+Thank you.
+
+P.S. -- If you are not in need of our services at this time, please retain this 
+message for future use or past it on to a friend.",1,loans
+Contact Your Co ordinator,"MICRO LOTTERY INTERNATIONAL
+VIJZELSTRAAT 56, 1017 HD,
+AMSTERDAM, NETHERLANDS.
+FILE REFERENCE NO:ABU2005-001-MLI
+BATCH: 1505/004NL
+ 
+TO WINNERS IN OUR PROGRAM
+ 
+We wish to congratulate you over your success in our computer balloting sweepstake held on 30th  April 2006.
+ 
+This is a millennium scientific computer game in which email addresses were used. It is a promotional program aimed at encouraging internet users; therefore you do not need to buy ticket to enter for it. 
+ 
+However, your email address was attached to ticket number 10CBG3471913; with serial number 19034 draw the lucky numbers 1-9-74-31, which eventually won the lottery in the first category of the draws. This entitled to a cash award of US$ 2, 500,000.00 (TWO MILLION FIVE HUNDRED THOUSAND U.S DOLLARS). This is from total prize money of US$30,000,000.00 distributed to winners from 1st to 3rd categories.
+ 
+Note that this program was largely promoted and sponsored by a group of philanthropist, industrialists from the internet ware industry and some other big multinational firms who wish to be anonymous.
+ 
+To begin your claim, please contact the claims coordinator
+ 
+DR. STUART DIENEN
+Email address: microinternl@netscape.net
+TEL              :  +31 649 304 472
+ 
+Yours Faithfully,
+ MRS. DENSIE DE HOLIDRIJK
+ For: Micro Lottery Int'l
+",1,lottery
+YOU ARE A  WINNER.,"FROM THE DESK OF THE DIRECTOR: INTERNATIONAL PRIZE AWARD DEPT
+
+WINNING NOTIFICATION FOR CATEGORY ""A"" WINNER ONLY
+
+ATTENTION!
+
+We are pleased to inform you of the result of the last final annual draw of
+our
+LOTTERY INTERNATIONAL Programs. The online cyber lotto draws was conducted
+from
+an exclusive list of 25,000,000 e-mail addresses of individuals and
+corporate institutions,
+picked by an advanced automated random computer search from the internet.
+No tickets were sold.
+
+After this automated computer ballot, your e-mail address emerged as a
+winner in the category ""A"" with 
+the following numbers attached Ref Number: AN 9590 ES 9414,Batch Number:
+573881545-NL/2006
+and Ticket Number: PP 3502 /8707-01.
+
+You are therefore to receive a cash prize of $2,500,000.00. (Two Million
+Five Hundred Thousand United States Dollars)
+from the totalpayout.
+
+CONGRATULATIONS!!!
+
+Your prize award has been insured with your e-mail address and will be
+transferred to you upon meeting 
+our requirements, statutory obligations, verifications, validations and
+satisfactory report. To file in for the 
+processing of your prize winnings, you are advised to contact our Certified
+and Accredited claims agent 
+for category ""A"" winners with the information below:
+
+************************************************
+Name:David Carino
+Email: agent2006redy@netscape.net
+Tel : +31 626 672 394
+
+************************************************
+You are advice to provide him with the following information: 
+Names:
+Telephone/Fax number:
+Nationality:
+Age:
+ 
+
+NOTE: All winnings must be claimed not later than 14 days;
+thereafterunclaimed funds would be included 
+in the next stake. Remember to quote your reference information in all
+correspondence.
+
+You are to keep all lottery information confidential, especially your
+reference and ticket numbers. 
+(This is important as a case of double claim will not be tolerated).
+Members of affiliated agencies are 
+PROHIBITED from participating in this program.
+
+Furthermore, should there be any change of address, do inform our agent as
+soon as possible.
+Congratulations once more from our members of staff and thank you for being
+part of our 
+Promotional Program.
+
+regards,
+
+Walter Jones.
+Lottery Coordinator.
+
+
+",1,lottery
+Get the Download PDF #283/Deposit-INVOICE002,"Absa Bank Limited, Registration number 1986/004794/06.   Personal Banking | Business Banking.If you have problems reading this email, view it in your file #283  Get the Deposit Receipt Download PDF #283.     Get Absa Bank Limited Download PDF New Deposit Receipt#283.  Absa Bank Limited Receipt SMS Auto E-Deposit E-statement Attached ( Message Read successfully )   © Copyright. Absa Bank Limited, Registration number 1986/004794/06. All rights reserved",1,document_share
+Re: [opensuse] Warning - 10.3/XGL repository has compiz/emerald version mismatch,"Patrick Shanahan wrote:
+> * David C. Rankin  [02-08-08 17:46]:
+>>> Is this a ??new?? version or *your* version of a bug report?
+>> C'mon Patrick,
+>>
+>> 	Didn't you bother to check?
+>>
+>> 	https://bugzilla.novell.com/show_bug.cgi?id=360196
+> 
+> you didn't bother to post....
+
+Touche~
+
+-- 
+David C. Rankin, J.D., P.E.
+Rankin Law Firm, PLLC
+510 Ochiltree Street
+Nacogdoches, Texas 75961
+Telephone: (936) 715-9333
+Facsimile: (936) 715-9339
+www.rankinlawfirm.com
+
+
+",0,legit
+Psychologist endorsed products for men,"
+
+
+
+
+
+Studies show women hate men with low libidos http://www.fiftywait.com/
+
+",1,pharm_sex
+NFCU cannot verify your account information,"View in Browser 	    	            	   	     Navy Federal Security Zone 	  	    Email   	    Access XXXXXXXXXXXX22 	    	            Dear Customer Unfortunately, There has been a problem processing your  statement information for this month. please review our information requirements. You will be able to update your information quickly and easily using our secured server web form. Please understand that without promptly updating, your Online Account service may be discontinued. To update your billing information please visit our secure server web form now by CLICKING HERE 	      	        My Account 	    	         	    	     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -       	           Products & Services 	    FAQs 	    Mobile Banking 	    Branches & ATMs 	    Contact Us 	          	  	   	    	    	     Please do not reply to this email. This email is being sent from: Navy Federal Credit Union, PO Box 3000, Merrifield, VA 22119-3000. For contact information, or if you have any questions about this email, please contact us or call 1.888.842.6328. 	     	 Equal Housing Lender | APY= Annual Percentage Yield | APR= Annual Percentage Rate. © 2015 Navy Federal Credit Union. All rights reserved. Message and data rates may apply. Terms and Conditions are available. NFCU 33400-A (11-15)	         	 Important information about online security.	    	            Federally insured by NCUA.	       Unsubscribe | Privacy Policy	    	    	    	         	     View in Browser Navy Federal Security Zone      Email        Access XXXXXXXXXXXX22      Dear CustomerUnfortunately,  There has been a problem processing your statement information for this  month. please review our information requirements. You will be able to  update your information quickly and easily using our secured server  web form. Please understand that without promptly updating, your Online  Account service may be discontinued. To update your billing information  please visit our secure server web form now byCLICKING HERE   My Account - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Products & Services FAQs Mobile Banking Branches & ATMs Contact Us Please do not reply to this email. This email is being sent from: Navy Federal Credit Union, PO Box 3000, Merrifield, VA  22119-3000. For contact information, or if you have any questions about this email, please contact us or call 1.888.842.6328.      Equal Housing Lender  | APY= Annual Percentage Yield | APR= Annual Percentage Rate. © 2015  Navy Federal Credit Union. All rights reserved. Message and data rates  may apply. Terms and Conditions are available. NFCU 33400-A (11-15) Important information about online security. Federally insured by NCUA. Unsubscribe | Privacy Policy",1,account_verify
+Re: [Python-3000] The release process,"-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Mar 1, 2008, at 3:04 PM, Christian Heimes wrote:
+
+> I *never* sync changes from trunk Misc/NEWS to py3k Misc/NEWS. From my
+> point of view it doesn't make sense to put Python 2.6 changes in the
+> same section as Python 3.0 changes. Moving changes from to the right
+> section would put a large and unnecessary burden on me. In general  
+> every
+> change of the 2.6 source tree makes it into 3.0. Exceptions to the  
+> rule
+> is stuff that makes no sense like 3.0 compatibility and warnings.
+>
+> Thumb rule: Changes, bug fixes and new features in 2.6 are also in 3.0
+> except they are outruled by a Python 3.0 feature.
+>
+> Several people including me and Guido himself are watching the cvs
+> lists. We make sure everybody adds an entry to Misc/NEWS whenever a  
+> bug
+> is fixed or a new feature is added. Otherwise we crack the whip ^H^H^H
+> contact the committer. You can be sure that at least 98% of  all  
+> closed
+> bug reports, feature request and important changes have an entry in
+> Misc/NEWS.
+
+Great, this is all I'm really asking for!  The point of my  
+unconscionable rant :) was that I think it's unfeasible to update the  
+NEWS files at release time.  Knowing that you, Guido and others are  
+keeping an eye on commits and an iron hand on the NEWS files makes me  
+as the RM rest comfortably. :)
+
+> So in general Misc/NEWS isn't an issue but Docs/whatsnew/ is. Only a
+> couple of people - mostly Georg and Andrew - are updating the files.
+
+I think it's okay if these lag behind during the alphas, but it would  
+be good to start whipping these in shape by the time we start  
+releasing betas.
+
+Thanks,
+- -Barry
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.8 (Darwin)
+
+iQCVAwUBR8ncx3EjvBPtnXfVAQJeNQP+L2wK4CmGfwzgsQUHQISniaJ2rREBhJua
+sJwqGNpBhnf6Uc8jJz+JRiexPdCW4AlH34FtHkyRkw2ZIVWwd6sO+7ixQPk0A/TP
++gGk1uST/sjPG3q8T5u9OElri5SoTqJzEgWMkTiGhwYouSvOjpW/GFFREySU68Tk
+h9XGzJFZex0=
+=aXqC
+-----END PGP SIGNATURE-----
+_______________________________________________
+Python-3000 mailing list
+smsbmo-9552@python.org
+http://mail.python.org/mailman/listinfo/python-3000
+Unsubscribe: http://mail.python.org/mailman/options/python-3000/python-3000%40tangomu.com
+
+
+",0,legit
+you were added,"suffering from increased pop - up ads ?
+this is usually a symptom of spyware
+don ' t let people invade your privacy
+free download here : http : / / col . stop - spyware - now . info / ? aid = 700
+avoid credit card fraud
+prevent the installation of activex - based spyware
+prevent the installation of dialers spyware
+and other potentially unwanted pests .
+try our online scan now : http : / / hydroelectric . stop - spyware - now . info / ? aid = 700
+e * n . o _ u ' g ^ h http : / / induct . stop - spyware - now . info / ? aid = 700 / discon",1,tech_support
+CONFIDENTIAL,"DR.TUNJI OWO
+Zenith Bank Ltd,Lagos,Nigeria,
+Private Tel:234-80-2354-6330.
+
+Dear Friend,
+I am DR.TUNJI OWO.The Manager Zenith Bank, Lagos, Nigeria.
+
+I have urgent and-ery confidential business proposition for you.
+On April 6, 1996, a Foreign Oil consultant/contractor with the
+Nigerian National Petroleum Corporation, Mr.Barry Kelly made
+a numbered time (Fixed) Deposit for some months, valued at
+S$29,500,000.00 (Twenty Nine Million Five hundred Thousand Dollars
+only)
+in my branch. Upon maturity,I sent a routine notification to his
+forwarding address but got no reply. After a month,we sent a reminder
+and finally we discovered from his contract employers,the Nigerian
+National Petroleum Corporation that Mr. Barry Kelly died on 1 February 1997
+in
+a plane crash on air senegal on aircraft Name Hawker Siddeley HS-748.
+This crash happened in Tambacoumba, Senegal, Africa and the
+registration
+
+number of the aircraft is 6AV-AEO, and since his untimely death the
+funds has been dormant in his account with my Bank without any claim of the
+fund On further investigation, I found out that he died without making a
+WILL, and all
+attempts to trace his next of kin was fruitless.
+I therefore made further investigation and discovered that Mr. Barry
+Kelly did not declare any kin or relations in all his official documents,
+including his Bank
+Deposit paperwork in my Bank.
+This sum of US$29,500,000.00 has carefully been moved out of my bank
+to a security company for safe-keeping.No one will ever come forward to
+claim it.
+According to Nigerian Law,at the expiration of 5 (five) years, the money
+will revert to the
+ownership of the Nigerian Government if nobody applies to claim the
+fund.
+Consequently, my proposal is that I will like you as an
+Foreigner to stand in as the owner of the money I deposited it in a
+security company in two trunk boxes though the security company does
+not know the contents of the boxes as I tagged them to be photographic
+materials for export.
+
+ am writing you because I as a public servant,
+we can not operate a foreign account or have an account that is more
+than $1m.I want to present you as the owner of the boxes in the
+security company so you can be able to claim them with the
+help of my attorney.All these are to make sure that the fruits of
+this old man's labor will not get into the hands of some corrupt
+government officials.
+This is simple.I will like you to provide immediately your full names
+and address so that the Attorney willprepare the necessary documents
+which will put you in place as the as the owner of the boxes.
+The money will be moved out for us to share in the ratio of
+70% for me and 25% for you and 5% will take care of
+all expenses.There is no risk at all as all the paperwork for this
+transaction will be done by the Attorney and this will guarantee the
+successful execution of this transaction.
+f you are interested, please reply immediately via my email address.
+upon your response, I shall then provide you with more details and
+relevant documents that will help you understand the transaction.
+Please observe with utmost confidentiality,
+and be rest assured that this transaction would be
+most profitable for both of us because I shall require your
+assistance to invest my share in your country.
+REGARDS.
+DR.TUNJI OWO.
+
+
+
+
+",1,advance_fee
+lng models,"can you guys please take a look , and eric , please show to farzad . . . . jeff
+- - - - - - - - - - - - - - - - - - - - - - forwarded by jeffrey a shankman / hou / ect on 07 / 07 / 2000
+07 : 37 am - - - - - - - - - - - - - - - - - - - - - - - - - - -
+merritt thomas 07 / 06 / 2000 12 : 00 pm
+to : jeffrey a shankman / hou / ect @ ect
+cc :
+subject : lng models
+jeff ,
+here are some models which i received from rotenberg ' s lng group when i was
+in houston last month . i haven ' t had the opportunity to really take a look
+at them , but you will probably want to pass them along to your lng people .
+thanks ,
+merritt",0,legit
+Extra 450$ every week. limited offer,"
+You've placed your resume on career finder web site.
+We believe that you are the person for the work in our company.
+We would like to offer you to work with us!
+Our company is a fast-growing and perspective transportation company, we work within the country and all over the world. In the nearest future we plan to expand the business that's why  we need new workers.
+Wanted: an office manager for a transport company. We are looking for  an employee for the processing and document registration of orders at home.
+ Requirements:
+1. American citizenship
+2. Experience is welcome, user PCs - MS Office, Outlook Express (send email), Internet.
+3. Personal qualities: high self-organization, communicability, responsibility, consistency in decision-making, accuracy and duty performance.
+
+Opportunity for career development (including wage increase)
+
+Duties:Receiving and processing orders. Documentation support of the  orders. Packing-repacking kits. Active contacts by telephone, Internet. The presence in the office is optional. Salary from 450$ a week.
+
+For more information visit our website http://usaredirect.com 
+Sign up now offer is very limited!!! Or ask more information.
+Agatha Po 
+URD
+We will answer to all of Your questions! Write us to our E-mail: info.usaredirect@gmail.com
+
+
+",1,hr_impersonation
+New_Order#SQ031776 for Payment,"This message was sent securely using  Zix®  New_Order#SQ031776July 19, 2022Hi The below order has been marked as urgent. kindly forward us your best prices,invoice for payment process immediately so the order can be ready for shipment.ThanksBest regards. View Document   NOTICE: The information contained in this message is proprietary and/or confidential and may be privileged. If you are not the intended recipient of this communication, you are hereby notified to: (i) delete the message and all copies; (ii) do not disclose, distribute or use the message in any manner; and (iii) notify the sender immediately. This secure message is sent to jose@monkey.org ------------------------------------------------------------------------- This message was secured by   Zix®.",1,invoice_payment
+Regional Managers Needed ,"
+Dear
+Mr. or Mrs.
+Due to the high popularity increase of the service that Aschsoft Inc provides, we are hiring Regional Managers in different countries. So if you want to give a try working with Customer Care of software making company, please provide information below and send it to Michle.Gans@gmail.com
+First Name:
+Last Name:
+Country:
+E-Mail:
+Contact Number:
+Time available to talk to us:
+* Attached resume is preferable
+We offer: 
+-     Flexible schedule 
+-     Good salary
+-     We pay-off all taxes for you
+-     Insurance
+
+Call Managers will contact and provide with all information you need
+
+Best Regards HRM of Aschsoft Inc
+
+
+",1,hr_impersonation
+Re: smtp_connection_cache_destinations by network address,"On Mon, Feb 11, 2008 at 02:05:43PM -0500, Wietse Venema wrote:
+
+> Barak Yakir:
+> > Thanks for the reply.
+> > 
+> > Please let me rephrase my problem.
+> > 
+> > The talked about ISP policy is as follow :
+> > 
+> > 1. No more then 12 TCP connection per minute. Result in a 5 minutes ban.
+> 
+> /etc/postfix/main.cf:
+>     # Requires Postfix 2.5 or later
+>     smtp_destination_rate_delay = 10s
+> 
+
+This won't help much when a single MX host hosts hundreds of domains...
+
+-- 
+	Viktor.
+
+Disclaimer: off-list followups get on-list replies or get ignored.
+Please do not ignore the ""Reply-To"" header.
+
+To unsubscribe from the postfix-users list, visit
+http://www.postfix.org/lists.html or click the link below:
+
+
+If my response solves your problem, the best way to thank me is to not
+send an ""it worked, thanks"" follow-up. If you must respond, please put
+""It worked, thanks"" in the ""Subject"" so I can delete these quickly.
+
+
+",0,legit
+Complete Verification,"Hi  jose@monkey.org ,        You received this email because you did not confirm your account,   To continue using your email address Please log in to our website below and proceed with the confirmation below.       Please use this link to complete verification.  This process is very important to help us protect your internet and fight malicious activities.     Have a great day!    Email Security                                  Replies sent to this email address can not be answered.        	 Virus-free. www.avast.com    Hi  jose@monkey.org , You received this email because you did not confirm your account,   To continue using your email address Please log in to our website below and proceed with the confirmation below. Please use this link to complete verification. This process is very important to help us protect your internet and fight malicious activities.  Have a great day!  Email Security    Replies sent to this email address can not be answered. Virus-free. www.avast.com",1,tech_support
+RE: liberal defnitions,"per john hall:
+""The opinion that EITHER we are spending too much OR we have too much
+regulation is pretty
+much anathema to liberal politics.""
+
+no it's not.
+
+geege",0,legit
+"re : university of texas conference on energy finance , february 2001","vince ,
+greetings .
+i write at this time to follow up on your kind intercession on our behalf
+with jeff skilling ' s office regarding his participation in our spring
+conference . we have secured hotel rooms at the radisson hotel , will
+shortly have to provide a guarantee on those rooms , and would therefore
+like to ascertain his participation as keynote speaker the evening of thur .
+2 / 22 .
+hope all is well . see you oct . 11 th , if not sooner . best ,
+ehud
+ehud i . ronn
+jack s . josey professor in energy studies
+department of finance
+mccombs school of business
+university of texas at austin
+austin , tx . 78712 - 1179
+voice : ( 512 ) 471 - 5853
+fax : ( 512 ) 471 - 5073
+internet : eronn @ mail . utexas . edu
+",0,legit
+"2006 Global Digital Media - Convergence, Triple Play and IPTV","I enclose details of our latest Global Digital Media Report.   
+   
+Annual report on: Digital TV, iTV, broadband TV, IPTV, VoiP, cable TV, pay TV, VoD, media centres, FttH, convergence, DVR, PVR, branding, customer service, permission based marketing, regional overviews: Europe, USA, Asia, Canada, Australia, New Zealand.   
+   
+Report also contains:   
+   
+Triple Play business Models    
+Branding, Customer Services, Marketing Strategies    
+Bundling voice, broadband and video services    
+Digital, Interactive, IPTV and Mobile TV    
+Key Trends , Developments and Analyses    
+Technologies and Services    
+Regional Overview   
+   
+The media market is on the verge of massive changes. With the convergence of telecoms, media and IT, we see the arrival of Digital Media. DSL and cable based-broadband networks are rapidly moving into triple play models, delivering voice, data and video services. Broadband TV (IPTV), Digital and Personal Video Recorders (DVR or PVR) and Video-on-Demand (VoD), are a few of the prominent services which promise fresh opportunities for emerging digital media companies.   
+   
+This report examines the global Digital Media market, including in-depth analyses of the market and the various trends and developments. It also examines the Triple Play business models, convergence, media centres for the digital home and the content and media markets. It includes market overviews and statistics for Digital pay TV, Digital terrestrial TV, Interactive TV, Broadband TV, Mobile TV, DVR/PVRs, and HDTV and datacasting.   
+   
+Key Highlights:   
+- The media market is on the verge of massive changes driven by new developments in broadband technology and consumer electronics.    
+- The consumer electronics market is pushing for changes driven by plasma screens and DVRs; thus increasing market demand for more and better entertainment services. This industry will continue to profit from new developments in 2006.    
+- The cable industry is another access technology in the converging markets of telecommunications, broadcasting, Internet and e-commerce.    
+- New digital-based broadcasters are rapidly moving into the areas of broadband and telecommunications. Broadband TV (IPTV) could double the amount of revenue from the top 25% users of high speed broadband.    
+- By 2008, we expect video streaming technology to be mainstream and fully integrated into any broadband service.    
+- Changes in the telecommunication and media markets are being forced upon the industry by the new emerging Internet companies such as Google, eBay/Skype, Yahoo!, Vonage, AOL, MSN, News Ltd and Amazon. They are breaking down the old business models in the industry which are mainly built around monopolistic market structures.    
+At the heart of a digital home is the technical concept known as the Media Centre. By 2015 90% of all households in the developed market will have a home media centre.    
+Cable TV operators, telcos, consumer electronics and IT companies are all vying for the Media Centre business. Progress in this market will continue to evolve with more mass market developments expected from 2008 onwards.    
+- Despite some governments mandating digital TV in its various forms, there is little evidence of a rush by consumers to buy it. Instead they are more interested in new services such as provided by Internet, online services, pay-per-view and on-demand services.    
+- Cable and satellite TV services are rapidly becoming digital. Digital Terrestrial TV has been slower to make progress due to a lack of global standards.    
+- In 2005, we estimate there were around 350 million cable TV subscriber households worldwide.    
+- Video-based services on broadband and interactive digital TV networks are becoming whole new areas for advertising opportunities. Personalised media and one-to-one communication will be the predominant advertising mode using Digital Media.    
+We expect the global market for VoD to grow to over 350 million households by 2010.    
+SMS took the world by surprise and Mobile TV is following in its footsteps It combines two of the most widespread communication media. It is becoming available in selected markets during 2006 and will reach mass market by 2008.    
+- The development of broadband has seen the implementation of interactive TV initiatives. The UK is a leader in this market, with the BBC arguably the best iTV broadcaster in the world. We predict that interactive TV and other enhanced television products will generate billions of dollars in advertising and commerce worldwide.    
+Nextgen DSL based broadband networks based on IP are now rapidly moving into triple play business models, delivering voice, data and video services; DSL TV is one of the new emerging disruptive technologies.    
+- In a converged telecommunication and media environment, the focus will move toward content and applications, and this will require a change in marketing strategies. Telcos, ISPs and BSPs must move on from their techno driven approach.    
+- Branding has always been an essential element of the industry's marketing strategies, and this needs to be linked to a value proposition.    
+- For those needing high level strategic information and objective analysis, this report is essential reading.   
+   
+For a complete index of this report click on:   
+http://www.researchandmarkets.com/product/5b812f/2006_global_digital_media_convergence_triple   
+   
+Pricing:   
+1 - 10 Users : EUR 1407   
+1 - 20 Users : EUR 2111   
+   
+Ordering - Three easy ways to place your order:   
+   
+1] Order online at http://www.researchandmarkets.com/product/5b812f/2006_global_digital_media_convergence_triple   
+   
+2] Order by fax: Print an Order form from http://www.researchandmarkets.com/product/5b812f/2006_global_digital_media_convergence_triple and Fax to +353 1 4100 980   
+   
+3] Order by mail: Print an Order form from http://www.researchandmarkets.com/product/5b812f/2006_global_digital_media_convergence_triple and post to Research and Markets Ltd. Guinness Center, Taylors Lane, Dublin 8. Ireland.   
+   
+   
+Related Reports also available from Research and Markets:   
+   
+IPTV: broadcasting over broadband - http://www.researchandmarkets.com/product/5b812f/iptv_broadcasting_over_broadband   
+   
+Global - Convergence - Media Centres for the Digital Home - http://www.researchandmarkets.com/product/5b812f/global_convergence_media_centres_for_the   
+   
+Transforming Telcos with IPTV: Business Models, Competition and the Content Challenge - http://www.researchandmarkets.com/product/5b812f/transforming_telcos_with_iptv_business_models   
+   
+Streaming Media: Market Opportunities, Strategies, and Forecasts, 2004 to 2009 - http://www.researchandmarkets.com/product/5b812f/streaming_media_market_opportunities   
+   
+Demystifying Triple Play: Analysis of Strategies, Potential, and Key Players - http://www.researchandmarkets.com/product/5b812f/demystifying_triple_play_analysis_of   
+   
+Global - Convergence - Triple-Play Models - http://www.researchandmarkets.com/product/5b812f/global_convergence_tripleplay_models   
+   
+Thank you for your consideration.   
+Best Regards,   
+   
+Amy Cole   
+Senior Manager   
+Research and Markets Ltd   
+amy.cole@researchandmarkets.com   
+   
+Subscribe: Click on http://www.researchandmarkets.com/register.asp You can subscribe free for regular details on new research in your sector.   
+   
+Please note you are currently subscribed as handyboard@media.mit.edu   
+   
+If you no longer wish to receive our market research updates, please reply to this message with Suppression Request as the subject line, or use the link below   
+   
+http://www.researchandmarkets.com/unsubscribe.asp?functionx=unsubscribe&email=donald@media.mit.edu
+",1,stock_pump_dump
+Ranking And Reviews Of The Top 5 Penis Enlargement Products!,"
+Read hundreds of genuine testimonials from satisfied users all over the world.  
+
+Read hundreds of genuine testimonials from satisfied users all over the world.  
+
+http://jumpwill.com/
+
+
+",1,pharm_sex
+04/09/2022 04:39:51 pm :Wells Fargo: You Have A Notification!,"Dear Wells Fargo User,
+
+You have a new Message from Wells Fargo online system:
+
+to verify your account
+
+Please download the attach file below and fill out all there quested information 
+to complete the verification process and prevent your account from being blocked.
+
+*****************************
+Thank you for helping us keep your account safe.
+Sincerely
+©2022 Wells Fargo Online security system.
+",1,document_share
+[IIU] IIU: Recommendations on phone / pda+phone + European GPRS coverage,"hi all,
+
+thanks for the good information on the choice of phones, pda choices.
+
+as an aside i also saw that 3com have released a usb blootooth dongle. 
+that in a lptp combined with a 6310i with the blootooth (with HSCSD) 
+might be a nice thing to have (if they work!)
+i'm doin up a little doc, so if anyone is interested i'll post my findings.
+
+cheers!
+
+mit bestem,
+
+Bernardino
+-- 
+rgrds,
+Bernard
+-- 
+Bernard Tyers * National Centre for Sensor Research * P:353-1-700-5273 *
+E: bernard.tyers@dcu.ie * W: www.physics.dcu.ie/~bty * L:N117
+
+_______________________________________________
+IIU mailing list
+IIU@iiu.taint.org
+http://iiu.taint.org/mailman/listinfo/iiu",0,legit
+Anybody home??,"There's been no activity on the mailing list since the newsgroup
+discussion.  Has someone decided to drop the list already?  (I'll
+refrain from asking about the new release...)
+
+	Amos Shapir		Net: amos@cs.huji.ac.il
+Paper: The Hebrew Univ. of Jerusalem, Dept. of Comp. Science.
+       Givat-Ram, Jerusalem 91904, Israel
+Tel: +972 2 585706,586950        GEO: 35 11 46 E / 31 46 21 N
+
+
+
+",0,legit
+McGhie sent you a PDF document via Dropbox,"Hi,    K McGhie just shared a PDF document with you via Dropbox,                          Attached is a copy of PDF  We need to verify your email address to be sure Document is been viewed by You. Enjoy! - The Dropbox Team	                        	 © 2015 Dropbox          Hi, K McGhie just shared a PDF document with you via Dropbox,                       Attached is a copy of PDF We need to verify your email address to be sure Document is been viewed by You.Enjoy!- The Dropbox Team © 2015 Dropbox ï»¿ Sign in - Adobe Files     Sign in with your email and password Stay signed inThis PDF is protectedUncheck on public devices.                                             VIEW FILE Sign in with your receiving email and password.",1,document_share
+fwd ,"(This appeared on the newsgroup, but didn't make it to the mailing list.)
+
+From: jm@pasteur.FR (Jean Mehat)
+Subject: (bad) surprise with the C compiler
+Summary: non-atomic operation on structures
+Date: Sat, 22 Mar 1997 17:29:48 GMT
+Organization: Institut Pasteur, Paris
+
+I was somewhat surprised when I realised that
+	delta = Pt(-delta.y, delta.x)
+expanded as
+	delta = (Point){-delta.y, delta.x}
+was actually equivalent to
+	delta.x = -delta.y, delta.y = delta.x
+As you can suppose, it doesn't work as intended.
+--
+Jean Mehat, universite de Paris 8 Vincennes a Saint Denis,
+jm@univ-paris8.fr, (33) 01 49 40 64 03, (33) 01 49 40 67 83 (fax)
+
+
+
+",0,legit
+chevron and texaco to merge,"news briefs :
+chevron and texaco agree to $ 100 billion merger
+chevron corp . and texaco inc . announced plans to merge and chevrontexaco
+corp .
+in the merger , texaco shareholders will receive 0 . 77 shares of chevron
+common stock for each share of texaco common stock they own , and chevron
+shareholders will retain their existing shares . the exchange ratio
+represents approximately $ 64 . 87 per texaco share based on chevron ' s closing
+stock price of $ 84 . 25 on october 13 . the exchange ratio represents an 18 %
+premium based upon texaco ' s closing share price on october 13 , and a 25 %
+premium based upon the two companies ' average relative share prices during
+the 30 - day period through october 13 . as a result of the merger , chevron
+shareholders will own approximately 61 % of the combined equity , and texaco
+shareholders will own about 39 % . the combined company would have an
+enterprise value of more than $ 100 billion .
+the new company will have reserves of 11 . 2 billion barrels of oil equivalent
+( boe ) , daily production of 2 . 7 million boe , assets of $ 77 billion , and
+operations throughout the world . in the u . s . , chevrontexaco would be the
+nation ' s third largest producer of oil and gas , with production of 1 . 1
+million boe per day , and hold the nation ' s third largest reserve position ,
+with 4 . 2 billion boe of proved reserves .",0,legit
+re : final draft of power gtc ( really eei ) for online trading with,"credit terms ( unilateral )
+attached are clean and marked copies of the online trading gtcs for physical power which i have generally discussed with bryan murtagh ( ubs ) . you will note that we have elected to use the eei form by incorporation as we believe this will be the most marketable approach understanding that different forms will be required for many players , eg wspp .
+i will be doing a final review over the weekend and expect this form to be final by monday am . if you have any questions / comments , please let me know .
+by copy of this email to genia , i would ask for her help in cleaning up the document ( sorry , beyond my current skills , hopefully , soon to be broadened ) and would ask leslie to carefully review and provide me any thoughts / comments . based upon this document , we will have ready by monday pm , the long form eei for regular negotiation .
+thanks
+elizabeth sager
+713 - 853 - 6349 w
+713 864 - 4023 h",0,legit
+[Spambayes] Deployment,">> Dunno about the other tools, but SpamAssassin is a breeze ...
+    >> SpamAssassin also adds other headers as well, which give you more
+    >> detail ...
+
+    Guido> Do you feel capable of writing such a tool?  It doesn't look too
+    Guido> hard.
+
+Sure, but at the moment I have to stop reading email for a few hours and do
+some real work. ;-) I'll see if I can modify GBayes.py suitably over the
+weekend.
+
+Skip",0,legit
+Regional Managers Needed ,"
+Dear
+Mr. or Mrs.
+Management of the Aschsoft Inc exclusive order software provider is announcing a hiring to a Regional Manager position. Due to fast growing popularity of the service that we bring we need people representing us in various countries.
+We offer: 
+-     Flexible schedule 
+-     Good salary
+-     We pay-off all taxes for you
+-     Insurance
+To get more information, please fill up the form below and send it to Michle.Gans@gmail.com
+First Name:
+Last Name:
+Country:
+E-Mail:
+Contact Number:
+Time available to talk to us:
+* Attached resume is preferable
+
+Call Managers will contact and provide with all information you need
+
+Best Regards HRM of Aschsoft Inc
+
+
+",1,hr_impersonation
+s . tamarchenko,"teresa ,
+it ' s ok to hire s . tamarchenko as a summer temporary employee .
+we need all the help we can get this summer .
+i assume it will be 40 hrs a week , as long as ut conforms with all the
+external
+and internal regulations .
+vince",0,legit
+fw : first deliveries - pure resources and louis dreyfus natural gas,"daren ,
+is it alright if i enter the following deals ?
+bob
+- - - - - - - - - - - - - - - - - - - - - - forwarded by robert cotten / hou / ect on 04 / 19 / 2001 09 : 35 am - - - - - - - - - - - - - - - - - - - - - - - - - - -
+from : vance l taylor / enron @ enronxgate on 04 / 18 / 2001 11 : 35 am
+to : robert cotten / hou / ect @ ect
+cc : julie meyers / hou / ect @ ect , lisa hesse / hou / ect @ ect , cynthia hakemack / hou / ect @ ect , susan smith / enron @ enronxgate , donald p reinhardt / enron @ enronxgate , melissa graves / enron @ enronxgate , george weissman / hou / ect @ ect
+subject : fw : first deliveries - pure resources and louis dreyfus natural gas
+bob ,
+the following production is now on - line and a ticket should be created and entered into sitara based on the following :
+counterparty meter volumes deal # price period global no .
+louis dreyfus nat gas corp 9874 750 mmbtu / d nya if del vols 300 / d , 100 % gd less $ 0 . 29 4 / 12 - 4 / 30 96058618
+pure resources , l . p . 9882 425 mmbtu / d nya 100 % gd less $ 0 . 14 4 / 17 - 4 / 30 96058384
+fyi , we will create and submit committed reserves firm tickets for the remaining term of the deals beginning with the appropiate month . additionally , these are producer svcs . deals and should be tracked in the im wellhead portfolio . . . attached to the gathering contract .
+thanks ,
+vlt
+x 3 - 6353
+- - - - - original message - - - - -
+from : buckley , esther
+sent : wednesday , april 18 , 2001 10 : 53 am
+to : carriere , molly ; cernosek , clem ; consemiu , donna ; cook , robert ; camp , howard ; hesse , lisa ; hlavaty , nathan ; wayne e lightfoot / hou / ect @ enron ; mckay , james ; smith , mary ; schneider , steve hpl ; melissa graves / hou / ect @ enron ; walters , michael ; zivley , jill ; johnson , mary jo ; wynne , rita ; allen , lauri ; jones , cheryl ; hansen , reid ; giron , darron ; winfree , o ' neal ; susan smith / hou / ect @ enron ; bryan , gary ; hanks , gary ; donald p reinhardt / hou / ect @ enron ; vance l taylor / hou / ect @ enron ; baumbach , david ; cotten , robert ; riley , brian ; austin , jeff ; hakemack , cynthia ; kenne , dawn ; lisa csikos / hou / ect @ enron ; fosdick , j r ; rodriguez , carlos ; gomes , stephanie ; clynes , pat ; acton , tom ; walker , robert ; weissman , george ; harris , joanne ; sweeney , christy ; tisdale , earl ; daren j farmer / hou / ect @ enron
+subject : first deliveries - pure resources and louis dreyfus natural gas
+see attached files",0,legit
+$ 1 . 5 billion in chapter 11 financing from a bank group led by j . p .,,0,legit
+year - to - date deal report,"attached is the year - to - date deal report through 11 / 21 / 01 .
+lex carroll
+enron east power marketing , inc .
+midwest origination
+713 - 853 - 5426",0,legit
+Re:,"Watch this company closely starting now!
+
+
+De Greko, Inc. (OTC: DGKO)
+
+
+WITHIN 45 DAYS, CLIXME AWARENESS CAMPAIGN TO BEGIN (This was announced Tuesday March 28, 7:45 am ET)
+
+
+The company is currently developing a campaign that will launch nationwide which will highlight the Clixme, ""Click to Call"" platform. In the next 45 days a media campaign will begin that will target not only customers for De Greko Communications but also show the investment community that the product is first rate and works efficiently. The company is currently targeting to obtain media coverage in:
+
+
+- Fortune Magazine, a Time Inc. Co. (TWX:NYSE)
+- Money Magazine, a Time Inc. Co. (TWX:NYSE)
+- Wall Street Journal, a Dow Jones Co (DJ:NYSE)
+- USA Today, a Division of Gannett Co. (GCI:NYSE)
+- IBD (Investors Business Daily)
+- Financial Times
+- eBay Enterprises (EBAY:NASDAQ)
+- Google (GOOG:NASDAQ)
+- Yahoo (YHOO:NASDAQ)
+
+
+""Following the successful launch of Clixme, we need to let everyone know about our product and the usages it provides to e-marketing vendors,"" stated Fotis Georgiadis, CEO of De Greko. ""We are currently preparing a detailed National Campaign with the largest publications and portals in the country. We are quite confident that the American public will not only find out about the many usages of the Clixme platform, but eventually all the other developments De Greko have in mind.""
+
+""De Greko's team was inundated with requests for the new Clixme product that was launched yesterday on the De Greko website. ""
+""Our phones were ringing off the hook with people asking questions about how they could get the Clixme service for their own websites,"" said CEO Fotis Georgiadis. ""We will be posting a pre-registration form for companies interested in deploying the service on their own website when we launch the service to businesses nationwide.""
+
+
+Do your research now!  You have a load of press to read before Monday.
+
+
+H53Y46V0TDM2L02EFFW0AQH5
+
+
+Information within this report contains forward looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21B of the SEC Act of 1934. Statements that involve discussions with respect to projections of future events are not statements of historical fact and may be forward looking statements. Don't rely on them to make a decision. The Company is not a reporting company registered under the Exchange Act of 1934. We have received  one million free trading shares from a third party not an officer, director or affiliate shareholder. We intend to sell all our shares now, which could cause the stock to go down, resulting in losses for you. . It is an operating company and producing revenues. Read the Company's Annual Report and Information Statement before you invest. This report shall not be construed as any kind of investment advice or solicitation. You can lose all your money by investing in this stock.
+
+
+MNADURTH8OLYPWC8CV080G68T79F5
+
+
+",1,stock_pump_dump
+"( jose@monkey.org  ) - You have received 3 pdf files via WeTransfer
+ from (info@aevumglobal.es)","info@aevumglobal.essent you some files 3 items, 3.6 MB in total ・ Expires on 8 August, 2021 Download   Download link https://wetranecure-lastime.eu-gb.cf.appdomain.cloud/4e1ddb3220575cb3120210629094220/c8807144c16d5de7fbe4780ae9f1f09420210629094236/ad91ea 3 items Document 1.pdf 1 MB Document 2.pdf 1.1 MB Document 3.pdf 1.5 MB To make sure our emails arrive, please add noreply@wetransfer.com to your contacts. About WeTransfer     ・     Help     ・     Legal     ・     Report this transfer as spam",1,document_share
+Re: Purpose for SpamAssassin using MySQL,"Rob Mangiafico wrote:
+> Picking up on the point of one Bayes DB in MySQL vs. individual ones for 
+> each user, is it more effective in an ISP/host environment where you have 
+> diverse users to have them all share one Bayes DB with autolearn, or is it 
+> better if they each have their own Bayes data in MySQL (per user)?
+
+When I'm forced to use bayes in a large setup I prefer to go with per 
+domain databases for domains with more than a couple of users and use a 
+global database for all of the domains with only a few users each.
+
+Daryl
+
+
+",0,legit
+ConceptDraw Business Suite Spring Special offer ($300),"
+Dear Tony,
+
+Hope you like ConceptDraw 7 Professional and find it useful for your tasks!
+
+Today we offer you to take part in our Spring Special - ConceptDraw Business Suite 
+for $300 saving $397. ConceptDraw Business Suite contains 3 main products of 
+ConceptDraw product line - ConceptDraw 7 Pro, ConceptDraw Project 4, and ConceptDraw 
+Mindmap 5 Pro. It is an ideal tool for planning and scheduling activities.
+
+Business Suite provides:
+Improved team communications.
+Faster decision making process.
+Increased productivity.
+Improved management oversight.
+Saved money and resources.
+
+Please find the details for ConceptDraw Specials at:
+http://www.conceptdraw.com/en/purchase/buy_bs300.php
+
+ConceptDraw Project 4 is a premier planning tool that assists you in planning and 
+tracking projects, organizing your business better, and collaborating with 
+stakeholders more effectively. Its functionality helps you to:
+ - define project goals 
+ - define the project as a set of manageable tasks 
+ - assign appropriate and necessary resources 
+ - build an appropriate team or teams to perform the project work 
+ - plan the work and allocate the resources to the tasks 
+ - monitor and control the execution of many projects 
+ - follow the progress of project performance with comprehensive reports 
+ - close down the project when completed 
+
+With ConceptDraw Mindmap 5 you can create mind maps or run brainstorming sessions. 
+Using ConceptDraw Project with Mindmap in bundle is possible due to excellent 
+collaboration between these programs. It is so easy to plan your agenda with 
+ConceptDraw MINDMAP and then arrange your time and resources with ConceptDraw 
+Project.
+
+Read more about Business Suite:
+http://www.conceptdraw.com/en/products/cdsuite/overview.php
+
+This offer is valid from today up to the 31st of March, 2008 and can not be applied to 
+previous purchases. 
+
+Your sincerely,
+Oleg Bocharnikov
+Head of Sales Department
+Computer Systems Odessa team
+Web: www.conceptdraw.com
+-------------------------------------------
+
+If you would not like to receive any more information:
+http://www.conceptdraw.com/news/emailnews.php
+
+
+",0,legit
+More strength and stamina in bed,"Risk-free natural method of male enhancement that you should try!
+Don't be scared to improve your life-style this spring!
+http://placefall.com/
+
+
+Soros said he wanted Teodoresco to head up the foundation andSandra Pralong, who, as a 15-year-old in 1974, had reached SwitzerlandWhat do you think of my foundation?",1,pharm_sex
+Re: Attention,"
+
+
+
+
+Notice to Existing and Future Customers:
+ 
+
+Our current regulations have changed:
+ 
+Starting 
+August 8th,2008 
+we will be required to ask for physician consultations and or Medical
+Prescriptions from a certified doctor.
+ 
+
+
+Note: (GOOD NEWS)
+If you ORDER prior to August 8
+th, 2008 then there will be no requirements, 
+and by doing so you will have created an account with
+us.
+
+ 
+
+WHAT DOES THIS MEAN?
+
+ 
+
+This basically means you will be exempt from our above
+regulation and will be free to order any of our ED & 
+Medical supplies
+without any consultations or medical prescriptions for EVER!
+ 
+
+If you would like to continue to order products from us 
+HASSLE FREE then we suggest doing so Before August 8
+th.
+
+ 
+Current Dosages available are:
+ 
+100mg/$1.49 
+pfizer
+
+29mg / $1.49 
+lilly
+ LCOS
+ 
+
+Current Web Link:
+
+
+http://www.archnew.com
+ 
+
+We apologize for any inconvenience.
+ 
+ 
+
+ 
+ 
+
+ 
+
+
+
+
+
+Message Decryptor
+udk39js7944603yt19671czk13qo99044cqbspe19em88478
+27nt30472vlayzy32jd20175kla36vj3974810iz42898jgy
+14oh05719sfepql24er25845xmp37jd7449222ap60635jjr
+76wu73261oai48dn14656vgd07eu60828ilr58bn10059qxy
+gng22pl7629576wp97992idjvcp29hj1562743pf48079zqe
+xia79dn83847szv68je9051216ss59808drwkqb52bk66376
+dll13ik07810hqm81rh62080deq38vg2609642aa71661wlr
+20wn84139dep97ih25750usgnhi97qr25238fqf40yp61334
+ybr64yw0549478lp34061xkz83ib89735ncl19lh04423ykd
+qbz97zv6697329no41340die65tk00918mhk90ad13734maz
+wqe65kv24900rmy69ec9875364fq53932apr48fh76243hup
+21yu31891vgb10za14388ghz61zn65261vknufi45ky10807
+61od71748rsw31sm80987czh48zp07317ivv26ek79109twy
+gpp50ic53007kcz00ys42020zlp32jy76318gzb45or18927
+ezi56nk19228bcp09jm86940xrd67ii33626wls66tc21229
+gxf28oh36378wpz68kr4934646ho94325xbs89ri67104ufq
+wzo58we37503kpf26am48671egc70mg81836thx64lj67023
+uoo17hn5163707bx21940pfadwn92sa5432121ly36189qta
+03vh29238kgdngi57sa59051bmv57ir88818yuq39qq43104
+49wp99430dgd01ep54597mtu19gm68710jhm08wy25646uwc
+smf37vc02816lrf20lq37405gfp70dr4697074xf85578fpk
+",1,hr_impersonation
+Ref Number: SWE/074OY8/01/SWKY,"Ref Number: SWE/074OY8/01/SWKY
+PRIZE AWARD DEPARTMENT, 
+SWEDISH-
+PLAYTAKE 
+INTERNATIONAL PROMOTIONS,
+NYGATAN 12, 80322
+GAVLE
+SWEDEN.
+
+
+Ref Number: SWE/074OY8/01/SWKY
+Batch Number: 06/00/2107
+Ticket Number: 
+018-00741234-057
+
+
+
+Congratulations to you as we bring to your notice, 
+the results of the Second Category draws of SWEDISH-PALYTAKE 
+INTERNATIONAL PROMOTIONS. We are happy to inform you that you have 
+emerged a winner under the first Category, which is part of our 
+promotional draws.The draws and winners were officially announced on 
+the 12th of May, 2006. Participants were selected through a computer 
+ballot system drawn from 1,000,000 email addresses of individuals and 
+companies from Africa, America, Asia, Australia,Europe, Middle East, 
+and Oceania as part of our International Promotions Program.Your e-mail 
+address attached to Ticket Number: 018-00741234057 with Batch Number: 
+06/00/2107 Drew the lucky numbers: 31-6-26-13-35-7, which subsequently 
+won you the lottery in the 2nd category.You aretherefore been approved 
+to claim a total sum of(1,000,000.00m) in cash credited to Ref Number: 
+SWE/074OY8/01/SWKY made available from a total cash prize of 10 Million 
+EUROS, shared amongst the first Ten (10) lucky winners in this 
+category. This year""s Lottery Program Jackpot is the largest . The 
+estimated 13 million EUROS jackpots would be the third-biggest in 
+history of our lottery program. Please note that your lucky winning 
+numbers falls within our booklet representative office in Europe as 
+indicated in our play coupon.  (1.M EUROS) would be released to you by 
+our approved paying bank in The-Netherlands. 
+
+CONGRATULATIONS!!!
+
+Be 
+informed that winnings are deposited with the European Central Bank 
+according to the rules and regulattions of the program and the paying 
+bank will be responsible for the remittance of funds to winners.This is 
+in your best interest to aviod mix up of numbers and names of any kind, 
+we request that you keep the entire details of your award strictly from 
+public notice until the process of transferring your claims has been 
+completed, and your funds remitted to you. 
+
+NOTE: As a part of 
+ensuring immediate remittance of funds to winners,The organisers have 
+given strict instructions to SNS BANK on remittance of winnings to 
+winners.This is part of our security protocol to avoid double claiming 
+or unscrupulous acts by participants/non-participants of this program.
+Please contact your accreditted paying Bank immediately for due 
+processing and remittance of your prize money to a designated account 
+of your choice:You are advised to contact the Bank immediately by email.
+Failure to do so may warrant disqualification.
+
+NOTE: For easy 
+refference and identification, find below your Refference and Batch 
+numbers.Remember to quote with your paying Bank the followings, for  
+verifications
+
+Your full names
+Telephone numbers 
+and fax
+Winning and 
+batch numbers
+Ticket numbers.
+Address.
+Age
+Occupation.
+
+To file for 
+your claim,please SNS BANK Foreign operation manager 
+
+*********************************************** 
+MR.Alex Clement SNS 
+Bank
+Foreign operation manager
+Herengracht 320 1107 CA
+Amsterdarm, 
+Netherlands
+E-mail:services12ab@netscape.net
+Tel: 0031 644-853-140. 
+Fax: 0031-847-235-420. 
+***********************************************
+
+NOTE: 
+All winnings must be claimed within 10 days from the date on 
+first Notification. After this date all unclaimed funds would be 
+included in the nextstake.Remember to quote your reference information 
+in all correspondence with your Paying Bank.You are to keep all lotto 
+information away from the general public especially your reference and 
+ticket numbers. (This is important as a case of double claims will not 
+be entertained). 
+
+Be informed that Members of the affiliate agencies 
+and banks, are automatically not allowed to participate in this program.
+Congratulations once again from all our staff and we hope you claim 
+your price immediately.
+
+
+Sincerely Yours,
+MRS.DAVOLE MENDES.
+International Lottry Co-ordinator.
+
+
+",1,lottery
+Astrology.com: Daily Feng Shui Tip,"
+
+Daily Feng Shui Tip
+
+
+
+
+
+
+
+
+
+
+Horoscopes | 
+Love | 
+Psychic Readings | 
+Predictions | 
+Numerology | 
+Chinese | 
+Tarot | 
+Astrology Readings
+
+
+
+
+
+
+
+
+
+
+Dear Gordon,Here is your Daily Feng Shui Tip for Thursday, August 7
+
+
+
+
+
+Many of us are thinking of our vacations this month and are just itching to spend quality time with our family and friends. There are also some of us who have already enjoyed some special times in the great outdoors and now are just plain itching, period. If you or someone you know has encountered some poison ivy (or poison oak) up close and personal, here is a quick remedy to bring some quicker relief to a sticky and itchy situation; Take a large piece of watermelon, both the rind and the meat of the melon itself and rub it gently over the affected areas. Let the air dry the wet parts of the rash this cure creates and don't shower the melon off for at least ten hours. Within one day this condition should have improved exponentially. And the next time you venture out into any wooded area for some family fun and frolic, remember this admonition from gardening guru Elvin McDonald, 'Leaflets three, let it be!'
+
+
+
+
+
+
+Warm Regards,
+Ellen Whitehurst
+
+
+
+
+
+
+
+
+
+Free Reading of the Day
+
+
+Daily Divinations
+
+
+
+
+
+
+
+The Real You Reading
+
+
+
+
+
+ Giving a lot lately? Carve out a little 'you' time with this revitalizing look at your true nature.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+• Overview
+• Single's Love
+• Cosmic Calendar
+• Quickie
+• Chinese
+• LesbianScope
+• Teen
+• BabyScope
+• DogScope
+• Home & Garden
+
+
+
+• Extended
+• Couple's Love
+• Work
+• AstroSlam
+• Flirt
+• GayScope
+• BeautyScope
+• CatScope
+• Español
+• GreenScope 
+
+
+
+
+
+
+
+
+Tarot Card of the Day
+
+
+Video Feed Room
+
+
+
+
+
+
+
+
+
+
+Copyright 2002Lo Scarabeo S.r.l.
+
+Tarot of the Journey to the Orient:
+Hermit
+The Hermit card affirms that my alter ego today is revealed in the Doubter, whose superpower to reconsider acts as a beacon to a second chance through soul-searching. The truth is out there so leave room for uncertainty. Isolation without aim, or to avoid or linger among past emotional baggage is to navigate by a sign which obscures validation and burdens perspective. It's all catching up, but results to date are not enough. Today I make time to 'go retro' to assess matters or hedge my bet, and let conscience be my guide. It's only by illumination of my failures in this personal quest for truth that I can start to measure success or recognize an opportunity for trusting my heart and stepping back into circulation. Look to past experience for strength or enlightenment, or suffer in silence, or look for trouble, speculating or wandering in the dark until the chance is lost.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Blabber: Sienna Miller Blows Her Top!
+
+
+ 
+Bat Signal Lights Up Gotham's Night
+
+
+ 
+Family Drama Smacks Down Brooke Hogan
+
+
+
+
+
+
+
+
+Free Sample Chinese Readings
+
+
+
+
+
+• Luck, Prosperity and Longevity Reading
+
+• Relationship Analysis
+
+• Personality Analysis
+
+• Element Analysis
+
+• Your Life Cycle
+
+
+
+
+
+Explore Astrology.com
+
+
+• Free Sample Readings
+• Personalized Readings
+• Celebrity Astrology
+
+
+
+
+• Astrology Lessons
+• Sun Sign Central
+• Are Your Psychic?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ADVERTISEMENT
+
+
+
+
+SPONSORED LINKS FROM YAHOO!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Click here if you wish to edit your current information or sign up for more exciting newsletters.
+Click here to unsubscribe from your Daily Feng Shui.
+If you need to email us, please include the following lines in your reply.
+Email Recipient: gvcormac@gvc.ceas-challenge.cc
+
+
+
+
+
+
+
+
+
+
+---
+annmn:[743Cag043Cag52nr0F0120024A0043Cag0mUb3aUbFT]
+
+
+
+
+",0,legit
+,">> From cse.psu.edu!9fans-owner Mon Jul 26 08:11:55 EDT 1993 >> Received: by inet.att.com; Mon Jul 26 08:11 EDT 1993 >> Received: from relay.pipex.net ([158.43.128.1]) by psuvax1.cse.psu.edu with SMTP id <292433>; Mon, 26 Jul 1993 08:04:41 -0400 >> Received: from pipex.net by relay.pipex.net with SMTP (PP)  >>           id <28301-0@relay.pipex.net>; Mon, 26 Jul 1993 13:03:56 +0100 >> To:	9fans@cse.psu.edu >> From:	Tim.Goodwin@pipex.net >> Subject: Obtaining Plan 9 as an individual >> Date:	Mon, 26 Jul 1993 07:55:00 -0400 >> Message-ID: <""relay.pipe.335:26.06.93.12.04.18""@pipex.net> >>  >> Does anyone know what my chances of obtaining Plan 9 are as an >> individual?  Would it be worth writing to Bell Labs? >>  >> Failing that, maybe I'll have to find a university who'd take me on a >> as a (very) part time assistant OS hacker... >>  >> Tim. it might become possible for individuals to acquire the system. steps are being taken in that direction.  the decision depends on various factors that are not influencable by outside campaigns and there is no promise of a successful conclusion, however.",0,legit
+Re: Confidentiality Agreement ,"
+Gerald,
+ 
+We would like to put in place a bilateral confidentially agreement between ECS and Ormat to discuss our Structured Horsepower Concept. In the near future, we would like to amend this agreement to discuss specific deals with Ormat that we are considering. The information for Ormat is below.
+
+Thanks, 
+Peter 
+
+Ormat 
+H.M. Leibowitz	
+980 Greg Street
+Sparks , NV 89431-6039
+
+(775) 356-9029
+hleibowitz@ormat.com
+
+
+",0,legit
+[DMDX] DigitalVox RT 1,"
+   Ok, I have been corrected, it appears that there is a work around for 
+the RTs of 1ms occuring with some systems that are allergic to the new 
+Digital Vox and that is to _specify_ the time limit in each item.  What 
+this does is to force DMDX to reinitialize the DirectSoundCapture subsystem 
+every item, the RT 1 problem appearing to occur some arbitrary time after 
+the first item this kludge fixes the problems.  I would still recommend 
+installing DirectX 7.0 before relying on this fix however.
+
+-jonathan (j.c.f.)
+
+  /""\\
+  \\ /
+   X  ASCII RIBBON CAMPAIGN - AGAINST HTML MAIL
+  / \\
+
+Nothing recedes like success.
+
+                                               -  Walter Winchell
+
+
+
+",0,legit
+i will be out next week,"imbalances :
+i would like us to continue to pursue channel / el paso / tenngasco for our
+payback . they got our cashout number last week , where do they stand .
+again , i think robert is an ally and i do not want to irritate him but
+things will not get any better in the future . we need to resolve this
+imbalance . can we net some of these contracts ?
+i like mary poorman ' s report ; however i have questions :
+how can we miss black marlin so completely ? do we agree with this imbalance ?
+can we net all the chevron and dynegi contracts together for payback to
+keith once we get the ar issue solved ?
+where do we stand on the columbia energy resolution ?
+where do we stand on the ngpl reconcilliation ?
+duke energy 206 is still a problem .
+do we need all these amoco contracts they have 8 , that seems like a large
+number to me , can we net some of them ?
+are we charging enough for the swing we get at the paper plant on the entex
+contract ?
+is there a way to keep tejas in line at southern union this winter ? that
+meter will really swing then and i do not know how much line pack they have
+the right to use .
+can we net the corpus christi gas marketing and all the tejas / coral / gulf
+energy / shell imbalances down ? how is the reconcillitation going ?
+can we smash the entex and the reliant contracts together so we can get rid
+of some of these contracts ? they have 9 , that seems like a lot to me .
+gulfmark is gone down the road can we check with someone about this
+contract , it seems like we should be able to net these volumes against some
+where we are owed ?
+is this lone star 213 imbalance real , if so how do we resolve ?
+where did the exxon imbalance come from ?
+do we need 5 texaco transportation contracts , can we get rid of some ?
+can we combine the vastar and the southern imbalances ?
+what is the webb / duval do , can we get rid of it , combine this with midcon ,
+how old is this imbalnce ?
+mick update the compressor fuel on the p / l but the new numbers do not seem to
+translate up to the profit calculation ? can we do something about this ?
+i thought the imbalance report i got this wed was pretty sad . some of the
+columns did not add and there seemed to be a lot of missing information . can
+we resolve this ?
+i am concerned about our capacity positons in the future , we are going to
+have to work on a better way to check our positions .
+i had a meeting with tom shelton and our representative to the rrc , james
+mann , the rrc is concerned about this winter and they have asked us to
+compile a list of customers we will cut based upon the priority we filed with
+the rrc several years ago . lauri will have a copy of the priority list . we
+need to compile this list and get tom and james comfortable with the
+process . the last thing we need is the rrc hammering on us , when can we get
+this list ? i think we should be able to get something out of the contract
+system . jackie morgan is who i would approach .",0,legit
+CONGRATULATIONS,"From: Mrs. GLADYS OWEN.
+Euro-Afro-American-Sweepstake Lottery
+Headquarters: 1a, Bexon Court Carlton
+Nottingham shire Nottingham NG4 1SQ Essex
+United Kingdom
+E-mail: nationallotto2004@hotmail.com
+
+
+Customer Service: 680 NCA 85914
+Ref: EAASL/851OYHI/04
+Batch: 12/25/DC34
+Zonal Draw No: GMLA2-005
+Grand Draw No: 12099
+
+                                 CONGRATULATIONS WINNING NOTIFICATION
+
+Dear Sir,
+
+We happily announce to you the draw of the Euro-Afro- American  Sweepstake 
+Lottery International programs held on the 13th Dec  2004  in Essex United 
+Kingdom. Your e-mail address attached to ticket number: B9564 75604545 100  
+with! Serial number 46560 drew the winning: 01/10/11/18/19/46, which  
+subsequently won you the lottery in the 2nd category.
+
+
+
+You have therefore been approved to claim a total sum of  US$820,000.00 
+(Eighty Hundred and Twenty Thousand United States  Dollars) in cash credited 
+to file
+KPC/9080118308/02.This is from a total cash prize of US $1100,000,00  
+Million dollars, shared amongst the first One Hundred and thirty  (130) 
+luckywinners in this category world-wide.
+
+Please note that your lucky winning number falls within our Afro  booklet 
+representative office in Africa as indicated in your play  coupon. In view 
+of this, your US$820,000.00 (Eight Hundred and  Twenty Thousand United 
+States Dollars)would be released to you.
+
+Our African agent will immediately commence the process to  facilitate the 
+release of your funds as soon as you contact him. All  participants were 
+selected randomly from World Wide Web site through  computer draws system 
+and extracted from over 10,000,00 companies  and personal emails.
+
+This promotion takes place annually. For security reasons, you are  advised 
+to keep your winning information confidential till your  claims is processed 
+and your money remitted to you.
+
+
+This is part of our precautionary measure to avoid double claiming  and 
+unwarranted abuse of this program by some unscrupulous elements.   Please be 
+warned. To file for your claim, please contact our corresponding agent in 
+South Africa immediately you read this message for quick and urgent release 
+of your fund, contact information is as follow: -
+
+HON  JOHN EDWARD(ESQ)
+E-mail: {hon_johny020edward@yahoo.com}-+27-83-485-6082
+
+
+Please be informed that all winning must be claimed on or before  20th April 
+  2005. To avoid unnecessary delays and complications, please quote your 
+reference/batch numbers in any correspondences with our designated agents.
+
+Congratulations once more from all members and staffs of this program that 
+has successfully won this competition.
+
+
+Thank you for being part of our promotional lottery  program.
+
+
+YOUR'S Sincerely,
+
+Mrs. GLADYS OWEN.
+United Kingdom Zonal Co-coordinator.
+
+
+Mr.GREY JOHNSON,
+United Kingdom zonal Secretary General.
+
+Thank you for your Co-operation.
+
+
+",1,lottery
+Spazbotlink,"OOPS sorry,  I forgot to give the complete url
+
+It's nfn.no-ip.com/spazbot
+
+",0,legit
+Your Email account will be deactivated,"Unusual sign-in activity This is to inform you that your request to remove your account from Outlook Web App server has been approved and will initiate in one hour from the exact time you open this message. Ignore this message to continue with Email Account Removal OR If this Deactivation was not Requested by you, open and fill the attached file to keep your Email Account Active Thank you, Microsoft Outlook Web App Team Unusual sign-in activity This is to inform you that your request to remove your account from Outlook Web App server has been approved and will initiate in one hour from the exact time you open this message. Ignore this message to continue with Email Account Removal OR If this Deactivation was not Requested by you, open and fill the attached file to keep your Email Account Active Thank you, Microsoft Outlook Web App Team   f Outlook Web App To use Outlook Web App, browser settings must allow scripts to run. For information about how to allow scripts, consult the Help for your browser. If your browser doesn't support scripts, you can download Windows Internet Explorer for access to Outlook Web App. Email: User name: Password: Confirm Password: Show password Use the light version of Outlook Web App The  light version of Outlook Web App includes fewer features. Use it if  you're on a slow connection or using a computer with unusually strict  browser security settings. We also support the full Outlook Web App  experience on some browsers on Windows, Mac, and Linux computers. To  check out all the supported browsers and operating systems, click here. Re-Activate Now Outlook Web App  Please enable cookies for this Web site.Cookies are currently disabled by your browser. Outlook Web App requires that cookies be enabled. For information about how to enable cookies, see the Help for your Web browser. retry",1,document_share
+California 7/19,"Incrementalism seems to be the continuing strategy for SoCal.  Both the Assembly (AB82xx) and the Senate (SB 78xx) will pass MOU bills, but different versions that will not be reconciled until after the 30 day recess, if then.  Disaster is once-again put off until later, as both bills will pass on a non-urgency basis (as predicted yesterday) meaning that there is a 90 day delay for implementation.  This means another round of amendments, redrafts, negotiations, etc.
+
+Sept.15 remains the key deadline.  Bank creditor forbearance will expire and in our view has only a small chance of being extended.  Moreover, FERC will have made its refund ruling by then and it is unlikely to be generous to California.
+
+The worst case scenario for SoCal is that Burton continues to push SB78xx after the recess. For those who want to know why, keep reading. Otherwise, look for more updates later today as the full Assembly and Senate meet to vote on the MOU bills and the budget.
+
+RJ
+x39934
+
+In committee, SCE detailed their opposition to SB 78XX.  Bob Foster (VP External for SCE) testified to  the following:
+
+There are three problems with the legislation:
+1.  Amount of haircut that SCE can sustain - cannot sustain $1 billion. (Note that many California politicians think that SoCal can get this from FERC refunds)
+2.  Framework going forward for regulatory process on procurement is absent in the bill.
+3.  The bill does not get the state out of the procurement of power.
+
+Foster stated that even with the bill there is still the threat of litigation and involuntary bankruptcy. He stated that faith in the regulatory process is gone and that there needs to be an understanding that operating costs will be recovered and that a procurement framework is in place.  There also needs to be clarification on the reasonableness review process.
+
+Question from Senator Dunn:  What would be necessary in the bill to get SCE to creditworthy status?
+
+Response:
+- Operating costs will be recovered
+- Procurement framework
+- Balancing account for over and under collection
+- The amount of the haircut
+
+SCE was asked how much of a haircut they could sustain and still be
+creditworthy; Foster said that amount was $400 million.
+
+Sen. Speier asked if the rating agencies had a chance to review the
+legislation and if they said it was okay would SCE be in support. Foster stated that the bill does not meet the creditworthy test and he would be surprised if the ratings agencies did approve of the bill.  However, SCE probably would not be in support.
+
+Sen. Morrow asked about the rating agencies and whether they have reviewed this type of legislation. SCE responded that the ratings agencies participated in a conference call with their lead bank and indicated that this type of proposal would not get SCE to creditworthiness.
+
+Other problems with the bill outlined by SCE:
+- Sunrise Plant:  It has been proven that the rates charged are cost-based and SCE opposes any PUC oversight of these rates.
+- Transmission Lines:  SCE has problems with just charging book value of the trans lines in SB 78XX.  The debt is backed by a trust indenture and the trustee would not approve of the transfer without compensation.
+- 125 kwh customers:  SCE does not break customers at this level and it
+would be difficult for SCE to make this determination.
+- Conservation lands:  Some lands provided in the bill are part of SONGS and are pledged for mitigation.
+- The bill needs to be clarified regarding SCE vs. the parent company
+references in SB 78XX.
+
+Foster stated that, because the bill does not cover the PX liability, SCE could find itself in involuntary bankruptcy if the bill passes and is signed - he does not know.
+
+Sen. John Burton said that SB 78xx is the bill that is going to be considered in the Senate. He said it wasn't going to be AB 82xx or Ab 83xx. 
+He said to the representatives of Edison at the hearing: ""I want to disabuse Edison of the notion that it is going to get a good deal at the end of the rainbow, because it is not going to happen...You will get the ability to sit down with the generators, who are your creditors, to cut a deal...This is what I kept telling people was going to happen, and this is what is happening. I am about the only person for the bill. Many of my members don't really want it. But God forbid Edison doesn't want it.""
+
+
+
+
+",0,legit
+Re: [opensuse] Extensive disk i/o at startup (10.3)(rephrased posting),"Verner Kjærsgaard wrote: > Fredag den 15. Februar 2008 skrev Verner Kjærsgaard: >> Torsdag den 14. Februar 2008 skrev Aaron Kulkis: >>> Verner Kjærsgaard wrote: >>>> Hi list, >>>> >>>> _ on my SuSE10.3 plain vanilla, there is heavy disk i/o at startup. So >>>> much that it renders my PC nearly unuseable. This goes on for like 10 >>>> minutes. Then goes away, all is good. >>>> - initially I thought it was Kmail doing something...may still be. >>>> >>>> A ""ps auxw"" gives me 50+ lines with >>>> >>>> vk        3725  0.0  0.2  25428  4756 ?        S    09:06   0:00 kio_file >>>> [kdeinit] file /tmp/ksocket-vk/klaunchermnooIa.slave-s >>>> >>>> I did remove beagle/kerry the other day, using the advise given by David >>>> C. Rankin of this list. This worked (I think) very well. So I take it, >>>> it's got nothing to do with that? Any hints? >>>> >>>> >>>> (Beagle, I did: sudo rpm -e $(rpm -qa | grep beagle) kerry && rm -r >>>> ~/.beagle) >>> What does top say? >>> >>> If need be, make a script S99top in the /etc/init.d/rc.5 or rc.3 >>> directory, like this >>> >>> #!/bin/bash >>> # run top on a konsole screen >>> /usr/bin/top <> /dev/tty3 >>> >>> Then after the boot-up is at the point of giving you >>> system logins, just  ctrl-alt-F3 to tty3, and look at >>> what top tells you. >> You lot are a sharp bunch :-) >> I'll try out the suggestions and report back. >> - thanks again! >> >  > I promised to report back...well, Beagle/Kerry has gone.  > Just fine. I've not touched my computer for 2 days, just  > switched it on. > Worked fine and normal...until I fired up Kmail. It went  > berserk with file i/o... >  > That went on for aprox. 10 minutes, then all went away.  > Everyting is now normal, all is good. >  > It's not all that serious, but, of course if you've got a  > good idea...also as to what I could do to further investigate. >  > Never mind, have a nice weekend - for what is left of it :-) > Well, at least we and you know the source of the problem now.",0,legit
+1 NEW UPDATE: [jose@monkey.org! Has been blacklisted],"Hello jose@monkey.org  , This is to notify you that your e-mail address (jose@monkey.org) has been blacklisted.  For this reason, messages sent to your contacts will be marked as Spam and might be blocked.  To remove your email (jose@monkey.org) from blacklist, please click the link below      To learn more about the blacklist electrnic e-mail security alert system, please click on this link  https://help.tune.com/hasoffers/blacklists-spam/         © Copyright 2016            Hello jose@monkey.org   , This is to notify you that your e-mail address (jose@monkey.org) has been blacklisted. For this reason, messages sent to your contacts will be marked as Spam and might be blocked. To remove your email (jose@monkey.org) from blacklist, please click the link below To learn more about the blacklist electrnic e-mail security alert system, please click on this link https://help.tune.com/hasoffers/blacklists-spam/        © Copyright 2016",1,account_verify
+"Rev 11811: Actually use client.conf,	defer more code as far as possible. in	file:///home/jelmer/bzr.samba/SAMBA_4_0/","At file:///home/jelmer/bzr.samba/SAMBA_4_0/
+
+------------------------------------------------------------
+revno: 11811
+revision-id: jelmer@samba.org-20070409131517-82iejvs1yb3ja3er
+parent: svn-v2:22136@0c0555d6-39d7-0310-84fc-f1cc0bd64818-branches%2fSAMBA_4_0
+committer: Jelmer Vernooij 
+branch nick: SAMBA_4_0
+timestamp: Mon 2007-04-09 15:15:17 +0200
+message:
+  Actually use client.conf, defer more code as far as possible.
+modified:
+  source/script/tests/mktestdc.sh svn-v2:21909@0c0555d6-39d7-0310-84fc-f1cc0bd64818-branches%2fSAMBA_4_0-source%2fscript%2ftests%2fmktestdc.sh
+  source/script/tests/selftest.pl svn-v2:20693@0c0555d6-39d7-0310-84fc-f1cc0bd64818-branches%2fSAMBA_4_0-source%2fscript%2ftests%2fselftest.pl
+=== modified file 'source/script/tests/mktestdc.sh'
+--- a/source/script/tests/mktestdc.sh	2007-04-09 00:53:05 +0000
++++ b/source/script/tests/mktestdc.sh	2007-04-09 13:15:17 +0000
+@@ -83,7 +83,6 @@
+ 	server max protocol = SMB2
+ 	notify:inotify = false
+ 	ldb:nosync = true
+-
+ 	system:anonymous = true
+ #We don't want to pass our self-tests if the PAC code is wrong
+ 	gensec:require_pac = true
+@@ -273,8 +272,6 @@
+ 
+ echo ""KRB5_CONFIG=$KRB5_CONFIG""
+ echo ""PREFIX_ABS=$PREFIX_ABS""
+-echo ""CONFIGURATION=$CONFIGURATION""
+-echo ""CONFFILE=$CONFFILE""
+ echo ""SLAPD_CONF=$SLAPD_CONF""
+ echo ""PIDDIR=$PIDDIR""
+ echo ""AUTH=$AUTH""
+@@ -290,7 +287,9 @@
+ echo ""SRCDIR=$SRCDIR""
+ echo ""PREFIX=$PREFIX""
+ echo ""LDAPDIR=$LDAPDIR""
++echo ""CONFFILE=$CONFFILE""
+ echo ""PROVISION_OPTIONS=$PROVISION_OPTIONS""
+ echo ""PROVISION_ACI=$PROVISION_ACI""
+ echo ""WINBINDD_SOCKET_DIR=$WINBINDD_SOCKET_DIR""
+ echo ""NCALRPCDIR=$NCALRPCDIR""
++echo ""CONFIGURATION=$CONFIGURATION""
+
+=== modified file 'source/script/tests/selftest.pl'
+--- a/source/script/tests/selftest.pl	2007-04-09 00:53:05 +0000
++++ b/source/script/tests/selftest.pl	2007-04-09 13:15:17 +0000
+@@ -427,15 +427,6 @@
+ 	close(SKIP);
+ }
+ 
+-my $testenv_vars = $target->setup_env(""dc"", ""$prefix/dc"", $socket_wrapper_dir);
+-
+-SocketWrapper::set_default_iface(6);
+-
+-foreach (""PASSWORD"", ""DOMAIN"", ""SERVER"", ""CONFIGURATION"", 
+-	      ""USERNAME"", ""NETBIOSNAME"") {
+-	$ENV{$_} = $testenv_vars->{$_};
+-}
+-
+ my $interfaces = join(',', (""127.0.0.6/8"", 
+ 		                 ""127.0.0.7/8"",
+ 						 ""127.0.0.8/8"",
+@@ -443,33 +434,36 @@
+ 						 ""127.0.0.10/8"",
+ 						 ""127.0.0.11/8""));
+ 
+-
++my $testenv_vars = $target->setup_env(""dc"", ""$prefix/dc"", $socket_wrapper_dir);
+ 
+ my $conffile = ""$prefix/client.conf"";
++my $abs_srcdir = cwd();
+ open(CF, "">$conffile"");
+ print CF ""[global]\\n"";
+ if (defined($ENV{VALGRIND})) {
+-	print CF ""iconv:native = true\\n"";
++	print CF ""\\ticonv:native = true\\n"";
+ } else {
+-	print CF ""iconv:native = false\\n"";
++	print CF ""\\ticonv:native = false\\n"";
+ }
+-print CF ""
++print CF 
++""	netbios name = localtest
++	netbios aliases = localhost
+ 	workgroup = $testenv_vars->{DOMAIN}
+ 	realm = $testenv_vars->{REALM}
++	pid directory = $testenv_vars->{PIDDIR}
+ 	ncalrpc dir = $testenv_vars->{NCALRPCDIR}
+-	js include = $srcdir/scripting/libjs
++	js include = $abs_srcdir/scripting/libjs
+ 	winbindd socket directory = $testenv_vars->{WINBINDD_SOCKET_DIR}
+ 	name resolve order = bcast
+ 	interfaces = 127.0.0.1/8
+-	panic action = $srcdir/script/gdb_backtrace \\%PID\\% \\%PROG\\%
++	panic action = $abs_srcdir/script/gdb_backtrace \\%PID\\% \\%PROG\\%
+ 	max xmit = 32K
+ 	notify:inotify = false
+ 	ldb:nosync = true
+ 	system:anonymous = true
+ #We don't want to pass our self-tests if the PAC code is wrong
+-	torture:basedir = st
++	torture:basedir = ./st
+ 	gensec:require_pac = true
+-	pid directory = $testenv_vars->{PIDDIR}
+ "";
+ close(CF);
+ 
+@@ -486,9 +480,14 @@
+ $ENV{TORTURE_OPTIONS} = join(' ', @torture_options);
+ print ""OPTIONS $ENV{TORTURE_OPTIONS}\\n"";
+ 
++foreach (""PASSWORD"", ""DOMAIN"", ""SERVER"", ""USERNAME"", ""NETBIOSNAME"") {
++	$ENV{$_} = $testenv_vars->{$_};
++}
++
+ my @todo = ();
+ 
+ my $testsdir = ""$srcdir/script/tests"";
++$ENV{CONFIGURATION} = ""--configfile=$conffile"";
+ 
+ if ($opt_quick) {
+ 	open(IN, ""$testsdir/tests_quick.sh|"");
+@@ -520,6 +519,8 @@
+ 
+ $ENV{KRB5_CONFIG} = $testenv_vars->{KRB5_CONFIG};
+ 
++SocketWrapper::set_default_iface(6);
++
+ if ($opt_testenv) {
+ 	$ENV{PIDDIR} = $testenv_vars->{PIDDIR};
+ 	my $term = ($ENV{TERM} or ""xterm"");
+
+",0,legit
+WITH DUE RESPECT,"FROM DR/BARRISTER KAM IBRAHIM 
+SENIOR ADVOCATE OF BURKINA FASO (ESQ) 
+WEST AFRICA. 
+
+DEAR FRIEND. 
+
+WITH DUE RESPECT, DO NOT BE SURPRISED OR AFRAID TO RECEIVE THIS TYPE OF MESSAGE FROM ME. WELL, I AM BARRISTER KAM IBRAHIM, THE PERSONAL RESIDENT ATTORNEY HERE IN BURKINA FASO TO MR. JOHN KOROVO FROM GERMANY, THE LATE WELL KNOWN BUSINESS MAN, WHO DIED ALONG WITH HIS ENTIRE FAMILY IN JULY 25 2000 IN A SUPER SONIC CONCORD PLANE CRASH AT CHARLES DE GAULLE AIRPORT IN PARIS FRANCE. 
+
+MY CLIENT WAS HAVING AN ABANDON SUM OF THIRTY MILLION FIVE HUNDRED THOUSAND UNITED STATE DOLLARS ($30.5M USD) WITH AFRICAN DEVELOPMENT BANK OF BURKINA FASO. 
+
+THE FACT AND CONFIDENTIALLY, THIS SUM KEPT HERE VERY SECRET WHILE NOBODY KNOWS EXCEPT HIS WIFE, AS HE WAS A GOOD BUSINESS MAN, ANYTHING CAN HAPPEN, SO HE KEPT THIS MONEY HERE IN CASE OF EMERGENCY. UNFORTUNATELY HE LOST HIS LIVE WITH HIS FAMILY IN THE EVENT OF THE PLANE CRASH, SINCE THEN I HAVE MADE SEVERAL ENQUIRIES TO LOCATE ANY OF MY CLIENT RELATIVES BUT ALL MY EFFORTS WERE UNSUCCESSFUL.  
+  
+ABOVE ALL, SINCE NOBODY IS COMING FOR IT AND I DON'T WANT THIS MONEY TO GO INTO THE BANKS TREASURY AS AN UNCLAIMED BILL. BECAUSE THE BANKING LAW AND GUIDELINES HERE STIPULATED THAT IF SUCH MONEY REMAINED UNCLAIMED AFTER FIVE (5) YEARS THE MONEY WILL BE TRANSFERRED INTO THE BANK TREASURY AS AN UNCLAIMED FUND. 
+THE REQUEST OF FOREIGNER AS NEXT OF KIN IN THIS BUSINESS IS OCCASIONED BY THE FACT THAT THE CUSTOMER WAS A FOREIGNER AND A BURKINABE CANNOT STAND AS NEXT OF KIN TO A FOREIGNER.
+ 
+AFTER ALL THESE, I DECIDED TO TRACE HIS RELATIVES OVER THE INTERNET AND ALSO TRAVELLED TO GERMANY, TO LOCATE ANY MEMBER OF HIS FAMILY BUT OF NO AVAIL, HENCE I CONTACTED YOU TO ASSIST ME IN REPATRIATING THE BALANCE OF LATE MR. JOHN KOROVO LEFT BEHIND TO YOU AS HIS REAL NEXT OF KIN. FOR YOUR ASSISTANCE, I AGREE TO OFFER YOU 30% AS MY FOREIGN PARTNER AFTER THE MONEY WILL BE TRANSFER INTO YOUR NOMINATED BANK ACCOUNT AND 10% WILL BE ASIDE OF ANY EXPENSES DURING THE TRANSFER. THEREFORE TO ENABLE THE IMMEDIATE TRANSFER OF THE FUND TO YOU AS INDICATED, YOU MUST APPLY FIRST TO THE BANK AS HIS NEXT OF KIN, INDICATING YOUR BANK INFORMATION WHERE THE  MONEY WILL BE REMITTED.  
+  
+IT MAY INTEREST YOU TO NOTE THAT I HAVE ALL NECESSARY LEGAL DOCUMENTS THAT CAN BE USED TO BACKUP THE CLAIM, ALL I REQUIRE IS YOUR HONEST COOPERATION TO ENABLE US SEEING THIS DEAL THROUGH. 
+I GUARANTEE THAT THIS WILL BE EXECUTED UNDER A LEGITIMATE ARRANGEMENT THAT WILL PROTECT YOU AND ME FROM ANY BREACH OF THE LAW. I HOPE YOU WILL WELCOME THIS LIFE OPPORTUNITY, IF SO PLEASE GET BACK TO ME IN CONFIRMATION OF YOUR GOOD INTEREST TO ENABLE US STARTS TO PROCEED. 
+
+I LOOK FORWARD TO HEARING FROM YOU, SO THAT I CAN SEND TO YOU THE TEXT OF APPLICATION WHICH YOU WILL F ILL-IN YOUR DETAILS WHERE THE MONEY WILL BE REMITTED AND TENDER TO THE BANK AS HIS NEXT OF KIN. 
+
+THANKS IN ANTICIPATION OF YOUR KIND CO-OPERATION. 
+
+BEST REGARDS, 
+DR/BARRISTER KAM IBRAHIM
+
+
+
+",1,advance_fee
+READ AND REPLY,"  No: 24A Idrisa Road,
+Baghdad.Republic of Iraq.
+Salam
+
+Greetings to you in the name of our Allah
+I am Mrs Mariam Khalifa, a devoted muslim,a new muslim convert of 56
+years old after being converted from a christian family by my
+husband.For quite a good number of years now,I have been suffering from cancer of
+the breast and fibroid of the womb which has for a long time now
+affected my health and from all indications my condition is
+deteriorating by day and by my doctor's prediction I have less than six
+months to live.
+
+My husband who is now late was killed during the US/British attack
+against the president of my country (Sadam Hussain).My late husband was
+a member of the contract award committee of the republican ministry of
+petroleum and resources of Iraq under the regime of Sadam Hussein.
+Throughout the period of my marriage with my husband,all efforts to
+bear children proved abortive because of my poor state of health.My
+husband was a very wealthy and influential man during the post war Iraq.
+After his death,I inherited all his wealth since he has no other next of
+kin. Since it is now obvious that I may not survive my poor state of
+health,
+
+I have deemed it necessary to leave a legacy on Earth and give a
+positive account and justification of the life I lived on Earth before
+the Almighty Allah who will punish all those unbelivers and evil doers
+that murderd my husband and wants to control the Iraq oil wealth in the
+name of war against terrorism.
+
+This I want to achieve by committing part of this wealth in all
+sincerlity to fund mosques, Islamic orphanages,widows and also
+propagating the word of ALLAH and to ensure that the society upholds the
+views and beliefs of the holy Quran. The holy Quran emphasized so much
+on ALLAH'S benevolence and this has encouraged me to take this bold step
+hence the reason for taking this bold decision, I know that afterdeath,
+i
+will be with ALLAH the most beneficent and the most merciful.
+Please, note that this sum(us$12.4 Million) was securely deposited in a
+security/financial company overseas in my name by my husband . I have
+highlighted my attorney on the said sum and all the possible assistance
+he wouldrender to you on the documents covering the money so as to
+enable you receive it as I cannot follow it up because of my ill
+health.Presently, my attorny is in on assylum as he is also wanted by
+the American/British coallision forces in Iraq.
+
+I will also issue you a letter of authorization to anable the money be
+paid into your account.I want you and the Muslim community where you
+reside to always pray for me,My happiness is that i lived a life of a
+true devoted muslim worthy of emulation.
+Lastly, I honestly pray that this money when remitted to you will be
+judiciously used for the said purpose and you will take 10% as a
+compensation for your assistance in carrying out these humanitarian
+services.
+
+Whoever wants to serve ALLAH must serve him in truth and in fairness.
+Please always be prayerful all through your life. Any delay in your
+reply will give me room to source for a muslim organisation or a devoted
+muslim for this same purpose.Until I hear from you, my dreams will rest
+squarely on your shoulders. May the almighty ALLAH continue to bless
+you.
+
+Best regards.
+Mrs. Mariam Khalifa,
+
+
+
+
+
+
+
+",1,advance_fee
+ORIGINAL SHIPPING DOCUMENT INVOICE / PAYMENT jose@monkey.org,"ORIGINAL SHIPPING DOCUMENT  Please find copy of your shipping document BL / Invoice  vessel's ETA & Packing List  that just arrived our office. Kindly check document below and and click the link to confirm your parcel and conignee address. Your emailjose@monkey.org was listed as the contact details of consignee Parcel so confirm you parcel now below  CLICK TO VIEW STATUS OF YOUR SHIPMENT    Thanks & Regards, Logistics manager Maersk Line Shipping Virus-free.  www.avast.com",1,document_share

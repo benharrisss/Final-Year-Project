@@ -1,0 +1,415 @@
+Fixed few-shot learning results from 3 models, ran back-to-back on UoL HPC GPU nodes:
+- deepseek-llm-7b-chat
+- gemma-2-9b-it
+- phi-mini-moe-instruct
+
+Results from 4, 10 and 20 shot learning:
+
+
+4-Shot Learning:
+(Ordered by accuracy, highest to lowest):
+
+=========================================
+
+File: fewshot_results/fixed_fewshot/results_gemma-2-9b-it_fixed_fewshot-4-2100.csv
+Rows: 2100
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2100
+TP=914  FP=30  TN=1020  FN=136
+accuracy:  0.9210
+precision: 0.9682
+recall:    0.8705
+f1:        0.9168
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 33 (0.0157)
+Empty summaries: 0
+JSON Parse failures in classification: 0 (0.0000)
+Recovered from classification errors: 0
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1050  0.971429                        NaN                          0.028571
+ invoice_payment   98  0.571429                   0.571429                               NaN
+  account_verify   97  0.958763                   0.958763                               NaN
+    dating_sites   97  0.896907                   0.896907                               NaN
+           loans   97  0.948454                   0.948454                               NaN
+    tech_support   97  0.773196                   0.773196                               NaN
+     advance_fee   96  1.000000                   1.000000                               NaN
+ stock_pump_dump   95  0.768421                   0.768421                               NaN
+         lottery   95  1.000000                   1.000000                               NaN
+hr_impersonation   93  0.924731                   0.924731                               NaN
+       pharm_sex   93  0.989247                   0.989247                               NaN
+  document_share   92  0.750000                   0.750000                               NaN
+
+Timing summary:
+Model load time (s): 141.73
+Total program time (s): 8382.38
+Summary stage time (s): 5737.52 | tokens/s: 28.52
+Classify stage time (s): 2493.44 | tokens/s: 28.29
+Mean generation time per email (s): 1.19
+
+=========================================
+
+File: fewshot_results/fixed_fewshot/results_Phi-mini-MoE-instruct_fixed_fewshot-4-2100.csv
+Rows: 2100
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2100
+TP=898  FP=228  TN=822  FN=152
+accuracy:  0.8190
+precision: 0.7975
+recall:    0.8552
+f1:        0.8254
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 72 (0.0343)
+Empty summaries: 0
+JSON Parse failures in classification: 0 (0.0000)
+Recovered from classification errors: 0
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1050  0.782857                        NaN                          0.217143
+ invoice_payment   98  0.561224                   0.561224                               NaN
+  account_verify   97  0.907216                   0.907216                               NaN
+    dating_sites   97  0.855670                   0.855670                               NaN
+           loans   97  0.969072                   0.969072                               NaN
+    tech_support   97  0.917526                   0.917526                               NaN
+     advance_fee   96  1.000000                   1.000000                               NaN
+ stock_pump_dump   95  0.800000                   0.800000                               NaN
+         lottery   95  1.000000                   1.000000                               NaN
+hr_impersonation   93  0.860215                   0.860215                               NaN
+       pharm_sex   93  0.924731                   0.924731                               NaN
+  document_share   92  0.608696                   0.608696                               NaN
+
+Timing summary:
+Model load time (s): 222.48
+Total program time (s): 28897.74
+Summary stage time (s): 15326.58 | tokens/s: 33.91
+Classify stage time (s): 13338.85 | tokens/s: 33.97
+Mean generation time per email (s): 6.35
+
+=========================================
+
+File: fewshot_results/fixed_fewshot/results_deepseek-llm-7b-chat_fixed_fewshot-4-2100.csv
+Rows: 2100
+Missing predictions: 9 (0.0043)
+Coverage: 0.9957
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2091
+TP=751  FP=179  TN=867  FN=294
+accuracy:  0.7738
+precision: 0.8075
+recall:    0.7187
+f1:        0.7605
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 150 (0.0714)
+Empty summaries: 0
+JSON Parse failures in classification: 134 (0.0638)
+Recovered from classification errors: 125
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1046  0.828872                        NaN                          0.171128
+ invoice_payment   98  0.510204                   0.510204                               NaN
+  account_verify   97  0.793814                   0.793814                               NaN
+    dating_sites   97  0.855670                   0.855670                               NaN
+    tech_support   97  0.773196                   0.773196                               NaN
+     advance_fee   95  0.915789                   0.915789                               NaN
+ stock_pump_dump   95  0.484211                   0.484211                               NaN
+         lottery   94  0.925532                   0.925532                               NaN
+           loans   94  0.787234                   0.787234                               NaN
+hr_impersonation   93  0.354839                   0.354839                               NaN
+       pharm_sex   93  0.956989                   0.956989                               NaN
+  document_share   92  0.543478                   0.543478                               NaN
+
+Timing summary:
+Model load time (s): 111.32
+Total program time (s): 3853.48
+Summary stage time (s): 2935.51 | tokens/s: 41.48
+Classify stage time (s): 793.51 | tokens/s: 39.70
+Mean generation time per email (s): 0.38
+
+=========================================
+
+
+10-Shot Learning:
+(Ordered by accuracy, highest to lowest):
+
+=========================================
+
+File: results_gemma-2-9b-it_fewshot-2100.csv
+Rows: 2100
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2100
+TP=954  FP=39  TN=1011  FN=96
+accuracy:  0.9357
+precision: 0.9607
+recall:    0.9086
+f1:        0.9339
+Summary and Classification error stats:
+JSON Parse failures in the summary: 33 (0.0157)
+Empty summaries: 0
+JSON Parse failures in classification: 0 (0.0000)
+Recovered from classification errors: 0
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1050  0.962857                        NaN                          0.037143
+ invoice_payment   98  0.683673                   0.683673                               NaN
+  account_verify   97  0.979381                   0.979381                               NaN
+    dating_sites   97  0.927835                   0.927835                               NaN
+           loans   97  0.979381                   0.979381                               NaN
+    tech_support   97  0.793814                   0.793814                               NaN
+     advance_fee   96  1.000000                   1.000000                               NaN
+ stock_pump_dump   95  0.852632                   0.852632                               NaN
+         lottery   95  1.000000                   1.000000                               NaN
+hr_impersonation   93  0.935484                   0.935484                               NaN
+       pharm_sex   93  1.000000                   1.000000                               NaN
+  document_share   92  0.847826                   0.847826                               NaN
+
+Timing summary:
+Model load time (s): 110.36
+Total program time (s): 8632.05
+Summary stage time (s): 5709.02 | tokens/s: 28.67
+Classify stage time (s): 2801.84 | tokens/s: 25.80
+Mean generation time per email (s): 1.33
+
+=========================================
+
+File: fewshot_results/results_Phi-mini-MoE-instruct_fewshot-2100.csv
+Rows: 2100
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2100
+TP=990  FP=385  TN=665  FN=60
+accuracy:  0.7881
+precision: 0.7200
+recall:    0.9429
+f1:        0.8165
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 72 (0.0343)
+Empty summaries: 0
+JSON Parse failures in classification: 1 (0.0005)
+Recovered from classification errors: 1
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1050  0.633333                        NaN                          0.366667
+ invoice_payment   98  0.846939                   0.846939                               NaN
+  account_verify   97  0.969072                   0.969072                               NaN
+    dating_sites   97  0.938144                   0.938144                               NaN
+           loans   97  0.989691                   0.989691                               NaN
+    tech_support   97  0.969072                   0.969072                               NaN
+     advance_fee   96  1.000000                   1.000000                               NaN
+ stock_pump_dump   95  0.926316                   0.926316                               NaN
+         lottery   95  0.989474                   0.989474                               NaN
+hr_impersonation   93  0.956989                   0.956989                               NaN
+       pharm_sex   93  0.956989                   0.956989                               NaN
+  document_share   92  0.826087                   0.826087                               NaN
+
+Timing summary:
+Model load time (s): 182.03
+Total program time (s): 24057.38
+Summary stage time (s): 15360.95 | tokens/s: 33.84
+Classify stage time (s): 8503.12 | tokens/s: 32.80
+Mean generation time per email (s): 4.05
+
+=========================================
+
+File: fewshot_results/results_deepseek-llm-7b-chat_fewshot-2100.csv
+Rows: 2100
+Missing predictions: 10 (0.0048)
+Coverage: 0.9952
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2090
+TP=832  FP=367  TN=679  FN=212
+accuracy:  0.7230
+precision: 0.6939
+recall:    0.7969
+f1:        0.7419
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 150 (0.0714)
+Empty summaries: 0
+JSON Parse failures in classification: 191 (0.0910)
+Recovered from classification errors: 181
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1046  0.649140                        NaN                           0.35086
+ invoice_payment   98  0.744898                   0.744898                               NaN
+  account_verify   97  0.907216                   0.907216                               NaN
+    dating_sites   97  0.814433                   0.814433                               NaN
+    tech_support   97  0.886598                   0.886598                               NaN
+ stock_pump_dump   95  0.526316                   0.526316                               NaN
+         lottery   94  0.936170                   0.936170                               NaN
+     advance_fee   94  0.925532                   0.925532                               NaN
+           loans   94  0.829787                   0.829787                               NaN
+hr_impersonation   93  0.526882                   0.526882                               NaN
+       pharm_sex   93  0.946237                   0.946237                               NaN
+  document_share   92  0.717391                   0.717391                               NaN
+
+Timing summary:
+Model load time (s): 100.16
+Total program time (s): 3830.40
+Summary stage time (s): 2922.43 | tokens/s: 41.67
+Classify stage time (s): 792.19 | tokens/s: 26.47
+Mean generation time per email (s): 0.38
+
+=========================================
+
+
+20-Shot Learning:
+(Ordered by accuracy, highest to lowest):
+
+=========================================
+
+File: fewshot_results/fixed_fewshot/results_gemma-2-9b-it_fixed_fewshot-20-2100.csv
+Rows: 2100
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2100
+TP=928  FP=26  TN=1024  FN=122
+accuracy:  0.9295
+precision: 0.9727
+recall:    0.8838
+f1:        0.9261
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 33 (0.0157)
+Empty summaries: 0
+JSON Parse failures in classification: 0 (0.0000)
+Recovered from classification errors: 0
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1050  0.975238                        NaN                          0.024762
+ invoice_payment   98  0.612245                   0.612245                               NaN
+  account_verify   97  0.958763                   0.958763                               NaN
+    dating_sites   97  0.917526                   0.917526                               NaN
+           loans   97  0.979381                   0.979381                               NaN
+    tech_support   97  0.762887                   0.762887                               NaN
+     advance_fee   96  1.000000                   1.000000                               NaN
+ stock_pump_dump   95  0.789474                   0.789474                               NaN
+         lottery   95  1.000000                   1.000000                               NaN
+hr_impersonation   93  0.924731                   0.924731                               NaN
+       pharm_sex   93  1.000000                   1.000000                               NaN
+  document_share   92  0.782609                   0.782609                               NaN
+
+Timing summary:
+Model load time (s): 86.18
+Total program time (s): 9302.62
+Summary stage time (s): 5735.39 | tokens/s: 28.54
+Classify stage time (s): 3467.00 | tokens/s: 22.11
+Mean generation time per email (s): 1.65
+
+=========================================
+
+File: fewshot_results/fixed_fewshot/results_Phi-mini-MoE-instruct_fixed_fewshot-20-2100.csv
+Rows: 2100
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2100
+TP=987  FP=423  TN=627  FN=63
+accuracy:  0.7686
+precision: 0.7000
+recall:    0.9400
+f1:        0.8024
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 72 (0.0343)
+Empty summaries: 0
+JSON Parse failures in classification: 54 (0.0257)
+Recovered from classification errors: 54
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1050  0.597143                        NaN                          0.402857
+ invoice_payment   98  0.908163                   0.908163                               NaN
+  account_verify   97  0.979381                   0.979381                               NaN
+    dating_sites   97  0.938144                   0.938144                               NaN
+           loans   97  0.969072                   0.969072                               NaN
+    tech_support   97  0.948454                   0.948454                               NaN
+     advance_fee   96  1.000000                   1.000000                               NaN
+ stock_pump_dump   95  0.936842                   0.936842                               NaN
+         lottery   95  0.989474                   0.989474                               NaN
+hr_impersonation   93  0.860215                   0.860215                               NaN
+       pharm_sex   93  0.956989                   0.956989                               NaN
+  document_share   92  0.847826                   0.847826                               NaN
+
+Timing summary:
+Model load time (s): 60.17
+Total program time (s): 28990.58
+Summary stage time (s): 15393.77 | tokens/s: 33.76
+Classify stage time (s): 13521.72 | tokens/s: 32.44
+Mean generation time per email (s): 6.44
+
+=========================================
+
+File: fewshot_results/fixed_fewshot/results_deepseek-llm-7b-chat_fixed_fewshot-20-2100.csv
+Rows: 2100
+Missing predictions: 20 (0.0095)
+Coverage: 0.9905
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 2080
+TP=836  FP=354  TN=680  FN=210
+accuracy:  0.7288
+precision: 0.7025
+recall:    0.7992
+f1:        0.7478
+
+Summary and Classification error stats:
+JSON Parse failures in the summary: 150 (0.0714)
+Empty summaries: 0
+JSON Parse failures in classification: 152 (0.0724)
+Recovered from classification errors: 132
+
+Per phish_type stats:
+      phish_type    n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 1034  0.657640                        NaN                           0.34236
+ invoice_payment   98  0.714286                   0.714286                               NaN
+  account_verify   97  0.865979                   0.865979                               NaN
+    dating_sites   97  0.865979                   0.865979                               NaN
+    tech_support   96  0.854167                   0.854167                               NaN
+     advance_fee   96  0.979167                   0.979167                               NaN
+ stock_pump_dump   95  0.357895                   0.357895                               NaN
+         lottery   95  0.968421                   0.968421                               NaN
+           loans   94  0.893617                   0.893617                               NaN
+hr_impersonation   93  0.612903                   0.612903                               NaN
+       pharm_sex   93  0.956989                   0.956989                               NaN
+  document_share   92  0.717391                   0.717391                               NaN
+
+Timing summary:
+Model load time (s): 50.50
+Total program time (s): 4189.55
+Summary stage time (s): 2931.73 | tokens/s: 41.53
+Classify stage time (s): 1186.99 | tokens/s: 19.99
+Mean generation time per email (s): 0.57
+
+=========================================
+
+
+
+
+
