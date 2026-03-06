@@ -98,6 +98,41 @@ def compute_metrics(rows):
     }
 
 
+def calculate_brier(df):
+    squared_error_sum = 0.0
+    n_used = 0
+
+    for _, row in df.iterrows():
+        true_label = row["true"]
+        if true_label is None:
+            continue
+
+        try:
+            pred_prob = float(row["predicted_prob_phishing"])
+        except Exception:
+            continue
+        
+        if pd.isna(pred_prob):
+            continue
+        
+        # Clamp predicted probability to [0, 1]
+        if pred_prob < 0.0:
+            pred_prob = 0.0
+        elif pred_prob > 1.0:
+            pred_prob = 1.0
+
+        # Brier score is the squared error between the predicted probability and the true label
+        true_binary = 1.0 if true_label == POS else 0.0
+        squared_error = (pred_prob - true_binary) ** 2
+        squared_error_sum += squared_error
+        n_used += 1
+
+    if n_used == 0:
+        return float("nan"), 0
+    
+    return squared_error_sum / n_used, n_used
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("csv", help="Path to SecBERT results CSV")
@@ -112,6 +147,7 @@ def main():
             raise SystemExit(f"CSV must contain column: {col}")
 
     has_type = "phish_type" in df.columns
+    has_prob = "predicted_prob_phishing" in df.columns
 
     true_list = []
     pred_list = []
@@ -154,6 +190,12 @@ def main():
         usable_rows.append({"true": row["true"], "pred": row["pred"], "phish_type": row["phish_type"]})
 
     overall = compute_metrics(usable_rows)
+
+    # Calculate Brier score if they exist
+    brier = None
+    brier_used = 0
+    if has_prob:
+        brier, brier_used = calculate_brier(df)
 
     # Per phish_type stats
     per_type = []
@@ -198,6 +240,8 @@ def main():
     print(f"precision: {overall['precision']:.4f}")
     print(f"recall:    {overall['recall']:.4f}")
     print(f"f1:        {overall['f1']:.4f}")
+    if brier is not None:
+        print(f"Brier score (lower is better, 0.0 is perfect): {brier:.4f} (n={brier_used})")
     print()
 
     print("Per phish_type stats:")

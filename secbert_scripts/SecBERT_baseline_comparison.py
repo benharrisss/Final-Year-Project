@@ -9,10 +9,6 @@ LABEL_STR = {0: "LEGITIMATE", 1: "PHISHING"}
 
 
 class EmailDataset(Dataset):
-    """
-    Turns a CSV DataFrame into (text, label) items.
-    Text = subject + "\\n\\n" + body.
-    """
     def __init__(self, df: pd.DataFrame):
         if "label" not in df.columns:
             raise SystemExit("CSV must contain 'label' column with 0=legit, 1=phishing.")
@@ -22,16 +18,16 @@ class EmailDataset(Dataset):
     def __len__(self):
         return len(self.df)
 
-    def __getitem__(self, idx: int):
+    def __getitem__(self, idx):
         row = self.df.iloc[idx]
-        subject = str(row.get("subject", "") or "")
-        body = str(row.get("body", "") or "")
+        subject = str(row["subject"])
+        body = str(row["body"])
         text = (subject.strip() + "\n\n" + body.strip()).strip()
         label = int(row["label"])
         return text, label
 
 
-def make_collate_fn(tokenizer, max_tokens: int):
+def make_collate_fn(tokenizer, max_tokens):
     def collate(batch):
         texts, labels = zip(*batch)
         enc = tokenizer(
@@ -46,7 +42,7 @@ def make_collate_fn(tokenizer, max_tokens: int):
     return collate
 
 
-def evaluate_accuracy(model, loader, device: str) -> float:
+def evaluate_accuracy(model, loader, device):
     model.eval()
     correct = 0
     total = 0
@@ -64,7 +60,7 @@ def evaluate_accuracy(model, loader, device: str) -> float:
 def main():
     ap = argparse.ArgumentParser()
 
-    ap.add_argument("--model", default="jackaduma/SecBERT", help="HuggingFace model name or local path")
+    ap.add_argument("--model", default="SecBERT", help="Local path to the model")
     ap.add_argument("--train-csv", required=True)
     ap.add_argument("--test-csv", required=True)
     ap.add_argument("--output-csv", required=True)
@@ -128,9 +124,10 @@ def main():
     pred_t0 = time.perf_counter()
     for i in range(len(test_ds)):
         text, true_label = test_ds[i]
+        row = test_df.iloc[i]
 
-        subject = str(test_df.iloc[i].get("subject", "") or "")
-        phish_type = str(test_df.iloc[i].get("phish_type", "") or "")
+        subject = str(row["subject"])
+        phish_type = str(row["phish_type"])
 
         enc = tokenizer(text, truncation=True, max_length=args.max_tokens, return_tensors="pt")
         enc = {k: v.to(device) for k, v in enc.items()}
