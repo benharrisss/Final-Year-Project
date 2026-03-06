@@ -1,0 +1,12 @@
+Training round 1/3 | test accuracy=0.9424
+Training round 2/3 | test accuracy=0.9561
+Training round 3/3 | test accuracy=0.9530
+
+Timing summary:
+Model load time (s): 1.19
+Training time (s): 35.64
+Prediction time (s): 2.20
+Total program time (s): 39.37
+Examples/sec (overall): 55.88
+Examples/sec (prediction only): 300.15
+Wrote: /users/sc23bh2/baseline_testing/results/secbert_results/secbert_70_30_preds.csv
