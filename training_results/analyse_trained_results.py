@@ -6,6 +6,7 @@ NEG = "LEGITIMATE"
 
 
 def clean_pred_label(value):
+    # Clean the predicted label value, treating None and NaN as None
     if value is None:
         return None
     try:
@@ -14,6 +15,7 @@ def clean_pred_label(value):
     except Exception:
         pass
 
+    # Convert text to uppercase and strip whitespace, if it matches POS or NEG return those
     text = str(value).strip().upper()
     if text == POS:
         return POS
@@ -23,6 +25,7 @@ def clean_pred_label(value):
 
 
 def clean_true_label(value):
+    # Clean the true label value, treating None and NaN as None
     if value is None:
         return None
     try:
@@ -36,6 +39,7 @@ def clean_true_label(value):
     except Exception:
         return None
 
+    # Convert 1 to POS and 0 to NEG 
     if n == 1:
         return POS
     if n == 0:
@@ -44,6 +48,7 @@ def clean_true_label(value):
 
 
 def clean_type(value):
+    # Clean the phishing type value, treating None, NaN and empty strings as "unknown"
     if value is None:
         return "unknown"
     try:
@@ -74,6 +79,7 @@ def compute_metrics(rows):
 
     n = tp + fp + tn + fn
 
+    # Calculations for typical evaluatuion metrics
     acc = (tp + tn) / n if n else float("nan")
     prec = tp / (tp + fp) if (tp + fp) else float("nan")
     rec = tp / (tp + fn) if (tp + fn) else float("nan")
@@ -99,6 +105,7 @@ def main():
 
     df = pd.read_csv(args.csv)
 
+    # Needs to include true and predicted labels
     required = ["true_label", "predicted_label"]
     for col in required:
         if col not in df.columns:
@@ -112,6 +119,7 @@ def main():
     pred_list = []
     type_list = []
 
+    # Extract true, pred and phishing type and store in new columns after cleaning
     for _, row in df.iterrows():
         true_list.append(clean_true_label(row["true_label"]))
         pred_list.append(clean_pred_label(row["predicted_label"]))
@@ -144,6 +152,7 @@ def main():
 
     if has_summary_error:
         for _, row in df.iterrows():
+            # Look for errors in the summary_error column
             err = row["summary_error"]
             if err is None:
                 continue
@@ -153,6 +162,7 @@ def main():
             except Exception:
                 pass
 
+            # Match "SUMMARY_JSON_PARSE_FAILED" etc. in the error text to count parse failures & empty summaries
             err_text = str(err)
             if "SUMMARY_JSON_PARSE_FAILED" in err_text:
                 summary_json_fail_count += 1
@@ -169,6 +179,7 @@ def main():
 
     if has_classify_error:
         for i, row in df.iterrows():
+            # Look for errors in the classify_error column
             err = row["classify_error"]
             if err is None:
                 continue
@@ -178,9 +189,11 @@ def main():
             except Exception:
                 pass
 
+            # Match "CLASSIFY_JSON_PARSE_FAILED" in the error text to count JSON parse failures
             err_text = str(err)
             if "JSON_PARSE_FAILED" in err_text:
                 classify_json_fail_count += 1
+                # Recovered, so parse failed but predicted label exists
                 if df.at[i, "pred"] is not None:
                     classify_recovered_count += 1
 
@@ -204,11 +217,12 @@ def main():
     types = sorted(set(df["phish_type"]))
 
     for tname in types:
+        # Use all usable rows that contain true, pred and a phish_type that matches the list of types
         rows_t = [r for r in usable_rows if r["phish_type"] == tname]
         m = compute_metrics(rows_t)
 
-        # detection_rate_if_phish = TP / (TP+FN) within that type 
-        # false_positive_rate_if_legit = FP / (FP+TN) within that type
+        # detection_rate (det_rate) = TP / (TP+FN) within that type 
+        # false_positive_rate (fp_rate) = FP / (FP+TN) within that type
         det_rate = m["tp"] / (m["tp"] + m["fn"]) if (m["tp"] + m["fn"]) else float("nan")
         fp_rate = m["fp"] / (m["fp"] + m["tn"]) if (m["fp"] + m["tn"]) else float("nan")
 
