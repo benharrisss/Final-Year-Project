@@ -1,0 +1,42 @@
+RoBERTa-base baseline results from 70/30 train/test split:
+
+=========================================
+
+File: roberta_results/roberta_70_30.csv
+Rows: 660
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 660
+TP=322  FP=6  TN=324  FN=8
+accuracy:  0.9788
+precision: 0.9817
+recall:    0.9758
+f1:        0.9787
+Brier score (lower is better, 0.0 is perfect): 0.0151 (n=660)
+
+Per phish_type stats:
+      phish_type   n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 330  0.981818                        NaN                          0.018182
+         lottery  39  1.000000                   1.000000                               NaN
+hr_impersonation  34  0.970588                   0.970588                               NaN
+ invoice_payment  33  0.969697                   0.969697                               NaN
+       pharm_sex  32  0.968750                   0.968750                               NaN
+    dating_sites  32  1.000000                   1.000000                               NaN
+     advance_fee  30  0.966667                   0.966667                               NaN
+           loans  27  0.962963                   0.962963                               NaN
+ stock_pump_dump  27  1.000000                   1.000000                               NaN
+    tech_support  27  0.925926                   0.925926                               NaN
+  document_share  25  0.960000                   0.960000                               NaN
+  account_verify  24  1.000000                   1.000000                               NaN
+
+Timing summary:
+Model load time (s): 1.43
+Training time (s): 68.45
+Prediction time (s): 4.19
+Total program time (s): 74.39
+Examples/sec (overall): 29.57
+Examples/sec (prediction only): 157.44
+
+=========================================

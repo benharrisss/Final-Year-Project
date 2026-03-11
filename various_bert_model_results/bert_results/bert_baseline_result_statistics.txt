@@ -1,0 +1,42 @@
+BERT-base baseline results from 70/30 train/test split:
+
+=========================================
+
+File: bert_results/bert_70_30.csv
+Rows: 660
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 660
+TP=311  FP=3  TN=327  FN=19
+accuracy:  0.9667
+precision: 0.9904
+recall:    0.9424
+f1:        0.9658
+Brier score (lower is better, 0.0 is perfect): 0.0302 (n=660)
+
+Per phish_type stats:
+      phish_type   n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+           legit 330  0.990909                        NaN                          0.009091
+         lottery  39  1.000000                   1.000000                               NaN
+hr_impersonation  34  0.941176                   0.941176                               NaN
+ invoice_payment  33  0.939394                   0.939394                               NaN
+       pharm_sex  32  0.968750                   0.968750                               NaN
+    dating_sites  32  1.000000                   1.000000                               NaN
+     advance_fee  30  1.000000                   1.000000                               NaN
+           loans  27  0.925926                   0.925926                               NaN
+ stock_pump_dump  27  0.814815                   0.814815                               NaN
+    tech_support  27  0.851852                   0.851852                               NaN
+  document_share  25  0.880000                   0.880000                               NaN
+  account_verify  24  1.000000                   1.000000                               NaN
+
+Timing summary:
+Model load time (s): 1.17
+Training time (s): 65.91
+Prediction time (s): 3.57
+Total program time (s): 70.98
+Examples/sec (overall): 30.99
+Examples/sec (prediction only): 184.69
+
+=========================================

@@ -1,0 +1,12 @@
+Training round 1/3 | test accuracy=0.9515
+Training round 2/3 | test accuracy=0.9606
+Training round 3/3 | test accuracy=0.9667
+
+Timing summary:
+Model load time (s): 1.17
+Training time (s): 65.91
+Prediction time (s): 3.57
+Total program time (s): 70.98
+Examples/sec (overall): 30.99
+Examples/sec (prediction only): 184.69
+Wrote: /users/sc23bh2/baseline_testing/results/bert_results/bert_70_30.csv
