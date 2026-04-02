@@ -10,7 +10,7 @@ DEFAULT_MODEL_PATH = "./models/deepseek-llm-7b-chat"
 DEFAULT_INPUT_CSV = "final_phish+legit_2200.csv"
 DEFAULT_OUTPUT_CSV = "results.csv"
 MAX_NEW_TOKENS = 256
-MAX_INPUT_TOKENS = 4096
+MAX_INPUT_TOKENS = 3076
 
 tokenizer = None
 model = None
