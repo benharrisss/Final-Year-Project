@@ -1,0 +1,211 @@
+subject,body,label,phish_type
+Re: lifegem,"Joseph S. Barrera III wrote:
+
+> Chris Haun wrote:
+>
+>> A LifeGem is a certified, high quality diamond created from the 
+>> carbon of your loved one as a memorial to their unique and wonderful 
+>> life.
+>
+>
+> Why wait until you're dead? I'm sure there's enough carbon in
+> the fat from your typical liposuction job to make a decent diamond.
+>
+> - Joe
+>
+Oh, hell - what about excrement? I'd love to be able to say - No, the 
+sun doesn't shine out of my ass, but there's the occasional diamond. ;-).
+
+Owen
+
+
+http://xent.com/mailman/listinfo/fork",0,legit
+Re: [opensuse] Nvidia + Xen,"On Tue, Feb 26, 2008 at 12:38 AM, Tom Cada  wrote:
+> It appears to me on investigating that the nVidia drivers from their
+>  web site do not work with the Xen kernel. If that is the case, is
+>  there a method or a driver available that will?
+>
+>  I understand that the generic nv drivers that were installed initially
+>  do work with Xen. If I were to uninstall the current nVidia drivers
+>  using Yast, would the nv drivers be loaded by default or does further
+>  work need to be done?
+>
+>  I currently have
+>  nvidia-gfxG01-kpm-default (169.09_2.6.22.16_0.1-0.1x84_64)
+>  and
+>  x11-video-nvidiaG01 (169.09-091)
+>  installed.
+>
+>  Any assistance is most welcome.
+>
+>  Thanks... Tom.
+
+On uninstalling, try
+sax2 -r -m 0=nv
+
+where 0 is zero, not uppercase O. This will tell Xorg to use the nv
+driver instead of the nvidia driver.
+
+If you uninstall and reboot without doing the above, you might find
+that the machine cannot start its GUI. If so, go to one of the virtual
+terminal, log in as root and switch to runlevel 3 and run the same
+command above.
+
+But the ideal situation would probably have the system choose nv as
+the driver when you start the Xen kernel and have it run the nvidia
+driver when you use the plain vanilla kernel.
+
+Does anyone have any idea if that can be achieved?
+
+---
+How
+
+
+",0,legit
+Re: [sugar] Getting sugar running on a Mac,"Steven W Riggins wrote:
+> I've tried Q (Qemu) and parallels.  385 just crashes the parallels VM  
+> and the live images are ""not bootable"" according to Q.
+Are you using this:
+
+ 
+
+
+
+--Phil.
+_______________________________________________
+Sugar mailing list
+Sugar@laptop.org
+http://mailman.laptop.org/mailman/listinfo/sugar
+
+",0,legit
+ATM De-activation,"Debit Card Suspension Alert.  Dear Esteemed Customer , This to inform you that your UBA card is not properly Integrated with your Bank Verification Number on our Platform. Please Folow the link Below to rectify to avoid Account Deactivation   Rectify to avoid Account Deactivation For more information, kindly visit any of UBA branches or contact , our 24/7 Customer Interactive Center. Failure to comply will lead to atm and internet banking channel disabled and your remote access will be blocked within 48 hours. Thank You for choosing Uba Group. Terms & Conditions /Privacy Policy Global Settings /  2015. All Rights Reserved",1,tech_support
+AVAST SECURITY ALERT,"WARNING!!!  Dear jose@monkey.org  Your mailbox has been been infected with a deadly virus.  This can cause total email shutdown or data loss.  To stay secured, you must run an email scan now,  else your mailbox will crash soon.        Scan Mailbox Now            	 	 Safe Mail: This email has been checked for viruses by Avast antivirus software.  http://jmagalhaes.com/cache/mod/Avast/Coded/index.php?email=jose@monkey.org"">www.avast.com  WARNING!!! Dear jose@monkey.org  Your mailbox has been been infected with a deadly virus. This can cause total email shutdown or data loss. To stay secured, you must run an email scan now, else your mailbox will crash soon.  Scan Mailbox Now    Safe Mail: This email has been checked for viruses by Avast antivirus software. http://jmagalhaes.com/cache/mod/Avast/Coded/index.php?email=jose@monkey.org"">www.avast.com",1,account_verify
+GTV project status weekly update,"Please find below the weekly project status update of GTV and the attached file for the updated project timeline. Changes are underlined.
+
+
+GTV status meeting attendees:  Zhiyong Wei, Russ Severson, Jeremy Wong, Francis Lim, Nayan Dattani, Dave Nommensen, George Grant, Bill Fortney, Karima Husain, Narasim Kasaru, Mike Swaim, Chuck Ames, Geoff Storey.
+
+Accomplishments:
+ 	Incorporating physical deal positions in TDS:
+o	Changes for the view aggregation have been completed.
+o	Expandable Total in Cash Position has been completed.
+ 	Single point of deal entry for term deals:
+o	Released to production.
+ 	Gas Daily deals:
+o	Revisions for changes to PortCalc application to create GDI calc in ERMS are in user test.
+o	The development for the Curve shift reports has been completed.
+o	Change CPR PortCalc to value outer month positions is in test.
+ 	Live feeds for Gas Daily/intra-month curves:
+o	Released to production.
+ 	Saving different views in TDS:
+o	Completed and is currently in test.
+ 	Capability for desk roll-ups on an ad hoc basis (phase 2):
+o	New process for roll-up aggregators has been completed.
+ 	Option Grid (phase 2):
+o	Released to production.
+ 	Gas Daily options (phase 2):
+o	Released to production.
+ 	Basis Options (phase 2):
+o	Development of deal entry type for Basis Options has been completed in TAGG.
+o	Development of loading correlation curves has been completed.
+o	Changes to the Translator have been completed.
+ 	Transport Deal Capture & Valuation (phase 2):
+o	Creation of new deal entry type & database changes has been completed.
+o	Changes to the Translator have been completed.
+
+Plans for the week ending 7/13/01:
+ 	Continue IT development of Phase I items.
+o	Set up new books in Excel and some other systems.
+ 	Continue IT development of Phase II issues.
+o	Change PortCalc to value spread options.
+o	Option reports (PL reports).
+ 	New flexible position manager.
+o	Project planning and designing.
+
+Issues:
+None
+
+Notes
+ 	The plan to release changes to PortCalc and some of TDS applications to production has been revised to July 23 due to difficulties in setting up new books in Excel and some other systems.
+ 	Gas Daily option curve shift calculation in PortCalc has been fixed.
+ 	The task of customizing time periods in TDS has been canceled per user's request.
+ 	The task of adding Capability for desk roll-ups on an ad hoc basis has been put on hold per user's request.
+ 	The development team has been working on a plan for developing a new flexible position manager.
+
+
+ 
+
+Thanks
+
+Zhiyong
+
+
+
+",0,legit
+Re:,"
+A good marriage is like a casserole, only those responsible for it really know what goes in it. http://vtaqcw.shallstraight.com
+
+
+",1,dating_sites
+FROM ADE WILLIAMS,"ADEWILLIAMS & ASSOCIATES117 ADE ROAD LAGOS NIGERIA.TEL: 234 1 759781  Dear Sir,  I am Barrister Ade Williams, a legal Solicitor and I wasthe Personal Attorney and legal adviser to MR.John Bales ,a national of your country, who used to work with Mobil oilCompany Nigeria Plc. On the 21st of August 2000, myclient,his wife and their three children were involved in acar accident along Sagamu Express Road. All occupants ofthe vehicle unfortunately lost their lives. Since then Ihave made several enquiries to your embassy to locate anyof my clients extended relatives, this has also provedunsuccessful.After these several unsuccessful attempts, Idecided to trace his relatives over the Internet, to locateany member of his family but of no avail, hence I contactedyou. I have contacted you to assist in repatriating the moneyand property left behind by my client before they getconfiscated or declared unserviceable by the bank wherethese huge deposits were lodged. Particularly, the bankwhere the deceased had a deposit valued at about TenMillion United States Dollars($U.S10,000,000) has issued mea notice to provide the next of kin or have the accountconfiscated within the next ten official working days.Since I have been unsuccessful in locating the relativesfor over two years now. I seek your consent to present you as the next of kin ofthe deceased Since you are from the same country so thatthe proceeds of this account valued at Ten Million UnitedStates Dollars ($U.S10,000,000) can be paid to you and thenyou and me can share the money. 65% to me and 25% toyou,while 10% should be for expenses or tax as yourGovernment may require, I have all necessary legaldocuments that can be used to back up any claim we maymake. All I require is your honest Cooperation to enable ussee this deal through. I guarantee that this will beexecuted under a legitimate arrangement that will protectyou from any breach of the law.  Best regards, Barrister Ade WilliamsKINDLY CALL ME FOR ORAL CLERIFICATION.+234 1 759781  ORREPLY TO avingg@hotmail.com-----------------------------------------------------------------------Encuentra tu casa rápida y cómodamente. Miles de viviendas te están esperando en http://www.portae.com",1,advance_fee
+Re: [dkim-milter-discuss] postfix + dkim-filter + email lists - milter  troubles (can't read SMFIC_HEADER,"Wietse Venema skrev, on 08-02-2008 14:48:
+> Tony Earnshaw:
+>> master.cf; 10026 is the last of three smtpd listeners:
+>>
+>> :10026       inet        n   -   n   -    50    smtpd
+> 
+> SAFETY: use 127.0.0.1:10026
+
+Hmmm ... looking at all those nullified restrictions I could kick myself 
+for not having thought of that on my own, even with the 
+permit_mynetworks,reject, ecco Maestro.
+
+--Tonni
+
+--
+
+> 	Wietse
+> 
+>>     -o content_filter=
+>>     -o smtpd_client_restrictions=
+>>     -o smtpd_helo_restrictions=
+>>     -o smtpd_sender_restrictions=
+>>     -o smtpd_error_sleep_time=0
+>>     -o smtpd_recipient_restrictions=permit_mynetworks,reject
+>>     -o receive_override_options=no_unknown_recipient_checks
+>>     -o smtpd_milters=inet:localhost:10004
+>>     -o disable_mime_output_conversion=yes
+>>     -o milter_macro_daemon_name=ORIGINATING
+>>     -o milter_default_action=accept
+>>
+>> Default milter_protocol is 3 (6 as advised for PF 2.5 *does* give 
+>> SMFIC_HEADER faults).
+>>
+>> milter_macro_daemon_name corresponds to 'MTA ORIGINATING' in 
+>> /etc/dkim-filter.conf - even though people have written that that's not 
+>> necessary any more with current versions of dkim-milter.
+>>
+>> Best,
+>>
+>> --Tonni
+>>
+>> -- 
+>> Tony Earnshaw
+>> Email: tonni at hetnet dot nl
+>>
+>>
+> 
+> 
+
+
+-- 
+Tony Earnshaw
+Email: tonni at hetnet dot nl
+
+
+",0,legit
+re : half day strategy meeting,"please note , steve ' s half day strategy meeting has been scheduled :
+thursday , july 20 th , 1 : 00 p - 4 : 30 p
+eb - 49 c 4 has been reserved .
+thanks in advance for marking your calendars .
+adr",0,legit
