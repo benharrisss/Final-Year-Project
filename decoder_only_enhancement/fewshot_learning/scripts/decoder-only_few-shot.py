@@ -1,12 +1,13 @@
-import pandas as pd
-import json
-import re
-from typing import List
-from transformers import AutoModelForCausalLM, AutoTokenizer
-import torch
 import argparse
 import time
+import json
+import re
 import random
+from typing import List
+
+import pandas as pd
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 DEFAULT_MODEL_PATH = "./models/deepseek-llm-7b-chat"
 DEFAULT_INPUT_CSV = "final_phish+legit_2200.csv"
@@ -18,6 +19,7 @@ CLASSIFY_MAX_NEW_TOKENS = 256
 
 RAND_SEED = 44
 
+# Loaded once in main() and used by the helper functions below
 tokenizer = None
 model = None
 
@@ -27,6 +29,7 @@ def truncate_body(text, n_tokens):
         return text
     if n_tokens <= 0:
         return ""
+    # Truncate the body to n_tokens, stops going over context window
     ids = tokenizer(text,
         add_special_tokens=False,
         truncation=True,
@@ -35,99 +38,9 @@ def truncate_body(text, n_tokens):
     return tokenizer.decode(ids, skip_special_tokens=True)
 
 
-def format_for_model(prompt):
-    if getattr(tokenizer, "chat_template", None):
-        messages = [{"role": "user", "content": prompt}]
-        return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    return prompt
-
-
-def sanitise_output(text):
-    if not text:
-        return text
-    return text.replace("```json", "").replace("```", "").strip()
-
-
-def extract_json(text):
-    # Parse the last valid JSON object in text
-    candidates = re.findall(r"\{[\s\S]*?\}", text)
-    for cand in reversed(candidates):
-        try:
-            obj = json.loads(cand)
-            if isinstance(obj, dict):
-                return obj
-        except json.JSONDecodeError:
-            continue
-    return None
-
-
-def normalise_weird_text(t):
-    # e.g. Turns "PHISH!ING" into simply "phishing"
-    return re.sub(r"[^a-z]", "", (t or "").lower())
-
-
-def recover_classification(text):
-    t = text.lower()
-    idx = t.find("classification")
-    if idx == -1:
-        return None
-
-    local_region = text[idx : idx + 50]
-    norm = normalise_weird_text(local_region)
-
-    if "phishing" in norm:
-        return "PHISHING"
-    if "legitimate" in norm:
-        return "LEGITIMATE"
-    return None
-
-
-def fallback_classification(text):
-    t = (text or "").lower()
-    if "phishing" in t:
-        return "PHISHING"
-    if "legitimate" in t:
-        return "LEGITIMATE"
-    return None
-
-
-@torch.inference_mode()
-def generate_text(prompt, max_new_tokens):
-    formatted = format_for_model(prompt)
-    inputs = tokenizer(
-        formatted,
-        return_tensors="pt",
-        truncation=True,
-        max_length=MAX_INPUT_TOKENS,
-        add_special_tokens=True,
-    )
-    inputs = {k: v.to(model.device) for k, v in inputs.items()}
-
-    if torch.cuda.is_available():
-        torch.cuda.synchronize()
-    t0 = time.perf_counter()
-
-    out = model.generate(
-        **inputs,
-        max_new_tokens=max_new_tokens,
-        do_sample=False,
-        pad_token_id=tokenizer.eos_token_id,
-        eos_token_id=tokenizer.eos_token_id,
-    )
-
-    if torch.cuda.is_available():
-        torch.cuda.synchronize()
-    generation_seconds = time.perf_counter() - t0
-
-    gen_ids = out[0][inputs["input_ids"].shape[1] :]
-    output_tokens = int(gen_ids.numel())
-    completion = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
-
-    return completion, output_tokens, generation_seconds
-
-
 def build_summary_prompt(subject, body):
     body = truncate_body(body, MAX_INPUT_TOKENS)
+    # Just specify the required JSON keys/values in plain text
     return f"""
 Output rules:
 - Output ONLY a single valid JSON object
@@ -153,6 +66,7 @@ Email body:
 def build_fewshot_block(shots):
     if not shots:
         return ""
+    # Build fewshot examples block in recognisable format for model
     parts = ["Examples:"]
     for i, ex in enumerate(shots, start=1):
         parts.append(
@@ -168,6 +82,8 @@ Output: {{"classification": "{ex["label"]}"}}
 
 def build_classify_prompt(subject, summary, shots):
     fewshot = build_fewshot_block(shots)
+    # Just specify the required JSON keys/values in plain text
+    # Use summary and fewshot examples to help classify
     return f"""
 Output rules:
 - Output ONLY a single valid JSON object
@@ -191,19 +107,121 @@ Email summary:
 """.strip()
 
 
+def format_for_model(prompt):
+    # If the tokenizer has a chat template then use it
+    if getattr(tokenizer, "chat_template", None):
+        messages = [{"role": "user", "content": prompt}]
+        # Some models require structured format to behave correctly
+        return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    return prompt
+
+
+@torch.inference_mode()
+def generate_text(prompt, max_new_tokens):
+    formatted = format_for_model(prompt)
+    inputs = tokenizer(
+        formatted,
+        return_tensors="pt",
+        truncation=True,
+        max_length=MAX_INPUT_TOKENS,
+        add_special_tokens=True,
+    )
+    inputs = {k: v.to(model.device) for k, v in inputs.items()}
+
+    # Sync before and after for more accurate GPU timing
+    if torch.cuda.is_available():
+        torch.cuda.synchronize()
+    t0 = time.perf_counter()
+
+    out = model.generate(
+        **inputs,
+        max_new_tokens=max_new_tokens,
+        do_sample=False,
+        pad_token_id=tokenizer.eos_token_id,
+        eos_token_id=tokenizer.eos_token_id,
+    )
+
+    if torch.cuda.is_available():
+        torch.cuda.synchronize()
+    generation_seconds = time.perf_counter() - t0
+
+    # Decode ONLY the newly generated tokens (not the prompt)
+    gen_ids = out[0][inputs["input_ids"].shape[1] :]
+    output_tokens = int(gen_ids.numel())
+    completion = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
+
+    return completion, output_tokens, generation_seconds
+
+
+def extract_json(text):
+    # Parse the last valid JSON object in text (last object typically final)
+    candidates = re.findall(r"\{[\s\S]*?\}", text)
+    for cand in reversed(candidates):
+        try:
+            obj = json.loads(cand)
+            if isinstance(obj, dict):
+                return obj
+        except json.JSONDecodeError:
+            continue
+    return None
+
+
+def sanitise_output(text):
+    if not text:
+        return text
+    # Remove common formatting issues but not "!" (Qwen2.5-7B)
+    return text.replace("```json", "").replace("```", "").strip()
+
+
+def normalise_weird_text(t):
+    # e.g. Turns "PHISH!ING" into simply "phishing"
+    return re.sub(r"[^a-z]", "", (t or "").lower())
+
+
+def recover_classification(text):
+    # Find "classification" and search near it for label
+    t = text.lower()
+    idx = t.find("classification")
+    if idx == -1:
+        return None
+
+    # Small local region after the key
+    local_region = text[idx : idx + 50]
+    norm = normalise_weird_text(local_region)
+
+    if "phishing" in norm:
+        return "PHISHING"
+    if "legitimate" in norm:
+        return "LEGITIMATE"
+    return None
+
+
+def fallback_classification(text):
+    # As a last effort, search the whole text for phishing/legitimate keywords
+    t = (text or "").lower()
+    if "phishing" in t:
+        return "PHISHING"
+    if "legitimate" in t:
+        return "LEGITIMATE"
+    return None
+
+
 def summarise_email(subject, body, max_new_tokens):
     prompt = build_summary_prompt(subject, body)
     completion, output_tokens, generation_seconds = generate_text(prompt, max_new_tokens=max_new_tokens)
 
+    # Hard-trim anything after the final JSON brace - remove excess output
     completion_for_parsing = completion
     last_brace = completion_for_parsing.rfind("}")
     if last_brace != -1:
         completion_for_parsing = completion_for_parsing[: last_brace + 1].strip()
 
+    # Use any valid JSON found in output as summary
     parsed = extract_json(completion_for_parsing) or extract_json(sanitise_output(completion))
     if parsed and isinstance(parsed.get("summary"), str) and parsed["summary"].strip():
         return parsed["summary"].strip(), None, completion, output_tokens, generation_seconds
 
+    # If parsing failed, return summary generation failed + raw response
     if completion.strip():
         return completion.strip(), "SUMMARY_JSON_PARSE_FAILED", completion, output_tokens, generation_seconds
 
@@ -214,6 +232,7 @@ def classify_from_summary(subject, summary, shots, max_new_tokens):
     prompt = build_classify_prompt(subject, summary, shots)
     completion, output_tokens, generation_seconds = generate_text(prompt, max_new_tokens=max_new_tokens)
 
+    # Hard-trim anything after the final JSON brace - remove excess output
     completion_for_parsing = completion
     last_brace = completion_for_parsing.rfind("}")
     if last_brace != -1:
@@ -225,22 +244,27 @@ def classify_from_summary(subject, summary, shots, max_new_tokens):
         if label in ("PHISHING", "LEGITIMATE"):
             return label, parsed.get("reasoning"), None, completion, output_tokens, generation_seconds
 
-    parsed2 = extract_json(sanitise_output(completion))
+    # If parsing failed, attempt to sanitise the output and parse again
+    sanitised = sanitise_output(completion)
+    parsed2 = extract_json(sanitised)
     if parsed2:
         label = str(parsed2.get("classification", "")).strip().upper()
         if label in ("PHISHING", "LEGITIMATE"):
             return label, parsed2.get("reasoning"), "JSON_PARSE_FAILED_BUT_SANITISED", completion, output_tokens, generation_seconds
 
+    # If it still fails, attempt to recover the classification label with some heuristics
     recovered_label = recover_classification(completion_for_parsing)
     if recovered_label in ("PHISHING", "LEGITIMATE"):
         return recovered_label, None, "JSON_PARSE_FAILED_BUT_RECOVERED", completion, output_tokens, generation_seconds
 
+    # As a last effort, use any fallback label found, and return raw response
     fallback_label = fallback_classification(completion)
     return fallback_label, None, "JSON_PARSE_FAILED", completion, output_tokens, generation_seconds
 
 
 def load_shots_jsonl(path):
     shots: List[dict] = []
+    # Load fewshot examples from JSONL file - validating required fields
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -262,18 +286,19 @@ def load_shots_jsonl(path):
 
 
 def pick_phish_legit_shots(phish_shots, legit_shots, num_phish, num_legit, rng):
+    # Ensure there are enough shots as specified to sample from
     if len(phish_shots) < num_phish:
         raise SystemExit(f"Not enough phishing shots to sample {num_phish}. Found {len(phish_shots)}.")
     if len(legit_shots) < num_legit:
         raise SystemExit(f"Not enough legitimate shots to sample {num_legit}. Found {len(legit_shots)}.")
 
+    # Sample randomly from provided shots as to not cherry-pick shots
     picked_phish = rng.sample(phish_shots, num_phish)
     picked_legit = rng.sample(legit_shots, num_legit)
 
     shots = picked_phish + picked_legit
     rng.shuffle(shots)
     return shots
-
 
 
 def main():
@@ -290,6 +315,7 @@ def main():
     parser.add_argument("--num-legit", type=int, default=5)
     args = parser.parse_args()
 
+    # Overall Program time (includes load + CSV read + generation)
     total_t0 = time.perf_counter()
 
     print("Loading model...")
@@ -316,6 +342,7 @@ def main():
     if not shots:
         raise SystemExit("No valid shots loaded. Check shots JSONL content.")
 
+    # Make sure all shots have labels to make sure they are effective for model
     phish_shots = [s for s in shots if s["label"] == "PHISHING"]
     legit_shots = [s for s in shots if s["label"] == "LEGITIMATE"]
 
@@ -328,6 +355,7 @@ def main():
         fixed_shots = pick_phish_legit_shots(phish_shots, legit_shots, args.num_phish, args.num_legit, rng)
         print(f"Using fixed shots: {len(fixed_shots)} total, with {args.num_phish} phishing and {args.num_legit} legitimate.")
 
+    # After loading the model, read CSV & run summary+fewshot+classify on each row
     df = pd.read_csv(args.input_csv)
     results = []
 
@@ -350,11 +378,12 @@ def main():
         total_summary_tokens += sum_tokens
         total_summary_seconds += sum_seconds
 
+        # If summary successful, attempt classification
         if summary:
             if args.shots_mode == "fixed":
                 shots = fixed_shots
             else:
-                # Dynamic fewshot selection per email
+                # Dynamic fewshot selection per email decided at runtime
                 rng = random.Random(RAND_SEED + int(i))
                 shots = pick_phish_legit_shots(phish_shots, legit_shots, args.num_phish, args.num_legit, rng)
 
@@ -369,6 +398,7 @@ def main():
         total_classify_tokens += cls_tokens
         total_classify_seconds += cls_seconds
 
+        # Store the results for each classification - will be converted to a DataFrame
         results.append(
             {
                 "email_id": i,
@@ -395,13 +425,14 @@ def main():
     classify_tok_per_sec = total_classify_tokens / total_classify_seconds
     mean_generation_seconds_per_email = total_classify_seconds / len(df)
 
-
+    # Timing measurements printed to terminal and saved in logs
     print("\nTiming summary:")
     print(f"Model load time (s): {load_seconds:.2f}")
     print(f"Total program time (s): {total_seconds:.2f}")
     print(f"Summary stage time (s): {total_summary_seconds:.2f} | tokens/s: {summary_tok_per_sec:.2f}")
     print(f"Classify stage time (s): {total_classify_seconds:.2f} | tokens/s: {classify_tok_per_sec:.2f}")
     print(f"Mean generation time per email (s): {mean_generation_seconds_per_email:.2f}")
+
 
 if __name__ == "__main__":
     main()
