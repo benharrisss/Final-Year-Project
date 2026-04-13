@@ -22,7 +22,7 @@ def main():
     pred_list = []
     type_list = []
 
-    # Extract true, pred and phishing type and store in new columns after cleaning
+    # Clean/normalise values before computing metrics
     for _, row in df.iterrows():
         true_list.append(clean_true_label(row["true_label"]))
         pred_list.append(clean_pred_label(row["predicted_label"]))
@@ -47,9 +47,11 @@ def main():
             missing_pred_count += 1
 
     missing_pred_rate = missing_pred_count / total_rows
+
+    # Coverage treats missing/invalid predictions as non-usable rows
     coverage = 1.0 - missing_pred_rate
 
-    # JSON parse failed rate + recovered count
+    # JSON parse failure stats - count failures based on error tags
     if has_error:
         json_fail_count = 0
         recovered_count = 0
@@ -65,7 +67,7 @@ def main():
             except Exception:
                 pass
 
-            # Match "JSON_PARSE_FAILED" in the error text to count JSON parse failures
+            # Match "JSON_PARSE_FAILED" error tag to count parse failure
             err_text = str(err)
             if "JSON_PARSE_FAILED" in err_text:
                 json_fail_count += 1
@@ -95,13 +97,13 @@ def main():
     types = sorted(set(df["phish_type"]))
 
     for tname in types:
-        # Use all usable rows that contain true, pred and a phish_type that matches the list of types
         rows_t = [r for r in usable_rows if r["phish_type"] == tname]
         m = compute_metrics(rows_t)
 
-        # detection_rate (det_rate) = TP / (TP+FN) within that type - basically recall
-        # false_positive_rate (fp_rate) = FP / (FP+TN) within that type
+        # detection_rate is recall within that type
         det_rate = m["tp"] / (m["tp"] + m["fn"]) if (m["tp"] + m["fn"]) else float("nan")
+        
+        # false_positive_rate is FPR within that type
         fp_rate = m["fp"] / (m["fp"] + m["tn"]) if (m["fp"] + m["tn"]) else float("nan")
 
         per_type.append(

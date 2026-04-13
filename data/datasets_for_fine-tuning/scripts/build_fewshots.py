@@ -3,7 +3,7 @@ import json
 import pandas as pd
 
 
-def label_to_str(v: int) -> str:
+def label_to_str(v):
     return "PHISHING" if int(v) == 1 else "LEGITIMATE"
 
 
@@ -25,16 +25,19 @@ def main():
     if label_col not in df.columns:
         raise SystemExit(f"Missing required column: {label_col}")
 
+    # Filter out empty/blank summaries to avoid training on uninformative examples
     mask = df["summary"].notna() & (df["summary"].astype(str).str.strip() != "")
     df = df[mask].copy()
     
     df[label_col] = df[label_col].astype(int)
 
+    # Fixed random state ensures reproducible few-shot selection
     phish = df[df[label_col] == 1].sample(n=args.num_phish, random_state=444)
     legit = df[df[label_col] == 0].sample(n=args.num_legit, random_state=444)
 
     shots_df = pd.concat([phish, legit]).sample(frac=1.0, random_state=444)
 
+    # Write out the few-shots in JSONL format expected by the fine-tuning script
     with open(args.train_jsonl, "w", encoding="utf-8") as f:
         for _, row in shots_df.iterrows():
             obj = {

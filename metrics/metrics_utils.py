@@ -78,7 +78,7 @@ def compute_metrics(rows):
 
     n = tp + fp + tn + fn
 
-    # Calculations for typical evaluatuion metrics
+    # Confusion matrixed metrics with safe division to handle edge cases
     acc = (tp + tn) / n if n else float("nan")
     prec = tp / (tp + fp) if (tp + fp) else float("nan")
     rec = tp / (tp + fn) if (tp + fn) else float("nan")
