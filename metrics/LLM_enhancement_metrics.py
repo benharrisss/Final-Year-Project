@@ -44,7 +44,7 @@ def main():
     missing_pred_count = 0
 
     for i in df["pred"]:
-        if i is None:
+        if i is None or pd.isna(i):
             missing_pred_count += 1
 
     missing_pred_rate = missing_pred_count / total_rows
@@ -101,7 +101,7 @@ def main():
             if "JSON_PARSE_FAILED" in err_text:
                 classify_json_fail_count += 1
                 # Recovered, so parse failed but predicted label exists
-                if df.at[i, "pred"] is not None:
+                if df.at[i, "pred"] == "PHISHING" or df.at[i, "pred"] == "LEGITIMATE":
                     classify_recovered_count += 1
 
         classify_json_fail_rate = classify_json_fail_count / total_rows

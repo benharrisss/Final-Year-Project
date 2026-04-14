@@ -78,7 +78,7 @@ def main():
     missing_pred_count = 0
 
     for i in df["pred"]:
-        if i is None:
+        if i is None or pd.isna(i):
             missing_pred_count += 1
             
     missing_pred_rate = missing_pred_count / total_rows
