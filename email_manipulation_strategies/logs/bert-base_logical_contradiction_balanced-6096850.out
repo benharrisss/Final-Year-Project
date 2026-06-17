@@ -1,0 +1,12 @@
+Training round 1/3 | test accuracy=0.9561
+Training round 2/3 | test accuracy=0.9561
+Training round 3/3 | test accuracy=0.9561
+
+Timing summary:
+Model load time (s): 0.76
+Training time (s): 43.99
+Prediction time (s): 3.00
+Total program time (s): 48.02
+Examples/sec (overall): 45.81
+Examples/sec (prediction only): 220.08
+Wrote: /users/sc23bh2/baseline_testing/email_manipulation/bert-base_logical_contradiction_balanced

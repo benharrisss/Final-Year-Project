@@ -1,0 +1,668 @@
+email_id,subject,phish_type,true_label,predicted_label,predicted_prob_phishing
+0,Re: [sugar] Getting sugar running on a Mac,legit,0,LEGITIMATE,0.0017075722571462393
+1,Re:,dating_sites,1,PHISHING,0.9866853952407837
+2,[zzzzteana] Man admits Soham kidnapping hoax calls,legit,0,LEGITIMATE,0.028881803154945374
+3,"[DMDX] write to output file, disk full",legit,0,LEGITIMATE,0.0016250042244791985
+4,research library needed for netco,legit,0,LEGITIMATE,0.005052588414400816
+5,VERIFY YOUR ACCOUNT,account_verify,1,PHISHING,0.9978408813476562
+6,Re: [SM-USERS] squirrelmail v1.4.13 and Login Redirect Plugin v2.1,legit,0,LEGITIMATE,0.003297447459772229
+7,Windows Home Server,hr_impersonation,1,LEGITIMATE,0.0049118478782474995
+8,=?UTF-8?B?UmUgOiBbIFN1bW1hcnkgUmVwb3J0IEFsZXJ0IF0gOiBOZXcgU3RhdGVtZW50IFVwZGF0ZSBBY2NvdW50IFN1Ym1pdHRlZCB0byBVcGRhdGVkIEluZm9ybWF0aW9u?=,account_verify,1,PHISHING,0.7763640284538269
+9,This is it. (from Meredith),tech_support,1,PHISHING,0.52363121509552
+10,Re: [Python-3000] lambda,legit,0,LEGITIMATE,0.0017136746319010854
+11,LP RELEASE: Outrageous military spending,legit,0,LEGITIMATE,0.002699677599593997
+12,WINNING NOTIFICATION....................NATIONAL LOTTERY...,lottery,1,PHISHING,0.9966321587562561
+13,cusip,legit,0,LEGITIMATE,0.01642504893243313
+14,Order Shipping Confirmation #991-4958216-1093584,invoice_payment,1,LEGITIMATE,0.31043097376823425
+15,Award Centre Co-coordinator.,lottery,1,PHISHING,0.9974021911621094
+16,[ILUG] One Command -- Four Types,legit,0,LEGITIMATE,0.0019359049620106816
+17,AWG: Fwd: Paid Ebill:Transfer Payment Receipt For Overdue Invoices,invoice_payment,1,PHISHING,0.9173298478126526
+18,financial manager position,hr_impersonation,1,PHISHING,0.953936755657196
+19,re : cancellation of the master tasking letter,legit,0,LEGITIMATE,0.00141592335421592
+20,New White Paper: Document capture and integration for SharePoint Server 2007,legit,0,LEGITIMATE,0.00667565269395709
+21,nan,legit,0,LEGITIMATE,0.0026741705369204283
+22,Euro Milliones(Your Email Address Has Won A Lottery),lottery,1,PHISHING,0.9986787438392639
+23,Take Care of Your Health Now,pharm_sex,1,PHISHING,0.9413532614707947
+24,volume changes,legit,0,LEGITIMATE,0.0014286430086940527
+25,from NA Digest,legit,0,LEGITIMATE,0.0019290936179459095
+26,Re:,dating_sites,1,PHISHING,0.9874146580696106
+27,3.5% fixed payment 30 year loan,loans,1,PHISHING,0.9884756803512573
+28,Thank You So Much 126432211111,loans,1,PHISHING,0.9890959858894348
+29,LNG Update,legit,0,LEGITIMATE,0.0019165045814588666
+30,DHL Delivery ,invoice_payment,1,PHISHING,0.9973471164703369
+31,Local Area Employee Searching Notice,hr_impersonation,1,PHISHING,0.9979726672172546
+32,Notifcation: You have (9) new undelivered messages,document_share,1,PHISHING,0.9513952732086182
+33,Changes for cpuserver & pwd prompt?,legit,0,LEGITIMATE,0.001673949765972793
+34,tenaska iv gas,legit,0,LEGITIMATE,0.001552307396195829
+35,Re: [opensuse] Importing a CSV file into Kaddressbook,legit,0,LEGITIMATE,0.0014068721793591976
+36,Lowest Rates Available.                    gjannsxrwg,loans,1,PHISHING,0.9928172826766968
+37,Male Enhancement Reviews,pharm_sex,1,PHISHING,0.996042013168335
+38,PAPER 6,legit,0,LEGITIMATE,0.0015915289986878633
+39,CONGRATULATIONS!!! CHECK WITH YOUR AGENT,lottery,1,PHISHING,0.9986096620559692
+40,Re: Bits from the job front...,legit,0,LEGITIMATE,0.0017192683881148696
+41,Re: Sonar Assembly,legit,0,LEGITIMATE,0.001786316861398518
+42,All Your Breast Enlargement Info From Top Breast Enlargement Sites.,pharm_sex,1,PHISHING,0.996561586856842
+43,Iraq invasion could 'worsen terrorist threat',legit,0,LEGITIMATE,0.004066347144544125
+44,Re: When a Crop Becomes King,legit,0,LEGITIMATE,0.002632393967360258
+45,Re:,dating_sites,1,PHISHING,0.9799055457115173
+46,bad focus/click behaviours,legit,0,LEGITIMATE,0.0016769197536632419
+47,URGENT SECURITY CHECK FAILURE,tech_support,1,PHISHING,0.9985610842704773
+48,re : resumes,legit,0,LEGITIMATE,0.0013368807267397642
+49,"The Government grants you $25,000!",loans,1,PHISHING,0.9526850581169128
+50,RE: 68HC11 assembly commands,legit,0,LEGITIMATE,0.0014345181407406926
+51,california update 6 / 08 / 01,legit,0,LEGITIMATE,0.0019989232532680035
+52,All Your Breast Enlargement Info From Top Breast Enlargement Sites.,pharm_sex,1,PHISHING,0.9975776076316833
+53,Re: [ILUG] extending a HAN with Wireless..,legit,0,LEGITIMATE,0.0019926365930587053
+54,WINNER'S INFORMATIONS!!!,lottery,1,PHISHING,0.9981780052185059
+55,50 ways to meet your lover_sirry,dating_sites,1,PHISHING,0.9985081553459167
+56,"[Spambayes-checkins] spambayes/windows/py2exe setup_all.py, 1.28, 1.29",legit,0,LEGITIMATE,0.001728491741232574
+57,Email Security Alert !!!,account_verify,1,PHISHING,0.9988773465156555
+58,Re: queue file write error for some domains,legit,0,LEGITIMATE,0.0018351210746914148
+59,"Kevin Mitnick's laptop, signed by Woz, on eBay",legit,0,LEGITIMATE,0.0036568723153322935
+60,Profile and Preference Update,document_share,1,PHISHING,0.9982859492301941
+61,millions of mp 3 ' s and movies - download for free now !,tech_support,1,PHISHING,0.9775460362434387
+62,Positions Accessible,hr_impersonation,1,PHISHING,0.9981993436813354
+63,[UAI] Job announcement: JPL Machine Learning Group Supervisor,legit,0,LEGITIMATE,0.0017188125057145953
+64,"Lottery Winning Final Notification,You Won.",lottery,1,PHISHING,0.997886598110199
+65,Re: [ILUG] linux laptop: T61p or Macbook Pro,legit,0,LEGITIMATE,0.0016909657279029489
+66,Re[2]: Selling Wedded Bliss (was Re: Ouch...),legit,0,LEGITIMATE,0.0031306883320212364
+67,Re: [Python-Dev] thoughts on having EOFError inherit from	EnvironmentError?,legit,0,LEGITIMATE,0.0016179666854441166
+68,RE: Hanson's Sept 11 message in the National Review,legit,0,LEGITIMATE,0.0014596065739169717
+69,Re: Forged whitelist spam,legit,0,LEGITIMATE,0.0025420961901545525
+70,CONGRATULATIONS!!!YOU ARE OUR LUCKY WINNER,lottery,1,PHISHING,0.9953277111053467
+71,[Razor-users] How to test razor,legit,0,LEGITIMATE,0.001752130570821464
+72,Amended Compression Services Agreement,legit,0,LEGITIMATE,0.0015800009714439511
+73,WINNING NOTIFICATION !!!,lottery,1,PHISHING,0.9983017444610596
+74,CONTACT ASAP!!!,lottery,1,PHISHING,0.9984135627746582
+75,50 ways to meet your lover_Suppeko,dating_sites,1,PHISHING,0.9980456829071045
+76,FW: July 18 -- BNA's Corporate Counsel Weekly,legit,0,LEGITIMATE,0.0015449905768036842
+77,RE: Wind Erosion Discussion,legit,0,LEGITIMATE,0.0020060339011251926
+78,Get the Download PDF #283/Deposit-INVOICE002,invoice_payment,1,PHISHING,0.9971640706062317
+79,Re: [opensuse] Mounting an vmware virtual disk in Linux.,legit,0,LEGITIMATE,0.0017158573027700186
+80,Local Area Employee Searching Notice,hr_impersonation,1,PHISHING,0.9968926906585693
+81,history ' s biggest chapter 11 reorganization . it ' s lining up a $ 1 . 5,legit,0,LEGITIMATE,0.0091812489554286
+82,Re: Porting the expansion libraries,legit,0,LEGITIMATE,0.0014415851328521967
+83,TREAT VERY CONFIDENTIAL & URGENT RESPONSE.,advance_fee,1,PHISHING,0.9860353469848633
+84,Re: Download labels broken in Oct 29 Google Code Site update.,legit,0,LEGITIMATE,0.0021246334072202444
+85,USlicensedViagraMoreinfo,pharm_sex,1,PHISHING,0.9951759576797485
+86,[DMDX],legit,0,LEGITIMATE,0.0017187756020575762
+87,Regional Managers Needed ,hr_impersonation,1,PHISHING,0.9975737929344177
+88,BUSINESS PROPOSAL,advance_fee,1,PHISHING,0.9967445135116577
+89,Job Offers and My Resume,legit,0,LEGITIMATE,0.0033852856140583754
+90,Re: [patch] 00_CPANPLUS-Internals-Utils.t version match fix,legit,0,LEGITIMATE,0.001713795238174498
+91,Re: [opensuse] openSUSE 11.0 and the Non-ready KDE4,legit,0,LEGITIMATE,0.0022474206052720547
+92,do you beiieve in aiiens ?,tech_support,1,LEGITIMATE,0.10753711313009262
+93,[opensuse] SAN device,legit,0,LEGITIMATE,0.0017202376620844007
+94,Your account has been Iimited,tech_support,1,PHISHING,0.9983691573143005
+95,A formula turning you into a happy guy!,pharm_sex,1,PHISHING,0.9961326122283936
+96,REPLY URGENT,advance_fee,1,PHISHING,0.9955457448959351
+97,Re:,stock_pump_dump,1,PHISHING,0.9982737302780151
+98,[SOC100-L:504] final essay,legit,0,LEGITIMATE,0.002617933787405491
+99,valero - - meter 8018,legit,0,LEGITIMATE,0.0019027052912861109
+100,jose@monkey.org: Password Reset!,tech_support,1,PHISHING,0.9926549196243286
+101,RE: YOU keep the profits  ,lottery,1,PHISHING,0.9848071336746216
+102,Fw: The Gold Buddha,loans,1,LEGITIMATE,0.11987703293561935
+103,You have [2] Pending Delivery On Your e-Mail Portal,invoice_payment,1,PHISHING,0.997308611869812
+104,re : software,legit,0,LEGITIMATE,0.001501744263805449
+105,Re: mass-check --server bug? ,legit,0,LEGITIMATE,0.0019220575923100114
+106,Re: [PATCH - 2nd revision] /cygdrive is configurable,legit,0,LEGITIMATE,0.0016257447423413396
+107,[DMDX] Refresh rate of 22msec,legit,0,LEGITIMATE,0.0015996495494619012
+108,Help Needed -Reply,legit,0,LEGITIMATE,0.0020526377484202385
+109,ir reflectance sensors found !!!,legit,0,LEGITIMATE,0.0018131524557247758
+110,[Razor-users] Fire.cloudmark.com is having issues,legit,0,LEGITIMATE,0.002397099044173956
+111,Re: [UAI] Imprecise Probabilities--A simple and yet computationally nontrivial problem,legit,0,LEGITIMATE,0.0021279258653521538
+112,Increasing current output to motors on HandyBoard,legit,0,LEGITIMATE,0.0014157831901684403
+113,BUSINESS  PROPUSAL,advance_fee,1,PHISHING,0.9963886737823486
+114,nan,tech_support,1,LEGITIMATE,0.002263482892885804
+115,We collected best products for your health from all over the world.,pharm_sex,1,PHISHING,0.9817936420440674
+116,50 ways to meet your lover_markizamkd25,dating_sites,1,PHISHING,0.9906188249588013
+117,GOOD DAY SIR,advance_fee,1,PHISHING,0.9968420267105103
+118,"GOOD EMAIL,READ!",lottery,1,PHISHING,0.9970083832740784
+119,RE: [ILUG] SUSE 8 disks? (thread changed slightly),legit,0,LEGITIMATE,0.0015159972244873643
+120,[ILUG] Optimising for PentiumMMX?,legit,0,LEGITIMATE,0.0018962945323437452
+121,CONTACT ASAP!!!,lottery,1,PHISHING,0.9983304142951965
+122,Ohne Rezept - kein Potenmiitl!,dating_sites,1,PHISHING,0.9785370826721191
+123,Re: bad focus/click behaviours,legit,0,LEGITIMATE,0.0017490001628175378
+124,Update and activate your email services ,invoice_payment,1,PHISHING,0.9985174536705017
+125,Re: Canadians,legit,0,LEGITIMATE,0.003445291891694069
+126,enron employees filed out of the company ' s 50 - story mirrored glass tower headquarters in downtown houston on monday with their personal belongings stuffed in cardboard boxes . several employees reported they were given 30 minutes to clear out .,legit,0,LEGITIMATE,0.0016849905950948596
+127,: You have A New Mail From  e*trade.,document_share,1,PHISHING,0.9890958666801453
+128,Project Document Update Subcontractors/Suppliers,document_share,1,LEGITIMATE,0.014071028679609299
+129,YOU  HAVE  WON,lottery,1,PHISHING,0.9987117052078247
+130,50 ways to meet your lover_sirry,dating_sites,1,PHISHING,0.9975589513778687
+131,FRANCIS pr0fi1ed her cash with GI1BERT,stock_pump_dump,1,PHISHING,0.9967754483222961
+132,The GOv gets tough on Net Users.....er Pirates..,legit,0,LEGITIMATE,0.0031619605142623186
+133,ScanMail Message: To Recipient virus found or matched file blocki	ng setting.,tech_support,1,PHISHING,0.9949018955230713
+134,Re> Powerbook question,legit,0,LEGITIMATE,0.0016887254314497113
+135,[Bug 5780] URI processing turns uuencoded strings into http URI's which then causes FPs,legit,0,LEGITIMATE,0.0026652098167687654
+136,Words fail me,legit,0,LEGITIMATE,0.0015171149279922247
+137,Verify your account Immediately!!,account_verify,1,PHISHING,0.9982116222381592
+138,Donation for God's work.,advance_fee,1,LEGITIMATE,0.016806043684482574
+139,Re:,dating_sites,1,PHISHING,0.979578971862793
+140,Re: [Baseline] Raising chickens the high-tech way,legit,0,LEGITIMATE,0.002593844896182418
+141,CNN.com Daily Top 10,legit,0,LEGITIMATE,0.0035065843258053064
+142,"Re: dylsexics of the wrold, untie!",legit,0,LEGITIMATE,0.0019038282334804535
+143,You have 8 new messages in your email,invoice_payment,1,PHISHING,0.9903578162193298
+144,Re: Sumo-Robots,legit,0,LEGITIMATE,0.002534720581024885
+145,GOOD DAY,advance_fee,1,PHISHING,0.9980893731117249
+146,Do you owe the IRS money? [p5fi3],loans,1,PHISHING,0.9238724112510681
+147,Well-Paid Part-Time Job,hr_impersonation,1,PHISHING,0.9947702288627625
+148,enron research and ebs engineering and operations group technical,legit,0,LEGITIMATE,0.0012398874387145042
+149,Get Out of Debt Fast                          12244,loans,1,PHISHING,0.9967893362045288
+150,bits for the boat.,legit,0,LEGITIMATE,0.0021181453485041857
+151,Very discrete shipping and billing,pharm_sex,1,PHISHING,0.9943742752075195
+152,Mail User Security Alert,account_verify,1,PHISHING,0.986065149307251
+153,Plan 9 beginner's questions,legit,0,LEGITIMATE,0.0015411628410220146
+154,nan,legit,0,LEGITIMATE,0.0017448763828724623
+155,part-time job,hr_impersonation,1,PHISHING,0.9781826734542847
+156,Low-Profile Company With High Profit Potential [D E T A I L S FRIDAY it is]  Fatima launderer loathing,stock_pump_dump,1,PHISHING,0.9379593729972839
+157,floor space planning - staff meeting item for monday,legit,0,LEGITIMATE,0.0015142541378736496
+158,Re: [SAdev] Spam added to regular email,legit,0,LEGITIMATE,0.0018421902786940336
+159,"=?utf-8?Q?Notification=20New=20Transaction=20at=20You?=
+	=?utf-8?Q?r=20Account?=",invoice_payment,1,PHISHING,0.9371191263198853
+160,Verify Your Account,account_verify,1,PHISHING,0.9829723238945007
+161,[fwd] Market Trade Watch,stock_pump_dump,1,LEGITIMATE,0.11864348500967026
+162,Re: Battery Level Indicator,legit,0,LEGITIMATE,0.001577640068717301
+163,real,legit,0,LEGITIMATE,0.001751820556819439
+164,CALL FOR CONFRIMATION,lottery,1,PHISHING,0.9978936314582825
+165,Re: [9fans] re: license terms?,legit,0,LEGITIMATE,0.0022894376888871193
+166,"[Spambayes-checkins] spambayes/contrib tte.py,1.17,1.18",legit,0,LEGITIMATE,0.0022839612793177366
+167,FINAL NOTICE kngjl,lottery,1,PHISHING,0.9980708956718445
+168,the beginning of the end,tech_support,1,PHISHING,0.9907088279724121
+169,[duodenalswitch] Digest Number 13712,legit,0,LEGITIMATE,0.003097391687333584
+170,"Dear jose  Invoice does not bear your Company's Bank details, """,invoice_payment,1,LEGITIMATE,0.3022545576095581
+171,[Spambayes] timtest broke?,legit,0,LEGITIMATE,0.0019071600399911404
+172,Men can now benefit from this formula,dating_sites,1,PHISHING,0.9979962110519409
+173,[DMDX] Re: question about randomization,legit,0,LEGITIMATE,0.0016475743614137173
+174,Priceless Rubens works stolen in raid on mansion,legit,0,LEGITIMATE,0.01478422712534666
+175,"For you  color=""#006626""",dating_sites,1,PHISHING,0.9720379710197449
+176,start date : 1 / 10 / 02 ; hourahead hour : 20 ;,legit,0,LEGITIMATE,0.0015722360694780946
+177,Action Required on monkey.org,account_verify,1,PHISHING,0.9986228942871094
+178,Get a sneak preview of our NEW website + Free Shipping!,legit,0,LEGITIMATE,0.003017623908817768
+179,Backtracking in Icon,legit,0,LEGITIMATE,0.0019388323416933417
+180,UCount Rewards Earn 20172801,invoice_payment,1,PHISHING,0.9960803389549255
+181,50 ways to meet your lover_iGirl,dating_sites,1,PHISHING,0.998082160949707
+182,Re: exclude hosts from reverse DNS checks,legit,0,LEGITIMATE,0.0013648233143612742
+183,Positions Accessible,hr_impersonation,1,PHISHING,0.9978082776069641
+184,Latest stuff C T X E Most reliable methods of stokc analysis increasing your bottom line ,stock_pump_dump,1,PHISHING,0.554121732711792
+185,re : tenaska,legit,0,LEGITIMATE,0.0015808881726115942
+186,The Mistersporty Incorporation Worldcup Offer 2006,stock_pump_dump,1,PHISHING,0.9972332119941711
+187,eBucks Wallet Statement,invoice_payment,1,PHISHING,0.9978818297386169
+188,netco planning,legit,0,LEGITIMATE,0.0014768301043659449
+189,Re: [ILUG] SUSE 8 disks? (thread changed slightly),legit,0,LEGITIMATE,0.0021004844456911087
+190,jose@monkey.org=?UTF-8?B?OiBQYXNzd29yZCBSybVzybV0ICE=?=,tech_support,1,PHISHING,0.9795620441436768
+191,Your Citi Bank Account Has Been Temporarily Suspended,account_verify,1,PHISHING,0.9931715726852417
+192,ats warrants,legit,0,LEGITIMATE,0.0024944129399955273
+193,Reply Soon,advance_fee,1,PHISHING,0.9968501925468445
+194,linking images,legit,0,LEGITIMATE,0.0030448357574641705
+195,'Miracle' gene therapy trial halted,legit,0,LEGITIMATE,0.047066956758499146
+196,Urgent Purchase Order!!!,invoice_payment,1,PHISHING,0.98073810338974
+197,Re: [ie-rant] Re: hp pavilion issues,legit,0,LEGITIMATE,0.0026292558759450912
+198,nan,advance_fee,1,PHISHING,0.9964746832847595
+199,RE: The absurdities of life.,legit,0,LEGITIMATE,0.0020282019395381212
+200,Part-Time Job Available,hr_impersonation,1,PHISHING,0.9977489113807678
+201,$ 350 million breakup fee if the transaction collapses .,legit,0,LEGITIMATE,0.08138850331306458
+202,50 ways to meet your lover_Ulimaroa,dating_sites,1,PHISHING,0.994512677192688
+203,Enrich it with greater volume and power!,pharm_sex,1,PHISHING,0.959184467792511
+204,Severe error,legit,0,LEGITIMATE,0.0018316375790163875
+205,Analyst/Associate Program: 2 Minutes of Your Time,legit,0,LEGITIMATE,0.001729724695906043
+206,[Bug 5493] [review] sa-compile not correctly parsing escaped backslashes,legit,0,LEGITIMATE,0.0021051540970802307
+207,Re:,dating_sites,1,PHISHING,0.973248302936554
+208,re: telnet/tcp bugs,legit,0,LEGITIMATE,0.0015006520552560687
+209,RE: ok_locales (was: Re: some custom ruleset rule info please),legit,0,LEGITIMATE,0.0018343700794503093
+210,50 ways to meet your lover_markizamkd25,dating_sites,1,PHISHING,0.9984816908836365
+211,Digital input cct,legit,0,LEGITIMATE,0.001540024415589869
+212,320p 4/9 Update: Soyuz docks with station,legit,0,LEGITIMATE,0.006475528702139854
+213,APPEAL FOR URGENT ASSISTANCE.,advance_fee,1,PHISHING,0.998528003692627
+214,[Spambayes] Ditching WordInfo,legit,0,LEGITIMATE,0.0018464967142790556
+215,our sexual life maybe incredible and exciting,pharm_sex,1,PHISHING,0.9933318495750427
+216,Re: some action around here,legit,0,LEGITIMATE,0.001707795774564147
+217,[9fans] 9fans@cse.psu.edu,legit,0,LEGITIMATE,0.002066084649413824
+218,AWG: Fwd: Paid Ebill:Transfer Payment Receipt For Overdue Invoices,document_share,1,PHISHING,0.9173298478126526
+219,Re: Congratulations.,lottery,1,PHISHING,0.9978396892547607
+220,Instant Winners,lottery,1,PHISHING,0.9983525276184082
+221,Euro Millones International Lottery,lottery,1,PHISHING,0.9985007047653198
+222,Well-Paid Part-Time Job,hr_impersonation,1,PHISHING,0.9980354905128479
+223,Documents from Barbara Hopkins,document_share,1,LEGITIMATE,0.012873681262135506
+224,CRISIS INTERVENTION COURSES OFFERED IN CHATTANOOGA,legit,0,LEGITIMATE,0.003997343592345715
+225,*-ADV-  LOWEST  MORTGAGE RATES IN AMERICA  - 8976-- NJOU7,loans,1,LEGITIMATE,0.06836611777544022
+226,US $ 159.95 100mg x 90 pills,pharm_sex,1,PHISHING,0.9917232394218445
+227,Re: [Razor-users] What's wrong with the Razor servers now?,legit,0,LEGITIMATE,0.0020926352590322495
+228,Open Part-Time Positions,hr_impersonation,1,PHISHING,0.9962834715843201
+229,Re: [Python-Dev] February bug day outcome,legit,0,LEGITIMATE,0.0016585103003308177
+230,fw : payment,legit,0,PHISHING,0.7015342712402344
+231,Re: FW: Suggestions to block this spam,legit,0,LEGITIMATE,0.0018480838043615222
+232,Dr. Musa Dura,advance_fee,1,PHISHING,0.9975969195365906
+233,Well-Paid Part-Time Job,hr_impersonation,1,PHISHING,0.9975109100341797
+234,Well-Paid Part-Time Job,hr_impersonation,1,PHISHING,0.9973626732826233
+235,"[Spambayes-checkins] spambayes setup.py,1.32,1.33",legit,0,LEGITIMATE,0.0021471362560987473
+236,[DMDX],legit,0,LEGITIMATE,0.002299377229064703
+237,Re:,dating_sites,1,PHISHING,0.9942329525947571
+238,Hidden Winners Stock Alert,stock_pump_dump,1,PHISHING,0.9801810383796692
+239,Court order on pending invoice,invoice_payment,1,PHISHING,0.927800178527832
+240,PLS ASSIST ME,advance_fee,1,PHISHING,0.9970861077308655
+241,FW: Order Signed agreement,invoice_payment,1,PHISHING,0.7569847702980042
+242,[opensuse] Defragging: possible?  necessary?,legit,0,LEGITIMATE,0.0024663766380399466
+243,Now anyone can get a merchant accountBBHNQGHU,loans,1,PHISHING,0.9934340715408325
+244,This enhancement will last a lifetime!,pharm_sex,1,PHISHING,0.9960452914237976
+245,Your parcel has arrived,invoice_payment,1,PHISHING,0.995805025100708
+246,Interactive C on old 8086 machine,legit,0,LEGITIMATE,0.0014941664412617683
+247,Re: [R] Rserve and R to R communication,legit,0,LEGITIMATE,0.0014728247188031673
+248,Award,lottery,1,PHISHING,0.9985923171043396
+249,Re: RedHat 8.0 and his own freetype,legit,0,LEGITIMATE,0.001727480092085898
+250,Jose Get Your Files Labelled Payment/Invoice,invoice_payment,1,PHISHING,0.9985093474388123
+251,Ranking And Reviews Of The Top 5 Penis Enlargement Products!,pharm_sex,1,PHISHING,0.9493322968482971
+252,Re: [spambayes-dev] standalone cdb module,legit,0,LEGITIMATE,0.001709665055386722
+253,"enron / hpl actuals for october 31 , 2000",legit,0,LEGITIMATE,0.001323739648796618
+254,"You Have Won US$500,000.00",lottery,1,PHISHING,0.9975484013557434
+255,[DMDX] Display Timing issue?,legit,0,LEGITIMATE,0.0016613731859251857
+256,[Dixielandjazz] Wabash Blues,legit,0,LEGITIMATE,0.005960593931376934
+257,Food 'cancer chemical' reaction identified,legit,0,LEGITIMATE,0.01912696287035942
+258,"Re: ""Holiday Season"" 2002 begins",legit,0,LEGITIMATE,0.00165758456569165
+259,Re: Microsoft buys XDegress - more of a p2p/distributed data thing...,legit,0,LEGITIMATE,0.0023107125889509916
+260,here's a winer [DETAILS NEW PICK MONDAY  it is]  aspersion earmarks daemons girders,stock_pump_dump,1,PHISHING,0.9962005019187927
+261,[Bug 5817] Poorly faked MTA Received headers (MUA to MX),legit,0,LEGITIMATE,0.0015739992959424853
+262,Hiring Announcement,hr_impersonation,1,PHISHING,0.997607946395874
+263,"Wekalist Digest, Vol 60, Issue 12",legit,0,LEGITIMATE,0.0015485178446397185
+264,Well-Paid Part-Time Job,hr_impersonation,1,PHISHING,0.9975205063819885
+265,rice program in financial engineering,legit,0,LEGITIMATE,0.0016083646332845092
+266,CONTACT MY LAWYER IF YOU ARE WILLING TO ASSIST!!!,advance_fee,1,PHISHING,0.993523359298706
+267,TripTracker Capability,legit,0,LEGITIMATE,0.0021856387611478567
+268,Bloomberg Energy Seminar,legit,0,LEGITIMATE,0.001347623998299241
+269,[DMDX] installation problem + keyboard problem,legit,0,LEGITIMATE,0.0019242319976910949
+270,fwd: The hottest pick daily news,stock_pump_dump,1,LEGITIMATE,0.022075891494750977
+271,RE: EEX Confirm,legit,0,LEGITIMATE,0.001606077654287219
+272,Re: [ILUG] slashdot EW Dijkstra humor,legit,0,LEGITIMATE,0.0015451257349923253
+273,Action needed regarding your Account..,document_share,1,PHISHING,0.9983356595039368
+274,[Spambayes] understanding high false negative rate,legit,0,LEGITIMATE,0.0019232953200116754
+275,Re: IR Sony Input?,legit,0,LEGITIMATE,0.00194159138482064
+276,You have 14 companies interested in your product.,invoice_payment,1,PHISHING,0.996157705783844
+277,RE: Re[2]: Selling Wedded Bliss (was Re: Ouch...),legit,0,LEGITIMATE,0.0028949992265552282
+278,again - pc/win95 and hb pcode source,legit,0,LEGITIMATE,0.001672946149483323
+279,From: Mr. Markus Bopp.,advance_fee,1,PHISHING,0.9969972372055054
+280,[Bug 5780] URI processing turns uuencoded strings into http URI's which then causes FPs,legit,0,LEGITIMATE,0.0026652098167687654
+281,Your kind attention needed. ZEID AHMADI ,advance_fee,1,PHISHING,0.9973686933517456
+282,re : pserc industrial advisory board meeting invitation,legit,0,LEGITIMATE,0.0013483488000929356
+283,Dumb math question related to Navigation and encoders,legit,0,LEGITIMATE,0.0015140683390200138
+284,re : gas message board,legit,0,LEGITIMATE,0.0012892287923023105
+285,nan,stock_pump_dump,1,PHISHING,0.664911150932312
+286,"Over $100,000 Per Year Possible On The Net!  No Illegal MLM Junk! Time:11:43:57 PM",loans,1,PHISHING,0.7171233892440796
+287,123,pharm_sex,1,PHISHING,0.993061363697052
+288,Additional 25% Off All Sale Items,legit,0,LEGITIMATE,0.013512162491679192
+289,CALL BACLK IMMEDIATELY,lottery,1,PHISHING,0.9973374009132385
+290,Afonso Dos Santos,stock_pump_dump,1,PHISHING,0.9952415227890015
+291,Re: Starting IC with wizard,legit,0,LEGITIMATE,0.0023447584826499224
+292,"The Government Grants you $25,000!",loans,1,PHISHING,0.9533874988555908
+293,new retail electricity provider survey,legit,0,LEGITIMATE,0.017554551362991333
+294,help,legit,0,LEGITIMATE,0.005943936295807362
+295,Personal Information Security Preference Update,document_share,1,PHISHING,0.9988849759101868
+296,Re: [python-win32] [pywin32-bugs] ISAPI Set-Cookie Probs,legit,0,LEGITIMATE,0.0019874279387295246
+297,New White Paper: Best Practices for VLAN Implementation and Troubleshooting,legit,0,LEGITIMATE,0.002234296640381217
+298,Re: [9fans] FreeBSD 4.0 / Plan9 3rd ed.,legit,0,LEGITIMATE,0.0014536959351971745
+299,=?UTF-8?Q?OTP:_992493_to_authenticate_payment?=,account_verify,1,PHISHING,0.9942774176597595
+300,Security Alert,account_verify,1,PHISHING,0.998065173625946
+301,Financial Representative,hr_impersonation,1,PHISHING,0.9855842590332031
+302,Re: [Python-Dev] Making sys.py3k_warning writable,legit,0,LEGITIMATE,0.001777522498741746
+303,Document Share,document_share,1,LEGITIMATE,0.35198166966438293
+304,[SPAM] You have received a file via Wetransfer,document_share,1,PHISHING,0.998318076133728
+305,"Hey, rates are low. What are you waiting for?",loans,1,PHISHING,0.9916901588439941
+306,"2006 Global Digital Media - Convergence, Triple Play and IPTV",stock_pump_dump,1,PHISHING,0.9943622350692749
+307,Re: Recommended Viewing,legit,0,LEGITIMATE,0.0017341007478535175
+308,"Fw:
+ =?UTF-8?B?WyBTVU1NQVJZIEFQUE9JTlRNRU5UIF0gQWxlcnQ6IEFtYXpvbiBiaUlJaW5nIHByb2JsZW0=?=
+ - (Case ID: tjSSNkpp) No. 42157794 - Date: Fri Dec 27 2019 17:35:00
+ GMT+0000 (Coordinated Universal Time)",invoice_payment,1,PHISHING,0.9908015131950378
+309,houston visit with vince kaminski,legit,0,LEGITIMATE,0.0013828026130795479
+310,You have (1) New Message ,document_share,1,PHISHING,0.9426764249801636
+311,Harvest Moon,legit,0,LEGITIMATE,0.0030601536855101585
+312,Gain mega huge dimensions!,hr_impersonation,1,PHISHING,0.9930320978164673
+313,MORTGAGE LOANS WITH A 5.75% AVAILABLE!!!!!11284,loans,1,PHISHING,0.9943951368331909
+314,Contact Us - 2020 WhatsApp New e-Statement File #029,document_share,1,PHISHING,0.9839543104171753
+315,fw : your sister knows you watch girls masturbate,tech_support,1,PHISHING,0.9983739852905273
+316,[Webdev] php-mailsettings anyone?,legit,0,LEGITIMATE,0.00195556809194386
+317,Account Suspended ,account_verify,1,PHISHING,0.9965356588363647
+318,discounted motgages 4924161298765444333,loans,1,PHISHING,0.9985927939414978
+319,nan,legit,0,LEGITIMATE,0.002623793436214328
+320,50 ways to meet your lover_Alexandra_11...,dating_sites,1,PHISHING,0.9980027079582214
+321,In defence of YouTube,legit,0,LEGITIMATE,0.014243325218558311
+322,the impact to houston should be minimal ,legit,0,LEGITIMATE,0.004920060746371746
+323,BUSINESS RELATIONSHIP ,advance_fee,1,PHISHING,0.9876026511192322
+324,Re: Sorting dir output,legit,0,LEGITIMATE,0.0016861101612448692
+325,Need Help - 68HC11E1/68HC24 and 32K external RAM,legit,0,LEGITIMATE,0.0021520524751394987
+326,Config Register error,legit,0,LEGITIMATE,0.0015897070989012718
+327,[DMDX] Re: White background and grey text best combo?,legit,0,LEGITIMATE,0.0017358845798298717
+328,re : keep thinking i ' ll see you when you get back,legit,0,LEGITIMATE,0.002383097307756543
+329,Congratulations You are a winner!!!,lottery,1,PHISHING,0.9983219504356384
+330,Re: [ILUG] Using Normal IDE Device with a Dell Latitude CPx laptop,legit,0,LEGITIMATE,0.0017581708962097764
+331,200 Million Targeted Leads CD * ONLY $99.95 *,loans,1,PHISHING,0.5291453003883362
+332,Re: Fwd: Re[2]: [ILUG] New ILUG commitee,legit,0,LEGITIMATE,0.0016776067204773426
+333,Re: Wire Transfer Comfirmation(07-11-2020.xlsx,document_share,1,PHISHING,0.9983329176902771
+334,50 ways to meet your lover_Alexandra_11...,dating_sites,1,PHISHING,0.9981235861778259
+335,start date : 1 / 31 / 02 ; hourahead hour : 23 ;,legit,0,LEGITIMATE,0.0014448266010731459
+336,[UAI] CFP: LCC'06 - Workshop on Logic and Computational Complexity,legit,0,LEGITIMATE,0.0017739487811923027
+337,Congratulation.,lottery,1,PHISHING,0.9987157583236694
+338,[DMDX] Re: DIY input device- RT's affected?,legit,0,LEGITIMATE,0.0017854024190455675
+339,Software to rebuild your credit,loans,1,PHISHING,0.8704254031181335
+340,Re: OT: html checkbox question,legit,0,LEGITIMATE,0.0017012989846989512
+341,sap changes due to migration to windows 2000,legit,0,LEGITIMATE,0.00131405598949641
+342,Re: [ILUG] linux pthreads problem,legit,0,LEGITIMATE,0.0015816809609532356
+343,I have Rug-Warrior Project!,legit,0,LEGITIMATE,0.0019362560706213117
+344,Consolidate high interest credit card debt.                    hfnvm,loans,1,PHISHING,0.9961430430412292
+345,RE: [saml-dev] NameID-less SAML Subject,legit,0,LEGITIMATE,0.0017613765085116029
+346,CONGRATULATIONS YOUR EMAIL ADDRESS HAS WON A PRIZE,lottery,1,PHISHING,0.9984754920005798
+347,Vector Compass problem,legit,0,LEGITIMATE,0.0019383396720513701
+348,"Dear Colleague, Logon to (
+ https://earl-secure.com/ADMIN-PORTAL/index.html )",tech_support,1,LEGITIMATE,0.0039344653487205505
+349,Re: assembler,legit,0,LEGITIMATE,0.0019566258415579796
+350,Your Account Urgent Document Is Ready,tech_support,1,PHISHING,0.998634397983551
+351,You Have a New Payment Transfer,document_share,1,PHISHING,0.9987469911575317
+352,alexis de tocqueville breakfast and solicitation,legit,0,LEGITIMATE,0.0017061991384252906
+353,Re:,stock_pump_dump,1,PHISHING,0.9982737302780151
+354,microsoft virus warning - january 15 th,tech_support,1,LEGITIMATE,0.013592280447483063
+355,Re: [Python-Dev] Warn about mktemp once again?,legit,0,LEGITIMATE,0.0017382428050041199
+356,Re: Very Penis Extended Long 494b76ec8d1ebe7dfac4daa8531d26b1,pharm_sex,1,PHISHING,0.9842656850814819
+357,Re: Ximian apt repos?,legit,0,LEGITIMATE,0.0015487006166949868
+358,Politics E-Wire,legit,0,LEGITIMATE,0.007356800604611635
+359,Your Checking/Savings Account Untrusted Authorization,tech_support,1,PHISHING,0.9983312487602234
+360,"Equitable prepares to compensate 70,000",legit,0,LEGITIMATE,0.014223461970686913
+361,07/18/2022 04:03:34 pm,document_share,1,PHISHING,0.9640774726867676
+362,re : administration,tech_support,1,PHISHING,0.9937976002693176
+363,PAPER 4,legit,0,LEGITIMATE,0.0014762424398213625
+364,replacement components,legit,0,LEGITIMATE,0.0014168473426252604
+365,Enjoy deeper penetration after 2 months,pharm_sex,1,PHISHING,0.9935831427574158
+366,start date : 12 / 30 / 01 ; hourahead hour : 2 ;,legit,0,LEGITIMATE,0.0014536053640767932
+367,Which Ones Really Work? We List The Top Penis Enlargement Products!,pharm_sex,1,PHISHING,0.9634591937065125
+368,Consultants recommended product for men,pharm_sex,1,PHISHING,0.991664707660675
+369,starship-design: Nanotech Might Cut Solarcell Costs,legit,0,LEGITIMATE,0.0036132673267275095
+370,specs for this week [NEWS]  loathing miscellaneousness fingerings,stock_pump_dump,1,PHISHING,0.9966021776199341
+371,"MSN-list Digest, Vol 7, Issue 83",legit,0,LEGITIMATE,0.003378936555236578
+372,REPLY SOONEST,advance_fee,1,PHISHING,0.9936646223068237
+373,"[DMDX] Re: Unable to display image files (bmp,jpg)",legit,0,LEGITIMATE,0.002483112970367074
+374,RE: Linux Systems,legit,0,LEGITIMATE,0.0024059833958745003
+375,Re: [Razor-users] Razor: shall I use it with AMaViS or with,legit,0,LEGITIMATE,0.0015327914152294397
+376,(1) You just received 2files (Proforma Invoice/Payment swift copy 100%) via WeTransfer,invoice_payment,1,PHISHING,0.9987758994102478
+377,Re: [zzzzteana] Free Web Hosting?,legit,0,LEGITIMATE,0.0021496121771633625
+378,Apple account unusual sign-in activity,tech_support,1,PHISHING,0.7209500670433044
+379,Flexible Deal Viewer Inception Document - GTV 2,legit,0,LEGITIMATE,0.004801228642463684
+380,"review of paper by titman , et al",legit,0,LEGITIMATE,0.0017519354587420821
+381,Free Mortgage Quotes,loans,1,PHISHING,0.970922589302063
+382,SPANISH E-MAIL RESULT,lottery,1,PHISHING,0.9985190033912659
+383,[ NETFLIX ] Statement account be is available log in to re-active,account_verify,1,PHISHING,0.9908822774887085
+384,Re: speed of the board,legit,0,LEGITIMATE,0.001636083354242146
+385,Buy top products at Canadian Pharmacy store.,pharm_sex,1,PHISHING,0.9966417551040649
+386,Malware Protection Notice,tech_support,1,PHISHING,0.9986035227775574
+387,california update - - 09 . 20 . 01 - - 8 am pdt,legit,0,LEGITIMATE,0.0013971240259706974
+388,Congratulations.,lottery,1,PHISHING,0.9978581070899963
+389,RE: [ILUG] doolin,legit,0,LEGITIMATE,0.001777174649760127
+390,part-time job,hr_impersonation,1,PHISHING,0.9781826734542847
+391,Re: [opensuse] ext3 check forced = frustration,legit,0,LEGITIMATE,0.002397943055257201
+392,Re:,stock_pump_dump,1,PHISHING,0.9982737302780151
+393,Re:,stock_pump_dump,1,PHISHING,0.9982737302780151
+394,Serial Interface/ RF data link,legit,0,LEGITIMATE,0.002942686667665839
+395,Sun interval patents,legit,0,LEGITIMATE,0.0022179814986884594
+396,Re: Outstanding invoice reminder,invoice_payment,1,PHISHING,0.9559703469276428
+397,work in the financial company,hr_impersonation,1,PHISHING,0.9805750846862793
+398,[Baseline] Raising chickens the high-tech way,legit,0,LEGITIMATE,0.003362581366673112
+399,Your order                1963,loans,1,PHISHING,0.9974638223648071
+400,Time sheet,legit,0,LEGITIMATE,0.0015299413353204727
+401,Doing exemplary some connive,stock_pump_dump,1,PHISHING,0.8123849034309387
+402,Fundraiser Manual,stock_pump_dump,1,PHISHING,0.7307740449905396
+403,$59.95 Price for Viagra 50mg x 10 pills,pharm_sex,1,PHISHING,0.9932299852371216
+404,Re: Milter's and postfix and sendmail.,legit,0,LEGITIMATE,0.0019069669069722295
+405,Re: What setup do I need?,legit,0,LEGITIMATE,0.001808750326745212
+406,CLAIM WINNING PRIZE,lottery,1,PHISHING,0.9969227910041809
+407,Congratulations,lottery,1,PHISHING,0.9984014630317688
+408,RE: Urgent Computer Security Update - Your Action Is Required !,tech_support,1,PHISHING,0.9430390000343323
+409,trv notification : ( waha - 06 / 21 / 2001 ),legit,0,LEGITIMATE,0.002344474894925952
+410,Purchase Order,invoice_payment,1,PHISHING,0.5137644410133362
+411,seminar mugs,legit,0,LEGITIMATE,0.0014141000574454665
+412,SHIPPING DOCUMENT  ,invoice_payment,1,LEGITIMATE,0.028845181688666344
+413,Wells Fargo Bill Pay: Payee'(s) Added.,document_share,1,PHISHING,0.9932419657707214
+414,=?UTF-8?Q?Unusual_sign=2din_activity?=,account_verify,1,PHISHING,0.9982566237449646
+415,with her m0ney her ba11 inf0rmed JIM,stock_pump_dump,1,PHISHING,0.9971045851707458
+416,[Bug 5816] AWL AutoWhiteList,legit,0,LEGITIMATE,0.00241382815875113
+417,ASKING FOR ASSISTANCE,advance_fee,1,PHISHING,0.9962316155433655
+418,I BELIEVE I CAN TRUST YOU.,advance_fee,1,PHISHING,0.9977524876594543
+419,Positions Accessible,hr_impersonation,1,PHISHING,0.9973682761192322
+420,Looking for remedy? We are the best source.,pharm_sex,1,LEGITIMATE,0.03600472956895828
+421,50 ways to meet your lover_evie_girl_fl,dating_sites,1,PHISHING,0.9947000741958618
+422,"[UAI] CFP: Workshop on belief revision, belief merging and social choice",legit,0,LEGITIMATE,0.0029883617535233498
+423,Re: [SM-USERS] Import data from Openwebmail,legit,0,LEGITIMATE,0.002068884437903762
+424,Re: Sorting,legit,0,LEGITIMATE,0.003031335072591901
+425,re: polynomial variability,legit,0,LEGITIMATE,0.0015358091332018375
+426,re : march real options conference,legit,0,LEGITIMATE,0.0012260887306183577
+427,"ARRRGHHH Had GPG working, now it doesnt.",legit,0,LEGITIMATE,0.001686298637650907
+428,Re: [Python-Dev] [Python-3000]  Python source code on Bazaar vcs,legit,0,LEGITIMATE,0.001730276388116181
+429,through it all ,legit,0,LEGITIMATE,0.0063627418130636215
+430,[clamav-virusdb] Update (daily: 5737),legit,0,PHISHING,0.6911180019378662
+431,new commodity marketplace opportunity,legit,0,LEGITIMATE,0.0022685013245791197
+432,We Urgently  Needed  Your Help.!!,advance_fee,1,PHISHING,0.9959000945091248
+433,"Produce Stronger, Rock Hard Erections. ",pharm_sex,1,PHISHING,0.9981356859207153
+434,Review Invoice,invoice_payment,1,PHISHING,0.9982123374938965
+435,"Network Maintenance - Wednesday, 03/08/2006",legit,0,LEGITIMATE,0.0015459998976439238
+436,=?UTF-8?B?WW91ciBQYXlwYWwgQ29uZmlybWF0aW9uIEFsZXJ0IOKckyA=?=,document_share,1,PHISHING,0.9976803064346313
+437,CONFIDENTIAL,advance_fee,1,PHISHING,0.9968587160110474
+438,download holiday tunes,tech_support,1,PHISHING,0.9954820871353149
+439,Increase your SALARY with this :- Get yourself Degree/Bacheelor/MasteerMBA/PhDD Certificate 100% Verificable and Legal.Increase yours salary 400%    4nxozs,hr_impersonation,1,PHISHING,0.9826724529266357
+440,=?UTF-8?B?am9zZUBtb25rZXkub3JnIE1lc3NhZ2VzIGNvdWxkIG5vdCBiZSBkZWxpdmVyZWQ=?=,invoice_payment,1,PHISHING,0.9851623177528381
+441,"make your computer like new , remove the spyware .",tech_support,1,PHISHING,0.9884739518165588
+442,Dear Account Owner,account_verify,1,PHISHING,0.9978154897689819
+443,new york ,legit,0,LEGITIMATE,0.001709296484477818
+444,U.S. to file piracy complaint against China,legit,0,LEGITIMATE,0.11143192648887634
+445,Pending E-payment Notice,account_verify,1,PHISHING,0.9979897737503052
+446,Re: Where is icon-mode.el for Emacs?,legit,0,LEGITIMATE,0.0021453998051583767
+447,WINNING NOTIFICATION / EURO MILLIONS LOTTERY INT.,lottery,1,PHISHING,0.9979508519172668
+448,FNC Alert,legit,0,LEGITIMATE,0.0024596082512289286
+449,Job Vacancies ,hr_impersonation,1,PHISHING,0.9968729615211487
+450,[DMDX] DMDX 3.1.0.0,legit,0,LEGITIMATE,0.002429648069664836
+451,Job with XOOM Money Transfer,hr_impersonation,1,PHISHING,0.9630970358848572
+452,Re: Thanks,legit,0,LEGITIMATE,0.0017647527856752276
+453,re : john martin - baylor,legit,0,LEGITIMATE,0.001258133095689118
+454,Anarchist 'Scavenger Hunt' Raises D.C. Police Ire (fwd),legit,0,LEGITIMATE,0.006523781456053257
+455,Re: [ILUG] Mail sent to ILUG,legit,0,LEGITIMATE,0.0022705313749611378
+456,Re: URICOUNTRY_XX,legit,0,LEGITIMATE,0.0013995729386806488
+457,Package delivery,document_share,1,PHISHING,0.9907956719398499
+458,CONTACT PAYMENT CO-ORDINATORS!!!,lottery,1,PHISHING,0.9964534044265747
+459,More meat is what you need,hr_impersonation,1,PHISHING,0.8807128667831421
+460,debug help,legit,0,LEGITIMATE,0.0018134493147954345
+461,Update your form of payment,account_verify,1,PHISHING,0.9982194304466248
+462,YOU MAY WANT TO LOOK INTO GRANTS.,loans,1,PHISHING,0.9823794364929199
+463,Re: A few multiple dispatch questions,legit,0,LEGITIMATE,0.0015787903685122728
+464,I wonder why you're still shy,hr_impersonation,1,PHISHING,0.9581724405288696
+465,Re: [ILUG] Quake 3,legit,0,LEGITIMATE,0.0016852410044521093
+466,Radio 5CX News: Message of importance.,tech_support,1,LEGITIMATE,0.3897894322872162
+467,Re: sfio vs bio ,legit,0,LEGITIMATE,0.0017453284235671163
+468,meter 5192,legit,0,LEGITIMATE,0.001317555084824562
+469,however ,legit,0,LEGITIMATE,0.01531252358108759
+470,Re[2]: So I missed this one...,legit,0,LEGITIMATE,0.0030570842791348696
+471,Urgent Server Warning  For   jose@monkey.org,invoice_payment,1,PHISHING,0.9382294416427612
+472,Re: [ILUG] Dell GX260 V Redhat 7.3,legit,0,LEGITIMATE,0.0016346750780940056
+473,Compare Top 5 Penis Enlargers,pharm_sex,1,PHISHING,0.9966429471969604
+474,PNM proposal,legit,0,LEGITIMATE,0.001771067618392408
+475,50 ways to meet your lover_ltlmstrouble,dating_sites,1,PHISHING,0.9972559809684753
+476,fw : calpine daily gas nomination,legit,0,LEGITIMATE,0.0015075369738042355
+477,Good or Bad Credit Merchant Account ayaxa,loans,1,PHISHING,0.9981953501701355
+478,Green mask,legit,0,LEGITIMATE,0.0015542568871751428
+479,Re: [PownceAPI] Working with oAuth,legit,0,LEGITIMATE,0.0017157284310087562
+480,PAPER 8,legit,0,LEGITIMATE,0.001806580345146358
+481,[zzzzteana] Crop Idol: Crop circle competition,legit,0,LEGITIMATE,0.002838619751855731
+482,URGENT FROM DELE MARTINS,advance_fee,1,PHISHING,0.9974117875099182
+483,Bank of America Aler: Your Online Access Is Temporarily locked   ,account_verify,1,PHISHING,0.9950019717216492
+484,Re[2]: Java is for kiddies,legit,0,LEGITIMATE,0.0020105938892811537
+485,Re: Interval solver that includes complex roots,legit,0,LEGITIMATE,0.0013001342304050922
+486,Microsoft Office 365 Notification,account_verify,1,PHISHING,0.9963088631629944
+487,Virgin's latest airliner.,legit,0,LEGITIMATE,0.004207273479551077
+488,INVESTMENT RELATIONSHIP,advance_fee,1,PHISHING,0.9981039762496948
+489,123,pharm_sex,1,PHISHING,0.9695912599563599
+490,Reply,advance_fee,1,PHISHING,0.9956795573234558
+491,RE: Scary Stuff,legit,0,LEGITIMATE,0.0014030615566298366
+492,Re: digital and analog port on HD,legit,0,LEGITIMATE,0.0016045384109020233
+493,Is someone spying on you through your PC?,tech_support,1,PHISHING,0.946807324886322
+494,[UAI] [3dpvt2004] 3DPVT 2004: Technical Program and Registration,legit,0,LEGITIMATE,0.0016744855092838407
+495,50 ways to meet your lover_jolanta699,dating_sites,1,PHISHING,0.9966482520103455
+496,Police pay damages to journalist,legit,0,LEGITIMATE,0.01436068955808878
+497,Re: [FoRK] Back to... paper?,legit,0,LEGITIMATE,0.0015367900487035513
+498,A New Wells Fargo. Bill Pay: Payee'(s) Added.,document_share,1,PHISHING,0.9953956007957458
+499,Re[2]: Selling Wedded Bliss (was Re: Ouch...),legit,0,LEGITIMATE,0.0031306883320212364
+500,"RE : [ Statement Data update] We received a violation report. [Usage]
+ - DATE February 20, 2019",document_share,1,LEGITIMATE,0.003383107716217637
+501,jose@monkey.org Messages could not be delivered.,invoice_payment,1,PHISHING,0.997882068157196
+502,Re: [opensuse] [repost] new mysql bootscript to support the start of multiple database,legit,0,LEGITIMATE,0.0013565178960561752
+503,View Your USAA Document Online,document_share,1,PHISHING,0.9968003034591675
+504,re : pg & e texas contract 5098 - 695 for 2 / 00,legit,0,LEGITIMATE,0.0015324638225138187
+505,"For you  color=""#006617""",dating_sites,1,PHISHING,0.8394052982330322
+506,Email Notification,account_verify,1,PHISHING,0.9988852143287659
+507,Re: Please help a newbie compile mplayer :-),legit,0,LEGITIMATE,0.0020952916238456964
+508,FINANCE/ACCOUNTING VACANCY,hr_impersonation,1,PHISHING,0.9688569903373718
+509,c0u1d J0RGE ana1yze VERN0N,stock_pump_dump,1,PHISHING,0.9971184730529785
+510,Re: lesson study in Japan,legit,0,LEGITIMATE,0.002977442229166627
+511,America's great misleader,legit,0,LEGITIMATE,0.0028020807076245546
+512,Re: Re> Re: Powerbook question,legit,0,LEGITIMATE,0.0014444298576563597
+513,"For you  color=""#006632""",dating_sites,1,PHISHING,0.956887423992157
+514,Re:,dating_sites,1,PHISHING,0.9945376515388489
+515,Job Vacancies ,hr_impersonation,1,PHISHING,0.9967323541641235
+516,Ray Ozzie: Software Platform Dynamics.,legit,0,LEGITIMATE,0.0017995069501921535
+517,Internet _ Apoth,hr_impersonation,1,PHISHING,0.9709097743034363
+518,Identity Update [Account - Information]: Receipt # 3054812024.!!,invoice_payment,1,PHISHING,0.9980039000511169
+519,CBS SportsLine Daily Sports Report,legit,0,LEGITIMATE,0.004272331949323416
+520,WINNING NOTIFICATION>>>>>>>>>>>>>>,lottery,1,PHISHING,0.5992428064346313
+521,encoder chip,legit,0,LEGITIMATE,0.0016726093599572778
+522,re : v @ r training sign - up list & misc info,legit,0,LEGITIMATE,0.0012013544328510761
+523,[Spambayes] test sets?,legit,0,LEGITIMATE,0.0019752851221710443
+524,Re: [SM-USERS] Cannot login through imapproxy,legit,0,LEGITIMATE,0.001959574408829212
+525,50 ways to meet your lover_northernlite,dating_sites,1,PHISHING,0.9976084232330322
+526,Australia declares world's largest marine reserve,legit,0,LEGITIMATE,0.008800795301795006
+527,G-spot location techniques for men,pharm_sex,1,PHISHING,0.9156357645988464
+528,Open Part-Time Positions,hr_impersonation,1,PHISHING,0.9976025223731995
+529,Confirm Your Transaction,document_share,1,PHISHING,0.9974114298820496
+530,with a 0tc 1E0NARD updated CECI1 s 0tc,stock_pump_dump,1,PHISHING,0.9970319271087646
+531,RE:VERY IMPORTANT FROM DONALD.,advance_fee,1,PHISHING,0.9970186948776245
+532,RE: Methane in livestock operations - EERC proposal,legit,0,LEGITIMATE,0.0016200721729546785
+533,Re: Please help a newbie compile mplayer :-),legit,0,LEGITIMATE,0.0015180555637925863
+534,Born to be wild - then shot,legit,0,LEGITIMATE,0.005983732640743256
+535,Protect yourself today,tech_support,1,PHISHING,0.5281463265419006
+536,internet provider abuse,tech_support,1,PHISHING,0.9982234835624695
+537,Re[2]: Selling Wedded Bliss (was Re: Ouch...),legit,0,LEGITIMATE,0.004126219544559717
+538,re : var for cob 2 nd aug 2000,legit,0,LEGITIMATE,0.0012846842873841524
+539,PICK-UP,lottery,1,PHISHING,0.9980828762054443
+540,Re: [opensuse] Reinstall KDE4.,legit,0,LEGITIMATE,0.0018446205649524927
+541,"For you  color=""#006670""",dating_sites,1,PHISHING,0.8652599453926086
+542,ees organizational announcement,legit,0,LEGITIMATE,0.0015152075793594122
+543,Diesel Definition,legit,0,LEGITIMATE,0.001966382609680295
+544,=?utf-8?Q?Some=20email=20Messages=20could=20not=20be=20delivered?=,invoice_payment,1,PHISHING,0.9782662987709045
+545,Re: [SAdev] testing with less rules,legit,0,LEGITIMATE,0.001702762208878994
+546,Reminder: Gaven Martin Professorial Lecture - 3rd April,legit,0,LEGITIMATE,0.001515665091574192
+547,Re: [Python-3000] Python source code on Bazaar vcs,legit,0,LEGITIMATE,0.0017384852981194854
+548,"=?utf-8?Q?Thanks=20For=20Order=20Samsung=20Galaxy=20U?=
+	=?utf-8?Q?nlocked=20S7=20EDGE?=",invoice_payment,1,PHISHING,0.9987484216690063
+549,Be larger than ever after 2 months,pharm_sex,1,PHISHING,0.9504356980323792
+550,[ILUG] Re: serial console...not quite working,legit,0,LEGITIMATE,0.001498557161539793
+551,re : d - g energy,legit,0,LEGITIMATE,0.0014647828647866845
+552,Positions Accessible,hr_impersonation,1,PHISHING,0.9980575442314148
+553,"HOT OPENINGS IN AUSTIN, TEXAS!!!",legit,0,LEGITIMATE,0.0033189398236572742
+554,Try  CanadianPharmacy online service and you will not be disappointed.,pharm_sex,1,PHISHING,0.9982878565788269
+555,50 ways to meet your lover_katerina1,dating_sites,1,PHISHING,0.9958797693252563
+556,Online Banking Security Alert,account_verify,1,PHISHING,0.988390326499939
+557,[Dixielandjazz] Fw: about your music..,legit,0,LEGITIMATE,0.004564746282994747
+558,"Re: [spam score 3/10 -pobox]  Re: SPAM, viruses...",legit,0,LEGITIMATE,0.002949394518509507
+559,[DMDX] RE : Re: Hardware voicekey,legit,0,LEGITIMATE,0.0019016546430066228
+560,CustomerSupportPharmacyProducts,pharm_sex,1,PHISHING,0.9908633828163147
+561,schedule crawler : hourahead failure,legit,0,LEGITIMATE,0.0023113449569791555
+562,FWD: Pay attention this one is moving,stock_pump_dump,1,LEGITIMATE,0.01682852767407894
+563,Real Enlargement,pharm_sex,1,PHISHING,0.9965360164642334
+564,Fight Piracy -- Regulate Potty Chairs!,legit,0,LEGITIMATE,0.002830698387697339
+565,Re: [opensuse] Migrate from 32bit to 64bit?,legit,0,LEGITIMATE,0.0017198913265019655
+566,Re:,stock_pump_dump,1,PHISHING,0.9982737302780151
+567,Investor Update,stock_pump_dump,1,PHISHING,0.9880213141441345
+568,Wells Fargo: Important Information About Your Online!,document_share,1,PHISHING,0.9978464841842651
+569,I  NEED    YOUR  COPERATION,advance_fee,1,PHISHING,0.9955965876579285
+570,RE: Faculty & Staff Bulletin,invoice_payment,1,LEGITIMATE,0.1989240199327469
+571,"[Perl Jobs] Perl/AJAX Software Engineer (onsite), United States, IL, Chicago area (Arlington Heights)",legit,0,LEGITIMATE,0.0031559935305267572
+572,Liddle quits Today with new BBC deal,legit,0,LEGITIMATE,0.00482947239652276
+573,"enron / hpl actuals for january 12 - 14 , 2001",legit,0,LEGITIMATE,0.0012592467246577144
+574,Re: Selling Wedded Bliss (was Re: Ouch...),legit,0,LEGITIMATE,0.0020668006036430597
+575,Re:,dating_sites,1,PHISHING,0.987322986125946
+576,"For you  color=""#006646""",dating_sites,1,PHISHING,0.9897692203521729
+577,project doorstep update,legit,0,LEGITIMATE,0.001967157470062375
+578,Great length and volume in just a few weeks,pharm_sex,1,PHISHING,0.9919339418411255
+579,FreeClub- Get tons of Free Stuff For signing up,lottery,1,PHISHING,0.9733095765113831
+580,ScanMail Message: To Recipient virus found or matched file blocki	ng setting.,tech_support,1,PHISHING,0.9937605261802673
+581,Power,legit,0,LEGITIMATE,0.0018911815714091063
+582,Re: [Python-Dev] Proposal: from __future__ import	unicode_string_literals,legit,0,LEGITIMATE,0.0015377941308543086
+583,DeMorgan's Law doesn't work,legit,0,LEGITIMATE,0.0018034634413197637
+584,"[Bug 5673] [review] ""ALL"" header includes extra spaces between header names and values",legit,0,LEGITIMATE,0.0014194794930517673
+585,A Non-Integer Power Function on the Pixel Shader,legit,0,LEGITIMATE,0.0020393244922161102
+586,Apt-get question,legit,0,LEGITIMATE,0.0017536033410578966
+587,Re: Truth-Table generator,legit,0,LEGITIMATE,0.0015154017601162195
+588,MRS LIZY KAMARA,advance_fee,1,PHISHING,0.9980325102806091
+589,Google Alert - bush,legit,0,LEGITIMATE,0.0037016209680587053
+590,opd mods,legit,0,LEGITIMATE,0.0016152637545019388
+591,Re: [opensuse] ext3 check forced = frustration,legit,0,LEGITIMATE,0.0027014524675905704
+592,YOUR EMAIL WON THE LOTTERY,lottery,1,PHISHING,0.998513400554657
+593,COMPUTERISED EMAIL DRAWS,lottery,1,PHISHING,0.9681307673454285
+594,A Living Memorial,legit,0,LEGITIMATE,0.02575104683637619
+595,"GAMESPOT PC: Lionheart designer diary, No One Lives Forever 2 screenshot update, and more!",legit,0,LEGITIMATE,0.004913463722914457
+596,50 ways to meet your lover_Rasele,dating_sites,1,PHISHING,0.9977940320968628
+597,PLEASE SAVE MY SOUL,advance_fee,1,PHISHING,0.9983342289924622
+598,INTERNATIONAL PROGRAM NOTICE,lottery,1,PHISHING,0.9948639273643494
+599,No Exam or Classes Require,hr_impersonation,1,LEGITIMATE,0.013285408727824688
+600,Confidential,advance_fee,1,PHISHING,0.9935752749443054
+601,Re: Lots Of SPAM,legit,0,LEGITIMATE,0.001993931597098708
+602,Penis Enlargement - Truth,pharm_sex,1,PHISHING,0.9960963129997253
+603,Guaranteed Erection Fast,pharm_sex,1,PHISHING,0.8664764165878296
+604,re: wi11 1E0N advise a pennies,stock_pump_dump,1,PHISHING,0.9957454800605774
+605,We reviewed your website,legit,0,PHISHING,0.6498587131500244
+606,UCount Rewards for YOU 20172802,invoice_payment,1,PHISHING,0.9981945157051086
+607,Buy download and install right now,hr_impersonation,1,PHISHING,0.9554603099822998
+608,You have a secure message,account_verify,1,PHISHING,0.9983087778091431
+609,Motor LED's,legit,0,LEGITIMATE,0.002085362793877721
+610,Re: fatal: bad string length 0 < 1: virtual_mailbox_base,legit,0,LEGITIMATE,0.0028967326506972313
+611,"Your Membership Community & Commentary, 08-03-01",loans,1,LEGITIMATE,0.003756045363843441
+612,ADV: Interest rates slashed! Don't wait!                                                   dnjwn,loans,1,PHISHING,0.9937757253646851
+613,Re: CPW Festival,legit,0,LEGITIMATE,0.0017224973998963833
+614,RE: DWR floating position (revised),legit,0,LEGITIMATE,0.0014107312308624387
+615,Walking Robot Question,legit,0,LEGITIMATE,0.0023685835767537355
+616,Re: regarding your web site...,stock_pump_dump,1,PHISHING,0.9912084341049194
+617,"For you  color=""#006643""",dating_sites,1,PHISHING,0.9575809240341187
+618,Final Warning***Virus Detected in Your E-mail Account,tech_support,1,PHISHING,0.9985987544059753
+619,[9fans] VNC client on plan-9,legit,0,LEGITIMATE,0.001329554244875908
+620,Re: apt repository for irssi,legit,0,LEGITIMATE,0.0015796986408531666
+621,Re: wrt inotify problem,legit,0,LEGITIMATE,0.0021964574698358774
+622,fw : adjust function,legit,0,LEGITIMATE,0.0013129895087331533
+623,from Firefly,legit,0,LEGITIMATE,0.07801506668329239
+624,IT-Service Password Update,account_verify,1,PHISHING,0.8106372356414795
+625,Re: porting unix progs to plan9,legit,0,LEGITIMATE,0.0015069183427840471
+626,Today's Headlines: Obama Spends Heavily to Seek Knockout Blow,legit,0,LEGITIMATE,0.0077377865090966225
+627,An important tax document,document_share,1,LEGITIMATE,0.03055271878838539
+628,ACKNOWLEDGED,lottery,1,PHISHING,0.9981568455696106
+629,Jose Get Your WeTransfer Files Labelled Payment/Invoice,invoice_payment,1,PHISHING,0.9985174536705017
+630,"Vacation Time,House need work,Behind in Bills? Refinance while rates are low",loans,1,LEGITIMATE,0.11801023781299591
+631,RE:you,stock_pump_dump,1,PHISHING,0.995392918586731
+632,Re: [ILUG] linux laptop: T61p or Macbook Pro,legit,0,LEGITIMATE,0.0016703263390809298
+633,"Carrot2-developers Digest, Vol 21, Issue 3",legit,0,LEGITIMATE,0.0030832896009087563
+634,You can gain from lowest interest rates in 30 years,loans,1,PHISHING,0.9896630644798279
+635,re : implementing term - structure of correlations for power,legit,0,LEGITIMATE,0.001223858562298119
+636,Re: USA USA WE ARE NUMBER ....six.,legit,0,LEGITIMATE,0.0017528648022562265
+637,=?utf-8?Q?Some=20email=20Messages=20could=20not=20be=20delivered=2e?=,invoice_payment,1,PHISHING,0.9767428040504456
+638,eol confirmation - transwestern pipeline company,legit,0,LEGITIMATE,0.005271028261631727
+639,Expansion Board Problem,legit,0,LEGITIMATE,0.0016484115039929748
+640,You Are Approved For Your Loan!!!   Approval No. (1848025),loans,1,PHISHING,0.9986659288406372
+641,You Are Approved!!! (556486),loans,1,PHISHING,0.9982863068580627
+642,Re: [Python-Dev] Next monthly sprint/bugfix day?,legit,0,LEGITIMATE,0.001413931604474783
+643,Re: [Python-Dev] trunk buildbot status,legit,0,LEGITIMATE,0.0015764959389343858
+644,Hiring Announcement,hr_impersonation,1,PHISHING,0.997208297252655
+645,Re:,dating_sites,1,PHISHING,0.9872311949729919
+646,Re: http://apt.nixia.no/,legit,0,LEGITIMATE,0.0018462648149579763
+647,ATTENTION¡¡¡¡¡¡¡,lottery,1,PHISHING,0.9943532943725586
+648,[Razor-users] Authentication Error,legit,0,LEGITIMATE,0.0014863407704979181
+649,You've received a new file.,document_share,1,PHISHING,0.9892071485519409
+650,Confirm Your Details To Stop Email Shutdown now,account_verify,1,PHISHING,0.9980092644691467
+651,[UAI] Final CFP: ML for Surveillance & Event Detection @ ICML-2006,legit,0,LEGITIMATE,0.0020345128141343594
+652,Re: [ILUG] stupid pics of the day,legit,0,LEGITIMATE,0.002162988530471921
+653,re : eops salary survey questionnaire,legit,0,LEGITIMATE,0.0013389743398874998
+654,Account Verification,account_verify,1,PHISHING,0.9952979683876038
+655,Re: [Python-Dev] [Python-3000]  No releases tonight,legit,0,LEGITIMATE,0.0017085561994463205
+656,[perl #42354] [TODO] preserve type system in pic_inline_sub__() op ,legit,0,LEGITIMATE,0.0014792383881285787
+657,re : ming sit,legit,0,LEGITIMATE,0.0016924323281273246
+658,GET BACK TO ME  (ASAP),advance_fee,1,LEGITIMATE,0.2622194290161133
+659,YOUR FINAL AWARD,lottery,1,PHISHING,0.9987051486968994

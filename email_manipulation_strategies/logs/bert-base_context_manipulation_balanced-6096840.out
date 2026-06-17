@@ -1,0 +1,12 @@
+Training round 1/3 | test accuracy=0.9591
+Training round 2/3 | test accuracy=0.9591
+Training round 3/3 | test accuracy=0.9576
+
+Timing summary:
+Model load time (s): 0.75
+Training time (s): 43.46
+Prediction time (s): 2.96
+Total program time (s): 47.47
+Examples/sec (overall): 46.35
+Examples/sec (prediction only): 223.14
+Wrote: /users/sc23bh2/baseline_testing/email_manipulation/bert-base_context_manipulation_balanced

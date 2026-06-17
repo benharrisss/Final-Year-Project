@@ -1,0 +1,12 @@
+Training round 1/3 | test accuracy=0.9561
+Training round 2/3 | test accuracy=0.9773
+Training round 3/3 | test accuracy=0.9818
+
+Timing summary:
+Model load time (s): 1.01
+Training time (s): 48.41
+Prediction time (s): 3.19
+Total program time (s): 52.92
+Examples/sec (overall): 41.57
+Examples/sec (prediction only): 206.67
+Wrote: /users/sc23bh2/baseline_testing/email_manipulation/roberta-base_logical_contradiction_balanced

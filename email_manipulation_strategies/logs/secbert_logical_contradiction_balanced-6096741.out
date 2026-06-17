@@ -1,0 +1,12 @@
+Training round 1/3 | test accuracy=0.9167
+Training round 2/3 | test accuracy=0.9364
+Training round 3/3 | test accuracy=0.9561
+
+Timing summary:
+Model load time (s): 0.90
+Training time (s): 23.52
+Prediction time (s): 1.86
+Total program time (s): 26.58
+Examples/sec (overall): 82.77
+Examples/sec (prediction only): 354.85
+Wrote: /users/sc23bh2/baseline_testing/email_manipulation/secbert_logical_contradiction_balanced

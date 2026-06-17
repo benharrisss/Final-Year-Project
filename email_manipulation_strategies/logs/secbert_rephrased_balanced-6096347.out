@@ -1,0 +1,12 @@
+Training round 1/3 | test accuracy=0.9197
+Training round 2/3 | test accuracy=0.9227
+Training round 3/3 | test accuracy=0.9242
+
+Timing summary:
+Model load time (s): 1.74
+Training time (s): 22.90
+Prediction time (s): 1.91
+Total program time (s): 26.87
+Examples/sec (overall): 81.88
+Examples/sec (prediction only): 345.14
+Wrote: /users/sc23bh2/baseline_testing/email_manipulation/secbert_rephrasing_balanced

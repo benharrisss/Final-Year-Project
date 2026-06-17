@@ -1,0 +1,12 @@
+Training round 1/3 | test accuracy=0.9682
+Training round 2/3 | test accuracy=0.9742
+Training round 3/3 | test accuracy=0.9727
+
+Timing summary:
+Model load time (s): 0.88
+Training time (s): 45.85
+Prediction time (s): 3.03
+Total program time (s): 50.08
+Examples/sec (overall): 43.93
+Examples/sec (prediction only): 217.67
+Wrote: /users/sc23bh2/baseline_testing/email_manipulation/roberta-base_context_manipulation_balanced
