@@ -1,0 +1,408 @@
+Encoder-only email manipulation results from 3 models, ran back-to-back on UoL HPC GPU nodes:
+- SecBERT
+- roberta-base
+- bert-base
+
+Ordered from SecBERT, to roberta-base, to bert-base
+Using a unbalanced 90/10 dataset split
+
+=========================================
+
+REPHRASING:
+-----------------------------------------
+File: email_manipulation_strategies/results/unbalanced_results/secbert_rephrased_unbalanced.csv
+Rows: 330
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 330
+TP=295  FP=8  TN=25  FN=2
+accuracy:  0.9697
+precision: 0.9736
+recall:    0.9933
+f1:        0.9833
+Brier score (lower is better, 0.0 is perfect): 0.0314 (n=330)
+
+Per phish_type stats:
+      phish_type  n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+     advance_fee 33  1.000000                   1.000000                               NaN
+           legit 33  0.757576                        NaN                          0.242424
+    dating_sites 31  0.967742                   0.967742                               NaN
+  account_verify 31  1.000000                   1.000000                               NaN
+  document_share 30  1.000000                   1.000000                               NaN
+hr_impersonation 30  1.000000                   1.000000                               NaN
+ stock_pump_dump 30  1.000000                   1.000000                               NaN
+    tech_support 24  1.000000                   1.000000                               NaN
+       pharm_sex 23  1.000000                   1.000000                               NaN
+           loans 23  1.000000                   1.000000                               NaN
+         lottery 23  0.956522                   0.956522                               NaN
+ invoice_payment 19  1.000000                   1.000000                               NaN
+
+Training round 1/3 | test accuracy=0.9212
+Training round 2/3 | test accuracy=0.9455
+Training round 3/3 | test accuracy=0.9697
+
+Timing summary:
+Model load time (s): 1.59
+Training time (s): 10.95
+Prediction time (s): 0.89
+Total program time (s): 13.71
+Examples/sec (overall): 80.26
+Examples/sec (prediction only): 372.81
+
+
+CONTEXT MANIPULATION:
+-----------------------------------------
+File: email_manipulation_strategies/results/unbalanced_results/secbert_context_manipulation_unbalanced.csv
+Rows: 330
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 330
+TP=292  FP=11  TN=22  FN=5
+accuracy:  0.9515
+precision: 0.9637
+recall:    0.9832
+f1:        0.9733
+Brier score (lower is better, 0.0 is perfect): 0.0389 (n=330)
+
+Per phish_type stats:
+      phish_type  n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+     advance_fee 33  1.000000                   1.000000                               NaN
+           legit 33  0.666667                        NaN                          0.333333
+    dating_sites 31  1.000000                   1.000000                               NaN
+  account_verify 31  1.000000                   1.000000                               NaN
+  document_share 30  0.966667                   0.966667                               NaN
+hr_impersonation 30  1.000000                   1.000000                               NaN
+ stock_pump_dump 30  0.933333                   0.933333                               NaN
+    tech_support 24  0.958333                   0.958333                               NaN
+       pharm_sex 23  1.000000                   1.000000                               NaN
+           loans 23  0.956522                   0.956522                               NaN
+         lottery 23  1.000000                   1.000000                               NaN
+ invoice_payment 19  1.000000                   1.000000                               NaN
+
+Training round 1/3 | test accuracy=0.9182
+Training round 2/3 | test accuracy=0.9485
+Training round 3/3 | test accuracy=0.9515
+
+Timing summary:
+Model load time (s): 1.37
+Training time (s): 12.40
+Prediction time (s): 0.92
+Total program time (s): 15.06
+Examples/sec (overall): 73.06
+Examples/sec (prediction only): 357.67
+
+
+LOGICAL CONTRADICTION:
+-----------------------------------------
+File: email_manipulation_strategies/results/unbalanced_results/secbert_logical_contradiction_unbalanced.csv
+Rows: 330
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 330
+TP=294  FP=10  TN=23  FN=3
+accuracy:  0.9606
+precision: 0.9671
+recall:    0.9899
+f1:        0.9784
+Brier score (lower is better, 0.0 is perfect): 0.0338 (n=330)
+
+Per phish_type stats:
+      phish_type  n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+     advance_fee 33  1.000000                   1.000000                               NaN
+           legit 33  0.696970                        NaN                           0.30303
+    dating_sites 31  0.935484                   0.935484                               NaN
+  account_verify 31  1.000000                   1.000000                               NaN
+  document_share 30  1.000000                   1.000000                               NaN
+hr_impersonation 30  1.000000                   1.000000                               NaN
+ stock_pump_dump 30  1.000000                   1.000000                               NaN
+    tech_support 24  1.000000                   1.000000                               NaN
+       pharm_sex 23  1.000000                   1.000000                               NaN
+           loans 23  0.956522                   0.956522                               NaN
+         lottery 23  1.000000                   1.000000                               NaN
+ invoice_payment 19  1.000000                   1.000000                               NaN
+
+Training round 1/3 | test accuracy=0.9242
+Training round 2/3 | test accuracy=0.9606
+Training round 3/3 | test accuracy=0.9606
+
+Timing summary:
+Model load time (s): 0.99
+Training time (s): 11.97
+Prediction time (s): 0.94
+Total program time (s): 14.20
+Examples/sec (overall): 77.48
+Examples/sec (prediction only): 350.27
+
+=========================================
+
+REPHRASING:
+-----------------------------------------
+File: email_manipulation_strategies/results/unbalanced_results/roberta-base_rephrased_unbalanced.csv
+Rows: 330
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 330
+TP=295  FP=7  TN=26  FN=2
+accuracy:  0.9727
+precision: 0.9768
+recall:    0.9933
+f1:        0.9850
+Brier score (lower is better, 0.0 is perfect): 0.0252 (n=330)
+
+Per phish_type stats:
+      phish_type  n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+     advance_fee 33  1.000000                   1.000000                               NaN
+           legit 33  0.787879                        NaN                          0.212121
+    dating_sites 31  1.000000                   1.000000                               NaN
+  account_verify 31  1.000000                   1.000000                               NaN
+  document_share 30  1.000000                   1.000000                               NaN
+hr_impersonation 30  1.000000                   1.000000                               NaN
+ stock_pump_dump 30  1.000000                   1.000000                               NaN
+    tech_support 24  0.916667                   0.916667                               NaN
+       pharm_sex 23  1.000000                   1.000000                               NaN
+           loans 23  1.000000                   1.000000                               NaN
+         lottery 23  1.000000                   1.000000                               NaN
+ invoice_payment 19  1.000000                   1.000000                               NaN
+
+Training round 1/3 | test accuracy=0.9545
+Training round 2/3 | test accuracy=0.9727
+Training round 3/3 | test accuracy=0.9727
+
+Timing summary:
+Model load time (s): 3.27
+Training time (s): 21.27
+Prediction time (s): 1.46
+Total program time (s): 26.27
+Examples/sec (overall): 41.87
+Examples/sec (prediction only): 226.47
+
+
+CONTEXT MANIPULATION:
+-----------------------------------------
+File: email_manipulation_strategies/results/unbalanced_results/roberta-base_context_manipulation_unbalanced.csv
+Rows: 330
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 330
+TP=293  FP=8  TN=25  FN=4
+accuracy:  0.9636
+precision: 0.9734
+recall:    0.9865
+f1:        0.9799
+Brier score (lower is better, 0.0 is perfect): 0.0262 (n=330)
+
+Per phish_type stats:
+      phish_type  n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+     advance_fee 33  1.000000                   1.000000                               NaN
+           legit 33  0.757576                        NaN                          0.242424
+    dating_sites 31  1.000000                   1.000000                               NaN
+  account_verify 31  1.000000                   1.000000                               NaN
+  document_share 30  0.933333                   0.933333                               NaN
+hr_impersonation 30  1.000000                   1.000000                               NaN
+ stock_pump_dump 30  1.000000                   1.000000                               NaN
+    tech_support 24  0.916667                   0.916667                               NaN
+       pharm_sex 23  1.000000                   1.000000                               NaN
+           loans 23  1.000000                   1.000000                               NaN
+         lottery 23  1.000000                   1.000000                               NaN
+ invoice_payment 19  1.000000                   1.000000                               NaN
+
+Training round 1/3 | test accuracy=0.9455
+Training round 2/3 | test accuracy=0.9697
+Training round 3/3 | test accuracy=0.9636
+
+Timing summary:
+Model load time (s): 0.79
+Training time (s): 23.17
+Prediction time (s): 1.50
+Total program time (s): 25.73
+Examples/sec (overall): 42.74
+Examples/sec (prediction only): 220.63
+
+
+LOGICAL CONTRADICTION:
+-----------------------------------------
+File: email_manipulation_strategies/results/unbalanced_results/roberta-base_logical_contradiction_unbalanced.csv
+Rows: 330
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 330
+TP=297  FP=24  TN=9  FN=0
+accuracy:  0.9273
+precision: 0.9252
+recall:    1.0000
+f1:        0.9612
+Brier score (lower is better, 0.0 is perfect): 0.0675 (n=330)
+
+Per phish_type stats:
+      phish_type  n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+     advance_fee 33  1.000000                        1.0                               NaN
+           legit 33  0.272727                        NaN                          0.727273
+    dating_sites 31  1.000000                        1.0                               NaN
+  account_verify 31  1.000000                        1.0                               NaN
+  document_share 30  1.000000                        1.0                               NaN
+hr_impersonation 30  1.000000                        1.0                               NaN
+ stock_pump_dump 30  1.000000                        1.0                               NaN
+    tech_support 24  1.000000                        1.0                               NaN
+       pharm_sex 23  1.000000                        1.0                               NaN
+           loans 23  1.000000                        1.0                               NaN
+         lottery 23  1.000000                        1.0                               NaN
+ invoice_payment 19  1.000000                        1.0                               NaN
+
+Training round 1/3 | test accuracy=0.9667
+Training round 2/3 | test accuracy=0.9000
+Training round 3/3 | test accuracy=0.9273
+
+Timing summary:
+Model load time (s): 0.82
+Training time (s): 24.70
+Prediction time (s): 1.51
+Total program time (s): 27.29
+Examples/sec (overall): 40.30
+Examples/sec (prediction only): 218.55
+
+=========================================
+
+REPHRASING:
+-----------------------------------------
+File: email_manipulation_strategies/results/unbalanced_results/bert-base_rephrased_unbalanced.csv
+Rows: 330
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 330
+TP=293  FP=7  TN=26  FN=4
+accuracy:  0.9667
+precision: 0.9767
+recall:    0.9865
+f1:        0.9816
+Brier score (lower is better, 0.0 is perfect): 0.0279 (n=330)
+
+Per phish_type stats:
+      phish_type  n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+     advance_fee 33  1.000000                   1.000000                               NaN
+           legit 33  0.787879                        NaN                          0.212121
+    dating_sites 31  1.000000                   1.000000                               NaN
+  account_verify 31  1.000000                   1.000000                               NaN
+  document_share 30  1.000000                   1.000000                               NaN
+hr_impersonation 30  1.000000                   1.000000                               NaN
+ stock_pump_dump 30  0.966667                   0.966667                               NaN
+    tech_support 24  0.916667                   0.916667                               NaN
+       pharm_sex 23  1.000000                   1.000000                               NaN
+           loans 23  1.000000                   1.000000                               NaN
+         lottery 23  0.956522                   0.956522                               NaN
+ invoice_payment 19  1.000000                   1.000000                               NaN
+
+Training round 1/3 | test accuracy=0.9667
+Training round 2/3 | test accuracy=0.9636
+Training round 3/3 | test accuracy=0.9667
+
+Timing summary:
+Model load time (s): 0.70
+Training time (s): 20.12
+Prediction time (s): 1.45
+Total program time (s): 22.55
+Examples/sec (overall): 48.78
+Examples/sec (prediction only): 227.70
+
+
+CONTEXT MANIPULATION:
+-----------------------------------------
+File: email_manipulation_strategies/results/unbalanced_results/bert-base_context_manipulation_unbalanced.csv
+Rows: 330
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 330
+TP=296  FP=12  TN=21  FN=1
+accuracy:  0.9606
+precision: 0.9610
+recall:    0.9966
+f1:        0.9785
+Brier score (lower is better, 0.0 is perfect): 0.0353 (n=330)
+
+Per phish_type stats:
+      phish_type  n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+     advance_fee 33  1.000000                   1.000000                               NaN
+           legit 33  0.636364                        NaN                          0.363636
+    dating_sites 31  1.000000                   1.000000                               NaN
+  account_verify 31  1.000000                   1.000000                               NaN
+  document_share 30  1.000000                   1.000000                               NaN
+hr_impersonation 30  1.000000                   1.000000                               NaN
+ stock_pump_dump 30  1.000000                   1.000000                               NaN
+    tech_support 24  0.958333                   0.958333                               NaN
+       pharm_sex 23  1.000000                   1.000000                               NaN
+           loans 23  1.000000                   1.000000                               NaN
+         lottery 23  1.000000                   1.000000                               NaN
+ invoice_payment 19  1.000000                   1.000000                               NaN
+
+Training round 1/3 | test accuracy=0.9424
+Training round 2/3 | test accuracy=0.9758
+Training round 3/3 | test accuracy=0.9606
+
+Timing summary:
+Model load time (s): 2.59
+Training time (s): 21.77
+Prediction time (s): 1.50
+Total program time (s): 26.15
+Examples/sec (overall): 42.06
+Examples/sec (prediction only): 219.79
+
+
+LOGICAL CONTRADICTION:
+-----------------------------------------
+File: email_manipulation_strategies/results/unbalanced_results/bert-base_logical_contradiction_unbalanced.csv
+Rows: 330
+Missing predictions: 0 (0.0000)
+Coverage: 1.0000
+
+Overall binary metrics - (positive = PHISHING), (negative = LEGITIMATE):
+Usable rows (true+pred): 330
+TP=295  FP=8  TN=25  FN=2
+accuracy:  0.9697
+precision: 0.9736
+recall:    0.9933
+f1:        0.9833
+Brier score (lower is better, 0.0 is perfect): 0.0252 (n=330)
+
+Per phish_type stats:
+      phish_type  n  accuracy  detection_rate (phishing)  false_positive_rate (legitimate)
+     advance_fee 33  1.000000                   1.000000                               NaN
+           legit 33  0.757576                        NaN                          0.242424
+    dating_sites 31  1.000000                   1.000000                               NaN
+  account_verify 31  1.000000                   1.000000                               NaN
+  document_share 30  1.000000                   1.000000                               NaN
+hr_impersonation 30  1.000000                   1.000000                               NaN
+ stock_pump_dump 30  0.966667                   0.966667                               NaN
+    tech_support 24  0.958333                   0.958333                               NaN
+       pharm_sex 23  1.000000                   1.000000                               NaN
+           loans 23  1.000000                   1.000000                               NaN
+         lottery 23  1.000000                   1.000000                               NaN
+ invoice_payment 19  1.000000                   1.000000                               NaN
+
+Training round 1/3 | test accuracy=0.9636
+Training round 2/3 | test accuracy=0.9636
+Training round 3/3 | test accuracy=0.9697
+
+Timing summary:
+Model load time (s): 0.92
+Training time (s): 21.19
+Prediction time (s): 1.48
+Total program time (s): 23.87
+Examples/sec (overall): 46.08
+Examples/sec (prediction only): 222.58
+
+=========================================
