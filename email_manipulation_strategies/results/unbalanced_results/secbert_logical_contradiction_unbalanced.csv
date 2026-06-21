@@ -1,0 +1,334 @@
+email_id,subject,phish_type,true_label,predicted_label,predicted_prob_phishing
+0,50 ways to meet your lover_audi_girl,dating_sites,1,PHISHING,0.9989199638366699
+1,free adware removal scan and download . qyesa,tech_support,1,PHISHING,0.9975777268409729
+2,"TREAT  AS URGENT AND CALL ME"""""""" 00226 76 63 87 21",advance_fee,1,PHISHING,0.9986236095428467
+3,Perfect proportions are easily attained,hr_impersonation,1,PHISHING,0.9865907430648804
+4,fix mailbox now! jose@monkey.org,document_share,1,PHISHING,0.9985334873199463
+5,"For you  color=""#006657""",dating_sites,1,LEGITIMATE,0.44107159972190857
+6,"Over $100,000 Per Year Possible On The Net!  No Illegal MLM Junk! Time:11:43:57 PM",loans,1,PHISHING,0.9988157749176025
+7,50 ways to meet your lover_jasmine123,dating_sites,1,PHISHING,0.9984539747238159
+8,50 ways to meet your lover_jasmine123,dating_sites,1,PHISHING,0.9919943809509277
+9,ScanMail Message: To Recipient virus found or matched file blocki	ng setting.,tech_support,1,PHISHING,0.9939525723457336
+10,You sent a payment of $185.00 USD to PayPal Inc (dgsEbayCA@paypal.com).,invoice_payment,1,PHISHING,0.9991095662117004
+11,RE: Selling Wedded Bliss (was Re: Ouch...),legit,0,LEGITIMATE,0.004381749778985977
+12,HELLO!!,advance_fee,1,PHISHING,0.9986727237701416
+13,one singled out one of their villains .,legit,0,PHISHING,0.940140962600708
+14,re: may the be11 s news advise her pennies,stock_pump_dump,1,PHISHING,0.9982665777206421
+15,jose@monkey.org Messages could not be delivered.,invoice_payment,1,PHISHING,0.9988747239112854
+16,Well-Paid Part-Time Job,hr_impersonation,1,PHISHING,0.997840166091919
+17,Involved In Fundraising?,stock_pump_dump,1,PHISHING,0.9984866380691528
+18,50 ways to meet your lover_nuxu63,dating_sites,1,PHISHING,0.9979658126831055
+19,Amazon Case-1020-3090-4080-1090,account_verify,1,PHISHING,0.9990907907485962
+20,overdue invoice_863637 ready  for your review via OneDrive Cloud.,document_share,1,PHISHING,0.9978131055831909
+21,Positions Accessible,hr_impersonation,1,PHISHING,0.9990015625953674
+22,Safe and fast enlargement,pharm_sex,1,PHISHING,0.9967437982559204
+23,Re:,dating_sites,1,PHISHING,0.9722837805747986
+24,Fast Shipping WorldWide. ,pharm_sex,1,PHISHING,0.9982833862304688
+25,Ref Number: SWE/074OY8/01/SWKY,lottery,1,PHISHING,0.9986382126808167
+26,50 ways to meet your lover_nuxu63,dating_sites,1,PHISHING,0.9914771914482117
+27,Lowest Mortgage Rates Around,loans,1,PHISHING,0.9988248944282532
+28,More strength and stamina in bed,pharm_sex,1,PHISHING,0.9964248538017273
+29,PROBLEM!!,legit,0,PHISHING,0.9945608973503113
+30,Your receipt from Apple.,document_share,1,PHISHING,0.9989460110664368
+31,VERY URGENT!!!,advance_fee,1,PHISHING,0.9990122318267822
+32,Extra income can help you. Learn how!,hr_impersonation,1,PHISHING,0.9983002543449402
+33,We are  happy to make people healthy .,hr_impersonation,1,PHISHING,0.9990894794464111
+34,READ AND REPLY,advance_fee,1,PHISHING,0.9976180195808411
+35,"re : university of texas conference on energy finance , february 2001",legit,0,PHISHING,0.954435408115387
+36,thrash,stock_pump_dump,1,PHISHING,0.9981781244277954
+37,"For you  color=""#006626""",dating_sites,1,PHISHING,0.7908331751823425
+38,Account Suspention Notice!,account_verify,1,PHISHING,0.9991301894187927
+39,50 ways to meet your lover_ewak1979,dating_sites,1,PHISHING,0.9978669881820679
+40,Job Vacancies ,hr_impersonation,1,PHISHING,0.9988960027694702
+41,CCGI Corporate Fact Sheet,stock_pump_dump,1,PHISHING,0.9884545207023621
+42,PLS HELP MY FAMILY THANKS,advance_fee,1,PHISHING,0.9913764595985413
+43,Instant Winners,lottery,1,PHISHING,0.9991437196731567
+44,jose@monkey.org have stopped processing incoming emails.,account_verify,1,PHISHING,0.9990459084510803
+45,Re: New Sequences Window,legit,0,LEGITIMATE,0.0027197820600122213
+46,Stimulate all her secret spots!,hr_impersonation,1,PHISHING,0.9940549731254578
+47,Hiring Announcement,hr_impersonation,1,PHISHING,0.9981849789619446
+48,want your music for ? - vaudeville baseplate acquit,tech_support,1,PHISHING,0.9941569566726685
+49,online access locked ,document_share,1,PHISHING,0.9991499185562134
+50,50 ways to meet your lover_Ulimaroa,dating_sites,1,PHISHING,0.9986334443092346
+51,Radio 5CX News: Message of importance.,tech_support,1,PHISHING,0.9684232473373413
+52,APPEAL FOR URGENT ASSISTANCE.,advance_fee,1,PHISHING,0.9989643096923828
+53,fw : northwest hydro,legit,0,LEGITIMATE,0.014947759918868542
+54,surfer alert : spyware,tech_support,1,PHISHING,0.989605188369751
+55,TREAT AS URGENT ,advance_fee,1,PHISHING,0.9986009001731873
+56,lng models,legit,0,LEGITIMATE,0.004029483068734407
+57,[Fwd: Re: unable to run sa-learn utility as non-root user],legit,0,LEGITIMATE,0.011559185571968555
+58,Nedbank Credit Card monthly Charges eStatement,document_share,1,PHISHING,0.9991468191146851
+59,You have 14 companies interested in your product.,invoice_payment,1,PHISHING,0.9990045428276062
+60,Positions Accessible,hr_impersonation,1,PHISHING,0.9988810420036316
+61,Your parcel has arrived   ,invoice_payment,1,PHISHING,0.9988806843757629
+62,Regional Managers Needed ,hr_impersonation,1,PHISHING,0.9986257553100586
+63,Job with XOOM Money Transfer,hr_impersonation,1,PHISHING,0.9988694787025452
+64,50 ways to meet your lover_sirry,dating_sites,1,PHISHING,0.9972049593925476
+65,WE ARE UNABLE TO CONFIRM YOUR IDENTITY,account_verify,1,PHISHING,0.999164342880249
+66,Part-Time Job Available,hr_impersonation,1,PHISHING,0.9989375472068787
+67,c0u1d her R0I pr0fi1e a penny s sma11 cap,stock_pump_dump,1,PHISHING,0.9979350566864014
+68,Your Checking/Savings Account Untrusted Authorization,tech_support,1,PHISHING,0.9991564750671387
+69,[Lockergnome Penguin Shell]  Retail Ready,legit,0,PHISHING,0.9983394145965576
+70,Bad Credit Breakthrough!!!                   6465,loans,1,PHISHING,0.992144763469696
+71,50 ways to meet your lover_barbieinboot...,dating_sites,1,PHISHING,0.9979690909385681
+72,Which Ones Really Work? We List The Top Penis Enlargement Products!,pharm_sex,1,PHISHING,0.9984251260757446
+73,PLEASE READ AND REPLY IMMEDIATELY.,advance_fee,1,PHISHING,0.998123824596405
+74,ADV: It will be too late soon... hmlpy,loans,1,PHISHING,0.9986419081687927
+75,Document Share,document_share,1,PHISHING,0.9953864216804504
+76,Re: [PATCH] use 5.010 is ugly; use 5.10.0 warns,legit,0,LEGITIMATE,0.008333650417625904
+77,Re:,dating_sites,1,PHISHING,0.9983283877372742
+78,ScanMail Message: To Recipient virus found or matched file blocki	ng setting.,tech_support,1,PHISHING,0.9977644681930542
+79,paper 19  - OVERCAST,legit,0,LEGITIMATE,0.009203333407640457
+80,Low-Profile Company With High Profit Potential [R E P O R T Thursday]  divider grassland,stock_pump_dump,1,PHISHING,0.9983004927635193
+81,Fight for your self-perfection!,pharm_sex,1,PHISHING,0.9981549382209778
+82,Hiring ,hr_impersonation,1,PHISHING,0.9990418553352356
+83,"2006 Global Digital Media - Convergence, Triple Play and IPTV",stock_pump_dump,1,PHISHING,0.9983437061309814
+84,Enviaram uma charge para voce,tech_support,1,PHISHING,0.9972585439682007
+85,CLAIM WINNING PRIZE,lottery,1,PHISHING,0.9960231781005859
+86,fwd: The hottest pick daily news,stock_pump_dump,1,PHISHING,0.9964154958724976
+87,Re:,dating_sites,1,PHISHING,0.9957780838012695
+88,Account Notification,account_verify,1,PHISHING,0.9991503953933716
+89,best mortgage rate              GZRHTKJ,loans,1,PHISHING,0.998006284236908
+90,Doctors help men with low libidos,pharm_sex,1,PHISHING,0.9494674801826477
+91,Payment Advice - Advice Ref:[G50320909021] / Customer Transfer /  Customer Ref:[0011509844457],account_verify,1,PHISHING,0.99849534034729
+92,RE: Service Help Desk,invoice_payment,1,PHISHING,0.9962902069091797
+93,your neighbour knows,tech_support,1,PHISHING,0.9962922930717468
+94,NedBank Account Statement 18-10-12,account_verify,1,PHISHING,0.9991078972816467
+95,Reply Soon,advance_fee,1,PHISHING,0.9985734224319458
+96,Great Idea for You byrdshot,loans,1,PHISHING,0.9981856942176819
+97,Donation for God's work.,advance_fee,1,PHISHING,0.9961040019989014
+98,50 ways to meet your lover_darlarose,dating_sites,1,PHISHING,0.9977812170982361
+99,CONGRATULATION!!!!!!!,lottery,1,PHISHING,0.9990819692611694
+100,CONGRATULATIONS!!!,lottery,1,PHISHING,0.998954176902771
+101,*3 FREE Bottles Of VPXL !! ,pharm_sex,1,PHISHING,0.9987554550170898
+102,jose@monkey.org Messages could not be delivered.,invoice_payment,1,PHISHING,0.9989480376243591
+103,Re:,stock_pump_dump,1,PHISHING,0.9973414540290833
+104,Fw: The money saving plan we spoke of              LQDDDQ,loans,1,PHISHING,0.9989073276519775
+105,Part-Time Job Available,hr_impersonation,1,PHISHING,0.9983389377593994
+106,CONGRATULATIONS!!! CHECK WITH YOUR AGENT,lottery,1,PHISHING,0.9991834759712219
+107,Re: [Python-3000] The release process,legit,0,LEGITIMATE,0.003577374154701829
+108,fw : your sister knows you watch girls masturbate,tech_support,1,PHISHING,0.9983420372009277
+109,Apple account unusual sign-in activity,tech_support,1,PHISHING,0.9989915490150452
+110,COMPUTERISED EMAIL DRAWS,lottery,1,PHISHING,0.9989680051803589
+111,Re: your resume,hr_impersonation,1,PHISHING,0.9985187649726868
+112,Alert!!! Urgent Email Administrator Upgrade,document_share,1,PHISHING,0.9992573857307434
+113,Financial Representative,hr_impersonation,1,PHISHING,0.9986949563026428
+114,BUSINESS PROPOSAL(PLEASE READ MY MAIL),advance_fee,1,PHISHING,0.9991253018379211
+115,CNN Alerts: bush,legit,0,PHISHING,0.9986649751663208
+116,Auto Email Upgrade jose@monkey.org,document_share,1,PHISHING,0.9988414645195007
+117,Seagate 250GB Ext USB $65 . 8GB SD $29 . 2GB USB $9,legit,0,PHISHING,0.9956972599029541
+118,"A document titled ""Proposal"" has been shared with you on Onedrive",document_share,1,PHISHING,0.9986977577209473
+119,Account Verification,account_verify,1,PHISHING,0.9991983771324158
+120,Looking for remedy? We are the best source.,pharm_sex,1,PHISHING,0.9970867037773132
+121,Gain additional centimeters,pharm_sex,1,PHISHING,0.9987383484840393
+122,FW: Marketing 1000 MW /  APEL,legit,0,PHISHING,0.7756304740905762
+123,[VIRUS] Bank Transfer Notification,tech_support,1,PHISHING,0.9988207221031189
+124,Your E-mail Rectification Request For jose@monkey.org,invoice_payment,1,PHISHING,0.9975398778915405
+125,Still  On E-mail Pending Status!  ,invoice_payment,1,PHISHING,0.998132050037384
+126,Watch this stck go on NEW PICK MONDAY  it isday [BREAKING NEWS NEW PICK MONDAY  it is]  mistypes amounters ducked,stock_pump_dump,1,PHISHING,0.9976931214332581
+127,[IIU] IIU: Recommendations on phone / pda+phone + European GPRS coverage,legit,0,LEGITIMATE,0.003673109458759427
+128,Get Out of Debt Fast                          12244,loans,1,PHISHING,0.9988648891448975
+129,123,pharm_sex,1,PHISHING,0.9984353184700012
+130,Euro Millones International Lottery,lottery,1,PHISHING,0.9981222748756409
+131,Standard Bank Account eStatement 2021-03-10,invoice_payment,1,PHISHING,0.9991348385810852
+132,AVAST SECURITY ALERT,account_verify,1,PHISHING,0.999175488948822
+133,Very discrete shipping and billing,pharm_sex,1,PHISHING,0.9955442547798157
+134,=?UTF-8?Q?Account_Confirmation?=,account_verify,1,PHISHING,0.9990767240524292
+135,Feel your male superiority,hr_impersonation,1,PHISHING,0.9986528158187866
+136,Re:,dating_sites,1,PHISHING,0.9962365031242371
+137,Verification,account_verify,1,PHISHING,0.9992268085479736
+138,Re: Cannot download pcode on a Mac G3 ,legit,0,LEGITIMATE,0.006478388328105211
+139,THANKS,advance_fee,1,PHISHING,0.9985430240631104
+140,Now anyone can get a merchant accountBBHNQGHU,loans,1,PHISHING,0.9990873336791992
+141,Internet Marketing for Profit!,stock_pump_dump,1,PHISHING,0.9975337982177734
+142,Lowest Rates Available.                    gjannsxrwg,loans,1,PHISHING,0.9991089701652527
+143,Claim your Prize Award!!,lottery,1,PHISHING,0.9992013573646545
+144,CONGRATULATIONS ( YOUR EMAIL WON THE LOTTERY ),lottery,1,PHISHING,0.9952986836433411
+145,You Have An Incoming E-Payment Transfer,document_share,1,PHISHING,0.9990195035934448
+146,GOOD  DAY!!!,advance_fee,1,PHISHING,0.9987396597862244
+147,"[Spambayes-checkins] website/sigs sb11a4.zip.asc, NONE,	1.1 spambayes-1.1a4.tar.gz.asc, NONE, 1.1",legit,0,LEGITIMATE,0.014955689199268818
+148,"you want a quicker computer ? spyware stays resident in memory , just use this to remove it 2 t",tech_support,1,PHISHING,0.9952583909034729
+149,You Have Just Receive OneDrive Files.,document_share,1,PHISHING,0.9991210103034973
+150,USD Bank Transfer Deposits - Remitted on 06/03/2019,invoice_payment,1,PHISHING,0.9988800883293152
+151,Update your form of payment,account_verify,1,PHISHING,0.9991264939308167
+152,You Are Approved!!! (158545),loans,1,PHISHING,0.9990565180778503
+153,Important Security Alert!,document_share,1,PHISHING,0.9991077780723572
+154,Re:,dating_sites,1,PHISHING,0.9960383176803589
+155,PLEASE RESPOND,advance_fee,1,PHISHING,0.9988853335380554
+156,"Adv: Mortgage Quotes Fast Online, No Cost",loans,1,PHISHING,0.9989076852798462
+157,=?utf-8?Q?Account=20Alerts=20=21=21?=,account_verify,1,PHISHING,0.9991856217384338
+158,Payment confirmation 8626,document_share,1,PHISHING,0.9990010857582092
+159,Urgent,advance_fee,1,PHISHING,0.9983959794044495
+160,Indeed account update for jose@monkey.org,document_share,1,PHISHING,0.999114453792572
+161,ADV: Interest rates slashed! Don't wait!                                                   dnjwn,loans,1,PHISHING,0.9732022285461426
+162,Re[5]: download software snd,tech_support,1,PHISHING,0.943932056427002
+163,04/09/2022 04:39:51 pm :Wells Fargo: You Have A Notification!,document_share,1,PHISHING,0.9991074204444885
+164,CONTACT THE PAYING BANK,lottery,1,PHISHING,0.999103307723999
+165,FINAL NOTICE kngjl,lottery,1,PHISHING,0.9986039996147156
+166,[Notice Update Activity] : Your AppIe ID has been locked for security reason.,account_verify,1,PHISHING,0.9991090893745422
+167,URGENT MESSAGE....,advance_fee,1,PHISHING,0.9978722333908081
+168,MAURILYN LOTTERIES: CONTACT IMPERIAL CHAMBER!!!,lottery,1,PHISHING,0.9983381032943726
+169,RE: YOU keep the profits  ,lottery,1,PHISHING,0.9987558126449585
+170,"For you  color=""#006633""",dating_sites,1,LEGITIMATE,0.26646801829338074
+171,KINDNES NEEDED.,advance_fee,1,PHISHING,0.9974002838134766
+172,RE:CHANGE OF ACCOUNT PARTICULARS ON YOUR BENEFICIARY FILE,advance_fee,1,PHISHING,0.9984910488128662
+173,Big Five record companies guilty of price fixing,legit,0,PHISHING,0.7862836122512817
+174,Investment information that helps earning on the stok market  Never-seen,stock_pump_dump,1,PHISHING,0.9821082353591919
+175,"For you  color=""#006662""",dating_sites,1,PHISHING,0.7806786298751831
+176,UCount Rewards for YOU 20172802,invoice_payment,1,PHISHING,0.9991233944892883
+177,Regional Managers Needed ,hr_impersonation,1,PHISHING,0.9983912110328674
+178,Re:,stock_pump_dump,1,PHISHING,0.9973414540290833
+179,85% APPROVAL RATE pcptu,loans,1,PHISHING,0.9990032315254211
+180,Immense dimension of your monster,hr_impersonation,1,PHISHING,0.9976140260696411
+181,You have Won,lottery,1,PHISHING,0.9990884065628052
+182,Positions Accessible,hr_impersonation,1,PHISHING,0.9987988471984863
+183,Classified(RE:via private email below).,advance_fee,1,PHISHING,0.9987694621086121
+184,Microsoft Office 365 Notification,account_verify,1,PHISHING,0.9991263747215271
+185,ORIGINAL SHIPPING DOCUMENT INVOICE / PAYMENT jose@monkey.org,invoice_payment,1,PHISHING,0.9989515542984009
+186,"For you  color=""#006646""",dating_sites,1,PHISHING,0.9987897276878357
+187,re :,tech_support,1,PHISHING,0.9987778067588806
+188,CONGRATULATIONS,lottery,1,PHISHING,0.9988996982574463
+189,We noticed some unusual activity on your PayPal account.,account_verify,1,PHISHING,0.9990696310997009
+190,Great length and volume in just a few weeks,pharm_sex,1,PHISHING,0.9971551895141602
+191,New possibility to satisfy her dreams immediately,pharm_sex,1,PHISHING,0.9987372756004333
+192,ScanMail Message: To Recipient virus found or matched file blocki	ng setting.,tech_support,1,PHISHING,0.9935769438743591
+193,Account Re-activation ,account_verify,1,PHISHING,0.9991452693939209
+194,URGENT FROM DELE MARTINS,advance_fee,1,PHISHING,0.9986180067062378
+195,Job Vacancies ,hr_impersonation,1,PHISHING,0.9988393187522888
+196,123,pharm_sex,1,PHISHING,0.9980049729347229
+197,Re: AWB Shipping Documents,invoice_payment,1,PHISHING,0.9990990161895752
+198,dont wait to build a strong position with SYNI  Yw,stock_pump_dump,1,PHISHING,0.9893130660057068
+199,"Repair Your Credit, LEGALLY and for FREE",loans,1,PHISHING,0.9987455606460571
+200,"For you  color=""#003333""",dating_sites,1,PHISHING,0.9911583065986633
+201,Important Monetary Online Document.,document_share,1,PHISHING,0.998818576335907
+202,Re:,dating_sites,1,PHISHING,0.9966272115707397
+203,inspiring article by Howard Jonas who founded IDT,legit,0,LEGITIMATE,0.48934435844421387
+204,J0SHUA reviewed her st0ck in CAR10S s ba11,stock_pump_dump,1,PHISHING,0.9985664486885071
+205,Re: CD player UI for toddlers,legit,0,LEGITIMATE,0.00314515084028244
+206,Re:,stock_pump_dump,1,PHISHING,0.9973414540290833
+207,Important Security Alert!,account_verify,1,PHISHING,0.9991413354873657
+208,Re:,stock_pump_dump,1,PHISHING,0.9973414540290833
+209,=?UTF-8?Q?Unusual_sign=2din_activity?=,account_verify,1,PHISHING,0.9990002512931824
+210,re: with MITCHE11 1ESTER invested ADRIAN s 0tc,stock_pump_dump,1,PHISHING,0.9980306029319763
+211,From: Mr. Dezaryi,advance_fee,1,PHISHING,0.9987778067588806
+212,overdue invoice_863637 ready  for your review via OneDrive Cloud.,invoice_payment,1,PHISHING,0.9978131055831909
+213,CONTACT PAYMENT CO-ORDINATORS!!!,lottery,1,PHISHING,0.9986202716827393
+214,Re: lifegem,legit,0,LEGITIMATE,0.0058198608458042145
+215,Local Area Employee Searching Notice,hr_impersonation,1,PHISHING,0.9988958835601807
+216,Buy download and install right now,hr_impersonation,1,PHISHING,0.9977962970733643
+217,MAERSK LINE PRO-FORMA DETENTION INVOICE/COC/BL,document_share,1,PHISHING,0.9978027939796448
+218,This will feel good [STCK REPORT]  axon desk's diverting,stock_pump_dump,1,PHISHING,0.997984766960144
+219,50 ways to meet your lover_blueridgegal,dating_sites,1,PHISHING,0.9985324144363403
+220,ScanMail Message: To Recipient virus found or matched file blocki	ng setting.,tech_support,1,PHISHING,0.9968637228012085
+221,forward specs for NEW PICK MONDAY  it is [HOT NEWS NEW PICK MONDAY  it is]  Atwood Calvary,stock_pump_dump,1,PHISHING,0.9986615180969238
+222,We  offer attractive prices . ,hr_impersonation,1,PHISHING,0.9976245760917664
+223,Regional Managers Needed ,hr_impersonation,1,PHISHING,0.9988553524017334
+224,We detected Unusual activity on your account,account_verify,1,PHISHING,0.9991540908813477
+225,Get the Download PDF #283/Deposit-INVOICE002,invoice_payment,1,PHISHING,0.9988709092140198
+226,FROM ADE WILLIAMS,advance_fee,1,PHISHING,0.9986416697502136
+227,Wells Fargo - Account Verification,document_share,1,PHISHING,0.9989527463912964
+228,You got new message!,account_verify,1,PHISHING,0.9991512298583984
+229,MANY THANKS,advance_fee,1,PHISHING,0.9967455863952637
+230,FWD: Pay attention this one is moving,stock_pump_dump,1,PHISHING,0.9983957409858704
+231,50 ways to meet your lover_katerina1,dating_sites,1,PHISHING,0.9965537786483765
+232,Doing exemplary some connive,stock_pump_dump,1,PHISHING,0.9859344363212585
+233,nan,advance_fee,1,PHISHING,0.9981210827827454
+234,100mg x 10 pills,pharm_sex,1,PHISHING,0.9983903169631958
+235,CONGRATULATION YOU HAVE WON>>>>>,lottery,1,PHISHING,0.9944854378700256
+236,COMPLIMENT OF THE SEASON,advance_fee,1,PHISHING,0.9987558126449585
+237,*3 FREE Bottles Of VPXL !! ,pharm_sex,1,PHISHING,0.998134970664978
+238,All Your Breast Enlargement Info From Top Breast Enlargement Sites.,pharm_sex,1,PHISHING,0.9985607266426086
+239,"Hey, rates are low. What are you waiting for?",loans,1,PHISHING,0.9990867376327515
+240,=?utf-8?q?Your_Wells_Fargo=C2=AE_monthly_statement_is_available=2E?=,document_share,1,PHISHING,0.998889148235321
+241,The Mistersporty Incorporation Worldcup Offer 2006,stock_pump_dump,1,PHISHING,0.9980887770652771
+242,Mail User Security Alert,account_verify,1,PHISHING,0.9992283582687378
+243,50 ways to meet your lover_olesia_k,dating_sites,1,PHISHING,0.9979761242866516
+244,it hidden downloaded and installed on you computer .,tech_support,1,PHISHING,0.9988229870796204
+245,Re: Purpose for SpamAssassin using MySQL,legit,0,LEGITIMATE,0.13134950399398804
+246,Ranking And Reviews Of The Top 5 Penis Enlargement Products!,pharm_sex,1,PHISHING,0.9979945421218872
+247,"Produce Stronger, Rock Hard Erections. ",pharm_sex,1,PHISHING,0.9967594742774963
+248,[DMDX] Re: fail to run DMDX with DirectX9.0,legit,0,LEGITIMATE,0.02109297178685665
+249,URGENT REPLY PLEASE.,advance_fee,1,PHISHING,0.9985672235488892
+250,"2006 Global Digital Media - Convergence, Triple Play and IPTV",stock_pump_dump,1,PHISHING,0.9983437061309814
+251,fw : midcon 9401 ( permanent march file - expanded distribution li,legit,0,LEGITIMATE,0.005704608745872974
+252,A new contract document has been shared,document_share,1,PHISHING,0.9988798499107361
+253,"Dear,",advance_fee,1,PHISHING,0.9988995790481567
+254,FINANCE/ACCOUNTING VACANCY,hr_impersonation,1,PHISHING,0.9985163807868958
+255,This is the final test of a,loans,1,PHISHING,0.9978877902030945
+256,[SOC100-L:509] (no subject),stock_pump_dump,1,PHISHING,0.9045519828796387
+257,Confirm your informations !,tech_support,1,PHISHING,0.9991111159324646
+258,Re: server is rejecting mail from single domain,legit,0,LEGITIMATE,0.005189821589738131
+259,50 ways to meet your lover_Alexandra_11...,dating_sites,1,PHISHING,0.9987322688102722
+260,ZQF News: Breathtaking Data.,tech_support,1,PHISHING,0.9719781875610352
+261,We've noticed some unidentified informations on your account ID!,account_verify,1,PHISHING,0.9989960789680481
+262,THIRD CATEGORY WINNERS,lottery,1,PHISHING,0.9984900951385498
+263,Regards,hr_impersonation,1,PHISHING,0.9984222650527954
+264,Wells Fargo Ceo Timothy J. Sloan ,document_share,1,PHISHING,0.9988460540771484
+265,with a pink sheets s share JAS0N s return c0nsu1ted JER0ME,stock_pump_dump,1,PHISHING,0.9984717965126038
+266,Online Sweepstakes Winner,lottery,1,PHISHING,0.9985137581825256
+267,Sweet 200 dollar bonus!,lottery,1,PHISHING,0.9989571571350098
+268,Fwd:,stock_pump_dump,1,PHISHING,0.9973414540290833
+269,=?UTF-8?B?am9zZUBtb25rZXkub3JnIE1lc3NhZ2VzIGNvdWxkIG5vdCBiZSBkZWxpdmVyZWQ=?=,invoice_payment,1,PHISHING,0.998708963394165
+270,Jose Get Your WeTransfer Files Labelled Payment/Invoice,invoice_payment,1,PHISHING,0.998859167098999
+271,ScanMail Message: To Recipient virus found or matched file blocki	ng setting.,tech_support,1,PHISHING,0.9935377240180969
+272,Re:,dating_sites,1,PHISHING,0.99824059009552
+273,Action needed regarding your Account..,document_share,1,PHISHING,0.9986164569854736
+274,"Rev 11811: Actually use client.conf,	defer more code as far as possible. in	file:///home/jelmer/bzr.samba/SAMBA_4_0/",legit,0,LEGITIMATE,0.005846838932484388
+275,Apostolic Greetings.,advance_fee,1,PHISHING,0.9944860339164734
+276,Re: [ILUG] iSCSI & Shared Storage Question,legit,0,LEGITIMATE,0.021419523283839226
+277,"Fw: [ SUMMARY APPOINTMENT ] Alert: Amazon biIIing problem - (Case ID:
+ EVoOqxbx) No. 18237548 - Date: Tue Dec 31 2019 18:34:57 GMT+0000 (Coordinated
+ Universal Time)",invoice_payment,1,PHISHING,0.997734546661377
+278,$ 1 . 5 billion in chapter 11 financing from a bank group led by j . p .,legit,0,PHISHING,0.9929024577140808
+279,=?UTF-8?Q?OTP:_992493_to_authenticate_payment?=,account_verify,1,PHISHING,0.9991257786750793
+280,ScanMail Message: To Recipient virus found or matched file blocki	ng setting.,tech_support,1,PHISHING,0.9950796365737915
+281,You have (1) New Message ,document_share,1,PHISHING,0.9965851306915283
+282,Investors - Newsletter.. read and win xcg,stock_pump_dump,1,PHISHING,0.9961938858032227
+283,"Save $100's, maybe $1,000's with No Lender's Fees. Click here!",loans,1,LEGITIMATE,0.016580374911427498
+284,FRAUD ALERT - ACTIVATE YOUR usaa.com NOW,account_verify,1,PHISHING,0.9991814494132996
+285,you were added,tech_support,1,PHISHING,0.9980119466781616
+286,ADV: Lowest life insurance rates available!                                                   irloq,loans,1,PHISHING,0.9920036196708679
+287,Upgrade jose@monkey.org To Receieve Mails,document_share,1,PHISHING,0.9988273978233337
+288,Hiring Announcement,hr_impersonation,1,PHISHING,0.9983865022659302
+289,50 ways to meet your lover_katerina1,dating_sites,1,PHISHING,0.9948768019676208
+290,You Have a New Payment Transfer,document_share,1,PHISHING,0.9990382194519043
+291,Account Protection,document_share,1,PHISHING,0.999058187007904
+292,re : final draft of power gtc ( really eei ) for online trading with,legit,0,LEGITIMATE,0.060753777623176575
+293,Perl5 Bug Summary,legit,0,LEGITIMATE,0.07799289375543594
+294,"Hello, please reply now!",advance_fee,1,PHISHING,0.9985384941101074
+295,Regards,hr_impersonation,1,PHISHING,0.9986889958381653
+296,A New Wells Fargo. Bill Pay: Payee'(s) Added.,document_share,1,PHISHING,0.9990466237068176
+297,Feel more of her excitement,pharm_sex,1,PHISHING,0.9671888947486877
+298,Account Suspended ,account_verify,1,PHISHING,0.9985700845718384
+299,An important tax document,document_share,1,PHISHING,0.999082088470459
+300,PLEASE READ AND GET BACK TO ME,advance_fee,1,PHISHING,0.9990092515945435
+301,From Mr Edward Govou.,advance_fee,1,PHISHING,0.9989687204360962
+302,FW:,loans,1,PHISHING,0.9988603591918945
+303,Purchase popular impotency treatment drugs in Canada  for the best Net prices.,pharm_sex,1,PHISHING,0.9981940388679504
+304,Fw: Mould Purchase Order - order#84014,document_share,1,PHISHING,0.9973913431167603
+305,What They Don't Want You to Know What it Does to Your Body !,pharm_sex,1,PHISHING,0.9969322681427002
+306,re: R01AND s ba11 reviewed KEN s d011ar 0f EDGAR,stock_pump_dump,1,PHISHING,0.9986439347267151
+307,Re: regarding your web site...,stock_pump_dump,1,PHISHING,0.9982783794403076
+308,PayPal account unusual sign-in activity,tech_support,1,PHISHING,0.9990838766098022
+309,ADV: RATES HAVE DROPPED -- FREE MORTGAGE RATE QUOTE nttvo,loans,1,PHISHING,0.9990745782852173
+310,PLEASE ASSIST ME,advance_fee,1,PHISHING,0.9982109069824219
+311,CONTACT MAXWELL   D.    SOON !,lottery,1,PHISHING,0.998873770236969
+312,50 ways to meet your lover_jolanta699,dating_sites,1,PHISHING,0.9941324591636658
+313,BUSINESS  PROPUSAL,advance_fee,1,PHISHING,0.9988834261894226
+314,Re:resume ,hr_impersonation,1,PHISHING,0.9986264705657959
+315,YOU MAY WANT TO LOOK INTO GRANTS.,loans,1,PHISHING,0.9991286396980286
+316,nan,legit,0,LEGITIMATE,0.00970359519124031
+317,"( jose@monkey.org  ) - You have received 3 pdf files via WeTransfer
+ from (info@aevumglobal.es)",document_share,1,PHISHING,0.9964002370834351
+318,50 ways to meet your lover_greeneyedblo...,dating_sites,1,PHISHING,0.9988222718238831
+319,CONGRATULATIONS,lottery,1,PHISHING,0.9989668130874634
+320,Review Alert,account_verify,1,PHISHING,0.9991077780723572
+321,All Your Breast Enlargement Info From Top Breast Enlargement Sites.,pharm_sex,1,PHISHING,0.9952952265739441
+322,discounted motgages 4924161298765444333,loans,1,PHISHING,0.999047577381134
+323,UVic alt.* newsgroup information,legit,0,PHISHING,0.9950909614562988
+324,Dhl Shipment Arrival Notification ,invoice_payment,1,PHISHING,0.9990200996398926
+325,Incoming Payment Awaiting Your Approval,account_verify,1,PHISHING,0.99915611743927
+326,Important Security Alert!,account_verify,1,PHISHING,0.9991077780723572
+327,Security Alert,account_verify,1,PHISHING,0.9991441965103149
+328,Confirm your payment methode,account_verify,1,PHISHING,0.9991681575775146
+329,50 ways to meet your lover_heissmedel,dating_sites,1,PHISHING,0.9989076852798462
